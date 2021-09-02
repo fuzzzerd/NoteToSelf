@@ -124,8 +124,6 @@ export default Vue.extend({
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Share+Tech+Mono|VT323|Poppins|Source+Code+Pro');
-
 // Body, Left and Right Column Setup
 html {
   font-family: 'Poppins', sans-serif;

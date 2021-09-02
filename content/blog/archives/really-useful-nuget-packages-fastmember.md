@@ -13,9 +13,9 @@ That means converting from a generic IEnumerable<T> to a DataTable/Set is not an
 
 Enter DbDataReader: another way to utilize BulkCopy.
 
-If you have an IDataReader instance, the BulkCopy WriteToServer method has an overload to cover that; however, I'm an ORM to pull in some data form various sources so I basically have List<T>s, not IDataReaders. Searching the web it's pretty difficult to find a generic way to convert from a generic collection to a IDataReader. Much harder than it should be.
+If you have an `IDataReader` instance, the BulkCopy WriteToServer method has an overload to cover that; however, I'm an ORM to pull in some data form various sources so I basically have `List<T>`s, not `IDataReader`s. Searching the web it's pretty difficult to find a generic way to convert from a generic collection to a IDataReader. Much harder than it should be.
 
-[Enter FastMember: Convert an IEnumerable<T> to a DbDataReader, fast!](https://github.com/mgravell/fast-member/)
+[Enter FastMember: Convert an `IEnumerable<T>` to a `DbDataReader`, fast!](https://github.com/mgravell/fast-member/)
 
 This great package makes the process easy and extremely fast. Basic demo shows how simple this package makes things. 
 
