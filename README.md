@@ -1,4 +1,4 @@
-# BrossTribeNuxt
+# Nate's personal website and blog
 
 ## Build Setup
 
