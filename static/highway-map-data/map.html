@@ -1,0 +1,224 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="jqvmap.css">
+    <style>
+
+.wrapper * { padding:0; margin:0;}
+.wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 1fr;
+  grid-gap: 1em;
+}
+
+/* Demo Specific Styles */
+.wrapper {
+  margin: 0;
+  width: calc(100% - 1em);
+  min-width:785px;
+  height:100vh;
+  padding:0;
+}
+legend,
+main {
+  display: flex;
+}
+#vmap{ width: 100%; height: 100%; }
+
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
+
+/* TOGGLE STYLING */
+.toggle {
+  margin: 0 0 1.5rem;
+  box-sizing: border-box;
+  font-size: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.toggle input {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: -9999px;
+}
+.toggle input + label {
+  margin: 0;
+  padding: .25rem .75rem;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  border: solid 1px #DDD;
+  background-color: #FFF;
+  font-size: 1rem;
+  line-height: 140%;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  transition: border-color .15s ease-out,  color .25s ease-out,  background-color .15s ease-out, box-shadow .15s ease-out;
+  /* ADD THESE PROPERTIES TO SWITCH FROM AUTO WIDTH TO FULL WIDTH */
+  /*flex: 0 0 50%; display: flex; justify-content: center; align-items: center;*/
+  /* ----- */
+}
+.toggle input + label:first-of-type {
+  border-radius: 6px 0 0 6px;
+  border-right: none;
+}
+.toggle input + label:last-of-type {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+}
+.toggle input:hover + label {
+  border-color: #213140;
+}
+.toggle input:checked + label {
+  background-color: #4B9DEA;
+  color: #FFF;
+  box-shadow: 0 0 10px rgba(102, 179, 251, 0.5);
+  border-color: #4B9DEA;
+  z-index: 1;
+}
+.toggle input:focus + label {
+  outline: dotted 1px #CCC;
+  outline-offset: .45rem;
+}
+
+
+/* STYLING FOR THE STATUS HELPER TEXT FOR THE DEMO */
+.status {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.status span {
+  font-weight: 600;
+  color: #B6985A;
+}
+.status span:first-of-type {
+  display: inline;
+}
+.status span:last-of-type {
+  display: none;
+}
+</style>
+<script src="jquery.min.js"></script>
+<script src="jquery.vmap.js"></script>
+<script src="jquery.vmap.usa.js"></script>
+<script type="text/javascript">
+    // sensible default matched to 'checked' flag on options tags
+    var picked = 'Urban';
+    var kind = 'Total';
+    var ddt = [];
+    var bindMapData = {};
+    fetch('2017-fsll.json').then(function(data) { return data.json(); }).then(function(data) { ddt = data;  radioChanged(); });
+
+    jQuery(document).ready(function () {
+
+        jQuery('input[name="area"]').change(function () {
+            picked = jQuery(this).val();
+            radioChanged();
+        });
+
+        jQuery('input[name="roadTypes"]').change(function () {
+            kind = jQuery(this).val();
+            radioChanged();
+        });
+
+    });
+
+    function radioChanged() {
+        bindMapData = [];
+        ddt.forEach(state => {
+            bindMapData[state.State.Code] = state[picked][kind];
+        });
+
+        // remove map and label divs, replace map so it can be rebound.
+        $('#vmap').replaceWith("<div id='vmap'></div>");
+        $('.jqvmap-label').replaceWith('');
+
+        BindMap();
+    }
+
+    function BindMap() {
+        var max = 0,
+        min = Number.MAX_VALUE,
+        cc,
+        startColor = [200, 238, 255],
+        endColor = [0, 100, 145],
+        colors = {},
+        hex;
+
+        //find maximum and minimum values
+        for (cc in bindMapData) {
+            if (parseFloat(bindMapData[cc]) > max) {
+                max = parseFloat(bindMapData[cc]);
+            }
+            if (parseFloat(bindMapData[cc]) < min) {
+                min = parseFloat(bindMapData[cc]);
+            }
+        }
+
+        // set colors according to values of mapdata
+        for (cc in bindMapData) {
+            if (bindMapData[cc] > 0) {
+                colors[cc] = '#';
+                for (var i = 0; i < 3; i++) {
+                    hex = Math.round(startColor[i]
+                        + (endColor[i]
+                            - startColor[i])
+                        * (bindMapData[cc] / (max - min))).toString(16);
+
+                    if (hex.length == 1) {
+                        hex = '0' + hex;
+                    }
+
+                    colors[cc] += (hex.length == 1 ? '0' : '') + hex;
+                }
+            }
+        }
+
+        jQuery('#vmap').vectorMap({
+            map: 'usa_en',
+            colors: colors,
+            onLabelShow: function (event, label, code) {
+                if (bindMapData[code] > 0) {
+                    label.append(': ' + bindMapData[code].toLocaleString() + ' miles');
+                }
+            }
+        });
+    }
+</script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <legend>
+            <div>
+                <div class="toggle">
+                    <input type="radio" name="area" value="Urban" checked="checked" id="UrbanRadio" />
+                    <label for="UrbanRadio">Urban</label>
+                    <input type="radio" name="area" value="Rural" id="RuralRadio" />
+                    <label for="RuralRadio">Rural</label>
+                </div>
+                <div class="toggle small">
+                    <input type="radio" name="roadTypes" value="Interstate" id="interstateRadio" /><label for="interstateRadio">INTERSTATE</label>
+                    <input type="radio" name="roadTypes" value="Other_Freeways_Expressways" id="ofeRadio" /><label for="ofeRadio" title="OTHER FREEWAYS AND EXPRESSWAYS">EXPRESSWAYS</label>
+                    <input type="radio" name="roadTypes" value="Other_Principal_Arterial" id="opaRadio" /><label for="opaRadio" title="OTHER PRINCIPAL ARTERIAL">PRINCIPAL&nbsp;ARTERIAL</label>
+                    <input type="radio" name="roadTypes" value="Minor_Arterial" id="maRadio" /><label for="maRadio">MINOR&nbsp;ARTERIAL</label>
+                    <input type="radio" name="roadTypes" value="Major_Collector" id="mcRadio" /><label for="mcRadio">MAJOR&nbsp;ARTERIAL</label>
+                    <input type="radio" name="roadTypes" value="Local_2" id="l2Radio" /><label for="l2Radio">LOCAL</label>
+                    <input type="radio" name="roadTypes" value="Total" id="totalRadio" checked /><label for="totalRadio">TOTAL</label>
+                </div>
+            </div>
+        </legend>
+        <main>
+            <div id="vmap"></div>
+        </main>
+    </div>
+</body>
+
+</html>

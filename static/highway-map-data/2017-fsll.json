@@ -1,0 +1,1379 @@
+[
+    {
+        "State": {
+            "Name": "Alabama",
+            "Code": "al"
+        },
+        "Rural": {
+            "Interstate": 2414,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 6045,
+            "Minor_Arterial": 8398,
+            "Major_Collector": 24615,
+            "Minor_Collector_2": 12441,
+            "Local_2": 94725,
+            "Total": 148638
+        },
+        "Urban": {
+            "Interstate": 2189,
+            "Other_Freeways_Expressways": 138,
+            "Other_Principal_Arterial": 4905,
+            "Minor_Arterial": 6070,
+            "Major_Collector": 7547,
+            "Minor_Collector_2": 372,
+            "Local_2": 41481,
+            "Total": 62701
+        },
+        "Total": 211339
+    },
+    {
+        "State": {
+            "Name": "Alaska",
+            "Code": "ak"
+        },
+        "Rural": {
+            "Interstate": 2057,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 1612,
+            "Minor_Arterial": 867,
+            "Major_Collector": 2743,
+            "Minor_Collector_2": 2862,
+            "Local_2": 15294,
+            "Total": 25434
+        },
+        "Urban": {
+            "Interstate": 303,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 503,
+            "Minor_Arterial": 475,
+            "Major_Collector": 510,
+            "Minor_Collector_2": 472,
+            "Local_2": 3898,
+            "Total": 6162
+        },
+        "Total": 31597
+    },
+    {
+        "State": {
+            "Name": "Arizona",
+            "Code": "az"
+        },
+        "Rural": {
+            "Interstate": 3714,
+            "Other_Freeways_Expressways": 70,
+            "Other_Principal_Arterial": 3417,
+            "Minor_Arterial": 2691,
+            "Major_Collector": 8552,
+            "Minor_Collector_2": 3789,
+            "Local_2": 61350,
+            "Total": 83584
+        },
+        "Urban": {
+            "Interstate": 1462,
+            "Other_Freeways_Expressways": 1552,
+            "Other_Principal_Arterial": 3771,
+            "Minor_Arterial": 9278,
+            "Major_Collector": 4352,
+            "Minor_Collector_2": 456,
+            "Local_2": 40505,
+            "Total": 61375
+        },
+        "Total": 144959
+    },
+    {
+        "State": {
+            "Name": "Arkansas",
+            "Code": "ar"
+        },
+        "Rural": {
+            "Interstate": 1752,
+            "Other_Freeways_Expressways": 288,
+            "Other_Principal_Arterial": 4996,
+            "Minor_Arterial": 6360,
+            "Major_Collector": 23780,
+            "Minor_Collector_2": 13656,
+            "Local_2": 122548,
+            "Total": 173378
+        },
+        "Urban": {
+            "Interstate": 1469,
+            "Other_Freeways_Expressways": 424,
+            "Other_Principal_Arterial": 2208,
+            "Minor_Arterial": 4364,
+            "Major_Collector": 4504,
+            "Minor_Collector_2": 499,
+            "Local_2": 23685,
+            "Total": 37154
+        },
+        "Total": 210532
+    },
+    {
+        "State": {
+            "Name": "California",
+            "Code": "ca"
+        },
+        "Rural": {
+            "Interstate": 5254,
+            "Other_Freeways_Expressways": 1518,
+            "Other_Principal_Arterial": 8253,
+            "Minor_Arterial": 12647,
+            "Major_Collector": 24037,
+            "Minor_Collector_2": 15080,
+            "Local_2": 82233,
+            "Total": 149022
+        },
+        "Urban": {
+            "Interstate": 9671,
+            "Other_Freeways_Expressways": 9283,
+            "Other_Principal_Arterial": 25149,
+            "Minor_Arterial": 30758,
+            "Major_Collector": 27593,
+            "Minor_Collector_2": 644,
+            "Local_2": 142263,
+            "Total": 245361
+        },
+        "Total": 394383
+    },
+    {
+        "State": {
+            "Name": "Colorado",
+            "Code": "co"
+        },
+        "Rural": {
+            "Interstate": 2628,
+            "Other_Freeways_Expressways": 115,
+            "Other_Principal_Arterial": 5774,
+            "Minor_Arterial": 6986,
+            "Major_Collector": 10909,
+            "Minor_Collector_2": 17676,
+            "Local_2": 94250,
+            "Total": 138338
+        },
+        "Urban": {
+            "Interstate": 1535,
+            "Other_Freeways_Expressways": 1405,
+            "Other_Principal_Arterial": 4105,
+            "Minor_Arterial": 4833,
+            "Major_Collector": 4009,
+            "Minor_Collector_2": 138,
+            "Local_2": 30550,
+            "Total": 46575
+        },
+        "Total": 184913
+    },
+    {
+        "State": {
+            "Name": "Connecticut",
+            "Code": "ct"
+        },
+        "Rural": {
+            "Interstate": 150,
+            "Other_Freeways_Expressways": 141,
+            "Other_Principal_Arterial": 255,
+            "Minor_Arterial": 438,
+            "Major_Collector": 1715,
+            "Minor_Collector_2": 838,
+            "Local_2": 8022,
+            "Total": 11559
+        },
+        "Urban": {
+            "Interstate": 1718,
+            "Other_Freeways_Expressways": 1000,
+            "Other_Principal_Arterial": 1892,
+            "Minor_Arterial": 3736,
+            "Major_Collector": 3761,
+            "Minor_Collector_2": 631,
+            "Local_2": 21558,
+            "Total": 34296
+        },
+        "Total": 45855
+    },
+    {
+        "State": {
+            "Name": "Delaware",
+            "Code": "de"
+        },
+        "Rural": {
+            "Interstate": null,
+            "Other_Freeways_Expressways": 78,
+            "Other_Principal_Arterial": 331,
+            "Minor_Arterial": 198,
+            "Major_Collector": 778,
+            "Minor_Collector_2": 518,
+            "Local_2": 3901,
+            "Total": 5804
+        },
+        "Urban": {
+            "Interstate": 257,
+            "Other_Freeways_Expressways": 163,
+            "Other_Principal_Arterial": 841,
+            "Minor_Arterial": 604,
+            "Major_Collector": 852,
+            "Minor_Collector_2": 144,
+            "Local_2": 5290,
+            "Total": 8150
+        },
+        "Total": 13954
+    },
+    {
+        "State": {
+            "Name": "Dist. of Columbia",
+            "Code": "dc"
+        },
+        "Rural": {
+            "Interstate": null,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": null,
+            "Minor_Arterial": null,
+            "Major_Collector": null,
+            "Minor_Collector_2": null,
+            "Local_2": null,
+            "Total": null
+        },
+        "Urban": {
+            "Interstate": 73,
+            "Other_Freeways_Expressways": 69,
+            "Other_Principal_Arterial": 441,
+            "Minor_Arterial": 443,
+            "Major_Collector": 307,
+            "Minor_Collector_2": null,
+            "Local_2": 2121,
+            "Total": 3454
+        },
+        "Total": 3454
+    },
+    {
+        "State": {
+            "Name": "Florida",
+            "Code": "fl"
+        },
+        "Rural": {
+            "Interstate": 3458,
+            "Other_Freeways_Expressways": 683,
+            "Other_Principal_Arterial": 7450,
+            "Minor_Arterial": 4558,
+            "Major_Collector": 8127,
+            "Minor_Collector_2": 6410,
+            "Local_2": 47092,
+            "Total": 77778
+        },
+        "Urban": {
+            "Interstate": 4932,
+            "Other_Freeways_Expressways": 2868,
+            "Other_Principal_Arterial": 17626,
+            "Minor_Arterial": 14237,
+            "Major_Collector": 15515,
+            "Minor_Collector_2": 4164,
+            "Local_2": 137029,
+            "Total": 196371
+        },
+        "Total": 274149
+    },
+    {
+        "State": {
+            "Name": "Georgia",
+            "Code": "ga"
+        },
+        "Rural": {
+            "Interstate": 2578,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 7807,
+            "Minor_Arterial": 10017,
+            "Major_Collector": 23206,
+            "Minor_Collector_2": 13468,
+            "Local_2": 100195,
+            "Total": 157270
+        },
+        "Urban": {
+            "Interstate": 4415,
+            "Other_Freeways_Expressways": 809,
+            "Other_Principal_Arterial": 8756,
+            "Minor_Arterial": 11927,
+            "Major_Collector": 7952,
+            "Minor_Collector_2": 1473,
+            "Local_2": 79415,
+            "Total": 114746
+        },
+        "Total": 272017
+    },
+    {
+        "State": {
+            "Name": "Hawaii",
+            "Code": "hi"
+        },
+        "Rural": {
+            "Interstate": null,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 157,
+            "Minor_Arterial": 512,
+            "Major_Collector": 441,
+            "Minor_Collector_2": 177,
+            "Local_2": 2048,
+            "Total": 3335
+        },
+        "Urban": {
+            "Interstate": 342,
+            "Other_Freeways_Expressways": 152,
+            "Other_Principal_Arterial": 824,
+            "Minor_Arterial": 535,
+            "Major_Collector": 575,
+            "Minor_Collector_2": 397,
+            "Local_2": 3623,
+            "Total": 6447
+        },
+        "Total": 9781
+    },
+    {
+        "State": {
+            "Name": "Idaho",
+            "Code": "id"
+        },
+        "Rural": {
+            "Interstate": 2080,
+            "Other_Freeways_Expressways": 361,
+            "Other_Principal_Arterial": 3786,
+            "Minor_Arterial": 3019,
+            "Major_Collector": 11929,
+            "Minor_Collector_2": 8649,
+            "Local_2": 64358,
+            "Total": 94182
+        },
+        "Urban": {
+            "Interstate": 450,
+            "Other_Freeways_Expressways": 101,
+            "Other_Principal_Arterial": 1144,
+            "Minor_Arterial": 1458,
+            "Major_Collector": 1530,
+            "Minor_Collector_2": 24,
+            "Local_2": 8487,
+            "Total": 13194
+        },
+        "Total": 107376
+    },
+    {
+        "State": {
+            "Name": "Illinois",
+            "Code": "il"
+        },
+        "Rural": {
+            "Interstate": 5052,
+            "Other_Freeways_Expressways": 193,
+            "Other_Principal_Arterial": 5246,
+            "Minor_Arterial": 9539,
+            "Major_Collector": 23370,
+            "Minor_Collector_2": 9417,
+            "Local_2": 142884,
+            "Total": 195702
+        },
+        "Urban": {
+            "Interstate": 4846,
+            "Other_Freeways_Expressways": 489,
+            "Other_Principal_Arterial": 10025,
+            "Minor_Arterial": 11385,
+            "Major_Collector": 10625,
+            "Minor_Collector_2": 3048,
+            "Local_2": 70494,
+            "Total": 110912
+        },
+        "Total": 306614
+    },
+    {
+        "State": {
+            "Name": "Indiana",
+            "Code": "in"
+        },
+        "Rural": {
+            "Interstate": 3122,
+            "Other_Freeways_Expressways": 579,
+            "Other_Principal_Arterial": 4050,
+            "Minor_Arterial": 4817,
+            "Major_Collector": 20075,
+            "Minor_Collector_2": 17361,
+            "Local_2": 86694,
+            "Total": 136698
+        },
+        "Urban": {
+            "Interstate": 2434,
+            "Other_Freeways_Expressways": 752,
+            "Other_Principal_Arterial": 5608,
+            "Minor_Arterial": 7470,
+            "Major_Collector": 7058,
+            "Minor_Collector_2": 1400,
+            "Local_2": 40997,
+            "Total": 65719
+        },
+        "Total": 202417
+    },
+    {
+        "State": {
+            "Name": "Iowa",
+            "Code": "ia"
+        },
+        "Rural": {
+            "Interstate": 2437,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 8883,
+            "Minor_Arterial": 7889,
+            "Major_Collector": 28457,
+            "Minor_Collector_2": 31977,
+            "Local_2": 127605,
+            "Total": 207249
+        },
+        "Urban": {
+            "Interstate": 826,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 3075,
+            "Minor_Arterial": 4019,
+            "Major_Collector": 2756,
+            "Minor_Collector_2": 2,
+            "Local_2": 17121,
+            "Total": 27800
+        },
+        "Total": 235048
+    },
+    {
+        "State": {
+            "Name": "Kansas",
+            "Code": "ks"
+        },
+        "Rural": {
+            "Interstate": 2580,
+            "Other_Freeways_Expressways": 1602,
+            "Other_Principal_Arterial": 5471,
+            "Minor_Arterial": 8613,
+            "Major_Collector": 44908,
+            "Minor_Collector_2": 18785,
+            "Local_2": 176118,
+            "Total": 258077
+        },
+        "Urban": {
+            "Interstate": 1129,
+            "Other_Freeways_Expressways": 770,
+            "Other_Principal_Arterial": 1052,
+            "Minor_Arterial": 4162,
+            "Major_Collector": 4009,
+            "Minor_Collector_2": 829,
+            "Local_2": 19921,
+            "Total": 31871
+        },
+        "Total": 289948
+    },
+    {
+        "State": {
+            "Name": "Kentucky",
+            "Code": "ky"
+        },
+        "Rural": {
+            "Interstate": 2920,
+            "Other_Freeways_Expressways": 1908,
+            "Other_Principal_Arterial": 3461,
+            "Minor_Arterial": 4904,
+            "Major_Collector": 11733,
+            "Minor_Collector_2": 18675,
+            "Local_2": 90221,
+            "Total": 133822
+        },
+        "Urban": {
+            "Interstate": 1243,
+            "Other_Freeways_Expressways": 309,
+            "Other_Principal_Arterial": 2467,
+            "Minor_Arterial": 3560,
+            "Major_Collector": 2860,
+            "Minor_Collector_2": 816,
+            "Local_2": 22015,
+            "Total": 33269
+        },
+        "Total": 167092
+    },
+    {
+        "State": {
+            "Name": "Louisiana",
+            "Code": "la"
+        },
+        "Rural": {
+            "Interstate": 2215,
+            "Other_Freeways_Expressways": 97,
+            "Other_Principal_Arterial": 3184,
+            "Minor_Arterial": 4082,
+            "Major_Collector": 9474,
+            "Minor_Collector_2": 6527,
+            "Local_2": 64672,
+            "Total": 90252
+        },
+        "Urban": {
+            "Interstate": 1832,
+            "Other_Freeways_Expressways": 297,
+            "Other_Principal_Arterial": 3919,
+            "Minor_Arterial": 5103,
+            "Major_Collector": 4715,
+            "Minor_Collector_2": 430,
+            "Local_2": 23471,
+            "Total": 39768
+        },
+        "Total": 130020
+    },
+    {
+        "State": {
+            "Name": "Maine",
+            "Code": "me"
+        },
+        "Rural": {
+            "Interstate": 1179,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 1593,
+            "Minor_Arterial": 1897,
+            "Major_Collector": 6491,
+            "Minor_Collector_2": 4213,
+            "Local_2": 24234,
+            "Total": 39607
+        },
+        "Urban": {
+            "Interstate": 375,
+            "Other_Freeways_Expressways": 67,
+            "Other_Principal_Arterial": 383,
+            "Minor_Arterial": 608,
+            "Major_Collector": 1098,
+            "Minor_Collector_2": 146,
+            "Local_2": 4568,
+            "Total": 7245
+        },
+        "Total": 46851
+    },
+    {
+        "State": {
+            "Name": "Maryland",
+            "Code": "md"
+        },
+        "Rural": {
+            "Interstate": 673,
+            "Other_Freeways_Expressways": 251,
+            "Other_Principal_Arterial": 969,
+            "Minor_Arterial": 1421,
+            "Major_Collector": 2590,
+            "Minor_Collector_2": 3406,
+            "Local_2": 18676,
+            "Total": 27986
+        },
+        "Urban": {
+            "Interstate": 2144,
+            "Other_Freeways_Expressways": 1418,
+            "Other_Principal_Arterial": 4022,
+            "Minor_Arterial": 4086,
+            "Major_Collector": 4021,
+            "Minor_Collector_2": 1111,
+            "Local_2": 26003,
+            "Total": 42805
+        },
+        "Total": 70792
+    },
+    {
+        "State": {
+            "Name": "Massachusetts",
+            "Code": "ma"
+        },
+        "Rural": {
+            "Interstate": 274,
+            "Other_Freeways_Expressways": 36,
+            "Other_Principal_Arterial": 223,
+            "Minor_Arterial": 636,
+            "Major_Collector": 1732,
+            "Minor_Collector_2": 1238,
+            "Local_2": 8428,
+            "Total": 12567
+        },
+        "Urban": {
+            "Interstate": 2930,
+            "Other_Freeways_Expressways": 1366,
+            "Other_Principal_Arterial": 4937,
+            "Minor_Arterial": 8436,
+            "Major_Collector": 6114,
+            "Minor_Collector_2": null,
+            "Local_2": 41208,
+            "Total": 64990
+        },
+        "Total": 77557
+    },
+    {
+        "State": {
+            "Name": "Michigan",
+            "Code": "mi"
+        },
+        "Rural": {
+            "Interstate": 2367,
+            "Other_Freeways_Expressways": 1377,
+            "Other_Principal_Arterial": 4522,
+            "Minor_Arterial": 9990,
+            "Major_Collector": 32772,
+            "Minor_Collector_2": 8469,
+            "Local_2": 111083,
+            "Total": 170579
+        },
+        "Urban": {
+            "Interstate": 3711,
+            "Other_Freeways_Expressways": 1588,
+            "Other_Principal_Arterial": 8796,
+            "Minor_Arterial": 12032,
+            "Major_Collector": 8055,
+            "Minor_Collector_2": 249,
+            "Local_2": 51198,
+            "Total": 85628
+        },
+        "Total": 256207
+    },
+    {
+        "State": {
+            "Name": "Minnesota",
+            "Code": "mn"
+        },
+        "Rural": {
+            "Interstate": 2359,
+            "Other_Freeways_Expressways": 135,
+            "Other_Principal_Arterial": 8651,
+            "Minor_Arterial": 13387,
+            "Major_Collector": 31319,
+            "Minor_Collector_2": 24034,
+            "Local_2": 157631,
+            "Total": 237516
+        },
+        "Urban": {
+            "Interstate": 1731,
+            "Other_Freeways_Expressways": 963,
+            "Other_Principal_Arterial": 2186,
+            "Minor_Arterial": 6925,
+            "Major_Collector": 4750,
+            "Minor_Collector_2": 1631,
+            "Local_2": 31005,
+            "Total": 49191
+        },
+        "Total": 286708
+    },
+    {
+        "State": {
+            "Name": "Mississippi",
+            "Code": "ms"
+        },
+        "Rural": {
+            "Interstate": 2277,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 6522,
+            "Minor_Arterial": 7662,
+            "Major_Collector": 24030,
+            "Minor_Collector_2": 4623,
+            "Local_2": 88062,
+            "Total": 133176
+        },
+        "Urban": {
+            "Interstate": 1137,
+            "Other_Freeways_Expressways": 252,
+            "Other_Principal_Arterial": 3244,
+            "Minor_Arterial": 2595,
+            "Major_Collector": 3269,
+            "Minor_Collector_2": 21,
+            "Local_2": 18215,
+            "Total": 28732
+        },
+        "Total": 161909
+    },
+    {
+        "State": {
+            "Name": "Missouri",
+            "Code": "mo"
+        },
+        "Rural": {
+            "Interstate": 3426,
+            "Other_Freeways_Expressways": 4530,
+            "Other_Principal_Arterial": 4369,
+            "Minor_Arterial": 8160,
+            "Major_Collector": 32844,
+            "Minor_Collector_2": 12543,
+            "Local_2": 154343,
+            "Total": 220216
+        },
+        "Urban": {
+            "Interstate": 3115,
+            "Other_Freeways_Expressways": 2226,
+            "Other_Principal_Arterial": 3304,
+            "Minor_Arterial": 5779,
+            "Major_Collector": 5577,
+            "Minor_Collector_2": 1180,
+            "Local_2": 35222,
+            "Total": 56403
+        },
+        "Total": 276619
+    },
+    {
+        "State": {
+            "Name": "Montana",
+            "Code": "mt"
+        },
+        "Rural": {
+            "Interstate": 4377,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 5941,
+            "Minor_Arterial": 5717,
+            "Major_Collector": 13695,
+            "Minor_Collector_2": 17612,
+            "Local_2": 93888,
+            "Total": 141230
+        },
+        "Urban": {
+            "Interstate": 391,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 836,
+            "Minor_Arterial": 624,
+            "Major_Collector": 819,
+            "Minor_Collector_2": 108,
+            "Local_2": 6249,
+            "Total": 9027
+        },
+        "Total": 150257
+    },
+    {
+        "State": {
+            "Name": "Nebraska",
+            "Code": "ne"
+        },
+        "Rural": {
+            "Interstate": 1714,
+            "Other_Freeways_Expressways": 1325,
+            "Other_Principal_Arterial": 4843,
+            "Minor_Arterial": 8406,
+            "Major_Collector": 22743,
+            "Minor_Collector_2": 17522,
+            "Local_2": 119779,
+            "Total": 176333
+        },
+        "Urban": {
+            "Interstate": 402,
+            "Other_Freeways_Expressways": 548,
+            "Other_Principal_Arterial": 1222,
+            "Minor_Arterial": 2171,
+            "Major_Collector": 1351,
+            "Minor_Collector_2": 147,
+            "Local_2": 11537,
+            "Total": 17378
+        },
+        "Total": 193712
+    },
+    {
+        "State": {
+            "Name": "Nevada",
+            "Code": "nv"
+        },
+        "Rural": {
+            "Interstate": 1839,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 3439,
+            "Minor_Arterial": 1487,
+            "Major_Collector": 4524,
+            "Minor_Collector_2": 5109,
+            "Local_2": 61147,
+            "Total": 77546
+        },
+        "Urban": {
+            "Interstate": 814,
+            "Other_Freeways_Expressways": 281,
+            "Other_Principal_Arterial": 1585,
+            "Minor_Arterial": 3378,
+            "Major_Collector": 105,
+            "Minor_Collector_2": 3082,
+            "Local_2": 14876,
+            "Total": 24120
+        },
+        "Total": 101666
+    },
+    {
+        "State": {
+            "Name": "New Hampshire",
+            "Code": "nh"
+        },
+        "Rural": {
+            "Interstate": 567,
+            "Other_Freeways_Expressways": 37,
+            "Other_Principal_Arterial": 675,
+            "Minor_Arterial": 1264,
+            "Major_Collector": 2090,
+            "Minor_Collector_2": 2130,
+            "Local_2": 15774,
+            "Total": 22536
+        },
+        "Urban": {
+            "Interstate": 448,
+            "Other_Freeways_Expressways": 314,
+            "Other_Principal_Arterial": 558,
+            "Minor_Arterial": 1077,
+            "Major_Collector": 1079,
+            "Minor_Collector_2": null,
+            "Local_2": 7316,
+            "Total": 10791
+        },
+        "Total": 33328
+    },
+    {
+        "State": {
+            "Name": "New Jersey",
+            "Code": "nj"
+        },
+        "Rural": {
+            "Interstate": 277,
+            "Other_Freeways_Expressways": 185,
+            "Other_Principal_Arterial": 370,
+            "Minor_Arterial": 641,
+            "Major_Collector": 1558,
+            "Minor_Collector_2": 675,
+            "Local_2": 7568,
+            "Total": 11274
+        },
+        "Urban": {
+            "Interstate": 2705,
+            "Other_Freeways_Expressways": 2516,
+            "Other_Principal_Arterial": 5939,
+            "Minor_Arterial": 8080,
+            "Major_Collector": 5949,
+            "Minor_Collector_2": 825,
+            "Local_2": 47712,
+            "Total": 73726
+        },
+        "Total": 85000
+    },
+    {
+        "State": {
+            "Name": "New Mexico",
+            "Code": "nm"
+        },
+        "Rural": {
+            "Interstate": 3431,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 6083,
+            "Minor_Arterial": 4863,
+            "Major_Collector": 9158,
+            "Minor_Collector_2": 6293,
+            "Local_2": 106725,
+            "Total": 136553
+        },
+        "Urban": {
+            "Interstate": 747,
+            "Other_Freeways_Expressways": 50,
+            "Other_Principal_Arterial": 2636,
+            "Minor_Arterial": 1876,
+            "Major_Collector": 1771,
+            "Minor_Collector_2": 630,
+            "Local_2": 16752,
+            "Total": 24462
+        },
+        "Total": 161015
+    },
+    {
+        "State": {
+            "Name": "New York",
+            "Code": "ny"
+        },
+        "Rural": {
+            "Interstate": 3290,
+            "Other_Freeways_Expressways": 744,
+            "Other_Principal_Arterial": 4541,
+            "Minor_Arterial": 5846,
+            "Major_Collector": 11265,
+            "Minor_Collector_2": 18638,
+            "Local_2": 86031,
+            "Total": 130355
+        },
+        "Urban": {
+            "Interstate": 4792,
+            "Other_Freeways_Expressways": 3800,
+            "Other_Principal_Arterial": 9516,
+            "Minor_Arterial": 12689,
+            "Major_Collector": 11118,
+            "Minor_Collector_2": 483,
+            "Local_2": 67011,
+            "Total": 109409
+        },
+        "Total": 239763
+    },
+    {
+        "State": {
+            "Name": "North Carolina",
+            "Code": "nc"
+        },
+        "Rural": {
+            "Interstate": 2275,
+            "Other_Freeways_Expressways": 1680,
+            "Other_Principal_Arterial": 4842,
+            "Minor_Arterial": 6559,
+            "Major_Collector": 15092,
+            "Minor_Collector_2": 12060,
+            "Local_2": 93094,
+            "Total": 135603
+        },
+        "Urban": {
+            "Interstate": 3811,
+            "Other_Freeways_Expressways": 2062,
+            "Other_Principal_Arterial": 7323,
+            "Minor_Arterial": 8962,
+            "Major_Collector": 7240,
+            "Minor_Collector_2": 924,
+            "Local_2": 61620,
+            "Total": 91941
+        },
+        "Total": 227544
+    },
+    {
+        "State": {
+            "Name": "North Dakota",
+            "Code": "nd"
+        },
+        "Rural": {
+            "Interstate": 2039,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 6887,
+            "Minor_Arterial": 5051,
+            "Major_Collector": 23957,
+            "Minor_Collector_2": null,
+            "Local_2": 133724,
+            "Total": 171659
+        },
+        "Urban": {
+            "Interstate": 262,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 692,
+            "Minor_Arterial": 694,
+            "Major_Collector": 657,
+            "Minor_Collector_2": null,
+            "Local_2": 3919,
+            "Total": 6223
+        },
+        "Total": 177882
+    },
+    {
+        "State": {
+            "Name": "Ohio",
+            "Code": "oh"
+        },
+        "Rural": {
+            "Interstate": 3035,
+            "Other_Freeways_Expressways": 1319,
+            "Other_Principal_Arterial": 4158,
+            "Minor_Arterial": 5446,
+            "Major_Collector": 22320,
+            "Minor_Collector_2": 12589,
+            "Local_2": 106035,
+            "Total": 154902
+        },
+        "Urban": {
+            "Interstate": 5283,
+            "Other_Freeways_Expressways": 2434,
+            "Other_Principal_Arterial": 8118,
+            "Minor_Arterial": 10785,
+            "Major_Collector": 12428,
+            "Minor_Collector_2": 1253,
+            "Local_2": 67174,
+            "Total": 107475
+        },
+        "Total": 262377
+    },
+    {
+        "State": {
+            "Name": "Oklahoma",
+            "Code": "ok"
+        },
+        "Rural": {
+            "Interstate": 2613,
+            "Other_Freeways_Expressways": 8,
+            "Other_Principal_Arterial": 6689,
+            "Minor_Arterial": 5894,
+            "Major_Collector": 42351,
+            "Minor_Collector_2": 6014,
+            "Local_2": 129692,
+            "Total": 193262
+        },
+        "Urban": {
+            "Interstate": 1409,
+            "Other_Freeways_Expressways": 970,
+            "Other_Principal_Arterial": 4223,
+            "Minor_Arterial": 5672,
+            "Major_Collector": 3336,
+            "Minor_Collector_2": 289,
+            "Local_2": 25568,
+            "Total": 41467
+        },
+        "Total": 234729
+    },
+    {
+        "State": {
+            "Name": "Oregon",
+            "Code": "or"
+        },
+        "Rural": {
+            "Interstate": 2021,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 5905,
+            "Minor_Arterial": 4543,
+            "Major_Collector": 16359,
+            "Minor_Collector_2": 15861,
+            "Local_2": 85479,
+            "Total": 130169
+        },
+        "Urban": {
+            "Interstate": 1108,
+            "Other_Freeways_Expressways": 268,
+            "Other_Principal_Arterial": 2748,
+            "Minor_Arterial": 3001,
+            "Major_Collector": 4297,
+            "Minor_Collector_2": 995,
+            "Local_2": 19989,
+            "Total": 32406
+        },
+        "Total": 162575
+    },
+    {
+        "State": {
+            "Name": "Pennsylvania",
+            "Code": "pa"
+        },
+        "Rural": {
+            "Interstate": 4413,
+            "Other_Freeways_Expressways": 1394,
+            "Other_Principal_Arterial": 3778,
+            "Minor_Arterial": 9431,
+            "Major_Collector": 14749,
+            "Minor_Collector_2": 13920,
+            "Local_2": 101693,
+            "Total": 149378
+        },
+        "Urban": {
+            "Interstate": 3458,
+            "Other_Freeways_Expressways": 2338,
+            "Other_Principal_Arterial": 8088,
+            "Minor_Arterial": 8587,
+            "Major_Collector": 11465,
+            "Minor_Collector_2": null,
+            "Local_2": 67958,
+            "Total": 101894
+        },
+        "Total": 251271
+    },
+    {
+        "State": {
+            "Name": "Rhode Island",
+            "Code": "ri"
+        },
+        "Rural": {
+            "Interstate": 71,
+            "Other_Freeways_Expressways": 43,
+            "Other_Principal_Arterial": 208,
+            "Minor_Arterial": 146,
+            "Major_Collector": 358,
+            "Minor_Collector_2": 299,
+            "Local_2": 1647,
+            "Total": 2772
+        },
+        "Urban": {
+            "Interstate": 307,
+            "Other_Freeways_Expressways": 326,
+            "Other_Principal_Arterial": 898,
+            "Minor_Arterial": 713,
+            "Major_Collector": 1073,
+            "Minor_Collector_2": 64,
+            "Local_2": 6587,
+            "Total": 9969
+        },
+        "Total": 12741
+    },
+    {
+        "State": {
+            "Name": "South Carolina",
+            "Code": "sc"
+        },
+        "Rural": {
+            "Interstate": 2239,
+            "Other_Freeways_Expressways": 187,
+            "Other_Principal_Arterial": 4622,
+            "Minor_Arterial": 6299,
+            "Major_Collector": 20127,
+            "Minor_Collector_2": 4064,
+            "Local_2": 77740,
+            "Total": 115279
+        },
+        "Urban": {
+            "Interstate": 1602,
+            "Other_Freeways_Expressways": 368,
+            "Other_Principal_Arterial": 4094,
+            "Minor_Arterial": 4898,
+            "Major_Collector": 5903,
+            "Minor_Collector_2": 148,
+            "Local_2": 30402,
+            "Total": 47415
+        },
+        "Total": 162694
+    },
+    {
+        "State": {
+            "Name": "South Dakota",
+            "Code": "sd"
+        },
+        "Rural": {
+            "Interstate": 2364,
+            "Other_Freeways_Expressways": 1159,
+            "Other_Principal_Arterial": 5365,
+            "Minor_Arterial": 5964,
+            "Major_Collector": 24828,
+            "Minor_Collector_2": 12500,
+            "Local_2": 108147,
+            "Total": 160326
+        },
+        "Urban": {
+            "Interstate": 351,
+            "Other_Freeways_Expressways": 73,
+            "Other_Principal_Arterial": 480,
+            "Minor_Arterial": 1097,
+            "Major_Collector": 726,
+            "Minor_Collector_2": null,
+            "Local_2": 4785,
+            "Total": 7512
+        },
+        "Total": 167838
+    },
+    {
+        "State": {
+            "Name": "Tennessee",
+            "Code": "tn"
+        },
+        "Rural": {
+            "Interstate": 2635,
+            "Other_Freeways_Expressways": 58,
+            "Other_Principal_Arterial": 5455,
+            "Minor_Arterial": 6326,
+            "Major_Collector": 10073,
+            "Minor_Collector_2": 19290,
+            "Local_2": 88299,
+            "Total": 132136
+        },
+        "Urban": {
+            "Interstate": 2956,
+            "Other_Freeways_Expressways": 765,
+            "Other_Principal_Arterial": 7051,
+            "Minor_Arterial": 7296,
+            "Major_Collector": 5713,
+            "Minor_Collector_2": 2440,
+            "Local_2": 45117,
+            "Total": 71338
+        },
+        "Total": 203474
+    },
+    {
+        "State": {
+            "Name": "Texas",
+            "Code": "tx"
+        },
+        "Rural": {
+            "Interstate": 8143,
+            "Other_Freeways_Expressways": 518,
+            "Other_Principal_Arterial": 25462,
+            "Minor_Arterial": 22699,
+            "Major_Collector": 70694,
+            "Minor_Collector_2": 29677,
+            "Local_2": 268908,
+            "Total": 426101
+        },
+        "Urban": {
+            "Interstate": 8461,
+            "Other_Freeways_Expressways": 6872,
+            "Other_Principal_Arterial": 25003,
+            "Minor_Arterial": 25612,
+            "Major_Collector": 35650,
+            "Minor_Collector_2": 2388,
+            "Local_2": 149830,
+            "Total": 253816
+        },
+        "Total": 679917
+    },
+    {
+        "State": {
+            "Name": "Utah",
+            "Code": "ut"
+        },
+        "Rural": {
+            "Interstate": 2756,
+            "Other_Freeways_Expressways": 36,
+            "Other_Principal_Arterial": 2508,
+            "Minor_Arterial": 2654,
+            "Major_Collector": 6509,
+            "Minor_Collector_2": 6946,
+            "Local_2": 56445,
+            "Total": 77853
+        },
+        "Urban": {
+            "Interstate": 1597,
+            "Other_Freeways_Expressways": 172,
+            "Other_Principal_Arterial": 2561,
+            "Minor_Arterial": 1829,
+            "Major_Collector": 2331,
+            "Minor_Collector_2": 1072,
+            "Local_2": 15793,
+            "Total": 25355
+        },
+        "Total": 103208
+    },
+    {
+        "State": {
+            "Name": "Vermont",
+            "Code": "vt"
+        },
+        "Rural": {
+            "Interstate": 1024,
+            "Other_Freeways_Expressways": 3,
+            "Other_Principal_Arterial": 697,
+            "Minor_Arterial": 1476,
+            "Major_Collector": 3949,
+            "Minor_Collector_2": 1806,
+            "Local_2": 17113,
+            "Total": 26069
+        },
+        "Urban": {
+            "Interstate": 257,
+            "Other_Freeways_Expressways": 41,
+            "Other_Principal_Arterial": 317,
+            "Minor_Arterial": 299,
+            "Major_Collector": 494,
+            "Minor_Collector_2": 64,
+            "Local_2": 1735,
+            "Total": 3207
+        },
+        "Total": 29276
+    },
+    {
+        "State": {
+            "Name": "Virginia",
+            "Code": "va"
+        },
+        "Rural": {
+            "Interstate": 2502,
+            "Other_Freeways_Expressways": 372,
+            "Other_Principal_Arterial": 5893,
+            "Minor_Arterial": 7682,
+            "Major_Collector": 15027,
+            "Minor_Collector_2": 9843,
+            "Local_2": 60820,
+            "Total": 102138
+        },
+        "Urban": {
+            "Interstate": 2999,
+            "Other_Freeways_Expressways": 1566,
+            "Other_Principal_Arterial": 5528,
+            "Minor_Arterial": 6647,
+            "Major_Collector": 5736,
+            "Minor_Collector_2": 1613,
+            "Local_2": 37421,
+            "Total": 61511
+        },
+        "Total": 163648
+    },
+    {
+        "State": {
+            "Name": "Washington",
+            "Code": "wa"
+        },
+        "Rural": {
+            "Interstate": 1923,
+            "Other_Freeways_Expressways": 1576,
+            "Other_Principal_Arterial": 2668,
+            "Minor_Arterial": 4057,
+            "Major_Collector": 16183,
+            "Minor_Collector_2": 12522,
+            "Local_2": 75047,
+            "Total": 113975
+        },
+        "Urban": {
+            "Interstate": 2102,
+            "Other_Freeways_Expressways": 1616,
+            "Other_Principal_Arterial": 4917,
+            "Minor_Arterial": 5932,
+            "Major_Collector": 5566,
+            "Minor_Collector_2": 410,
+            "Local_2": 32594,
+            "Total": 53137
+        },
+        "Total": 167112
+    },
+    {
+        "State": {
+            "Name": "West Virginia",
+            "Code": "wv"
+        },
+        "Rural": {
+            "Interstate": 1307,
+            "Other_Freeways_Expressways": 2,
+            "Other_Principal_Arterial": 2628,
+            "Minor_Arterial": 2711,
+            "Major_Collector": 11055,
+            "Minor_Collector_2": 4309,
+            "Local_2": 43682,
+            "Total": 65694
+        },
+        "Urban": {
+            "Interstate": 1028,
+            "Other_Freeways_Expressways": 51,
+            "Other_Principal_Arterial": 1262,
+            "Minor_Arterial": 1501,
+            "Major_Collector": 1815,
+            "Minor_Collector_2": 123,
+            "Local_2": 8641,
+            "Total": 14421
+        },
+        "Total": 80114
+    },
+    {
+        "State": {
+            "Name": "Wisconsin",
+            "Code": "wi"
+        },
+        "Rural": {
+            "Interstate": 2143,
+            "Other_Freeways_Expressways": 810,
+            "Other_Principal_Arterial": 7097,
+            "Minor_Arterial": 9526,
+            "Major_Collector": 24197,
+            "Minor_Collector_2": 16936,
+            "Local_2": 125622,
+            "Total": 186330
+        },
+        "Urban": {
+            "Interstate": 1763,
+            "Other_Freeways_Expressways": 1391,
+            "Other_Principal_Arterial": 6015,
+            "Minor_Arterial": 6332,
+            "Major_Collector": 6202,
+            "Minor_Collector_2": null,
+            "Local_2": 30995,
+            "Total": 52698
+        },
+        "Total": 239027
+    },
+    {
+        "State": {
+            "Name": "Wyoming",
+            "Code": "wy"
+        },
+        "Rural": {
+            "Interstate": 3230,
+            "Other_Freeways_Expressways": null,
+            "Other_Principal_Arterial": 4120,
+            "Minor_Arterial": 2493,
+            "Major_Collector": 5497,
+            "Minor_Collector_2": 19203,
+            "Local_2": 22598,
+            "Total": 57140
+        },
+        "Urban": {
+            "Interstate": 423,
+            "Other_Freeways_Expressways": 11,
+            "Other_Principal_Arterial": 724,
+            "Minor_Arterial": 617,
+            "Major_Collector": 1029,
+            "Minor_Collector_2": 189,
+            "Local_2": 3187,
+            "Total": 6179
+        },
+        "Total": 63319
+    }
+]

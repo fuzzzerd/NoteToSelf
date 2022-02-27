@@ -9,7 +9,7 @@ tags:
 ---
 There are a few data visualization projects I want to tackle and a good number of them have a cartography component. I knew I had to get started with one and build on it or I'd never get any of them rolling. I ran across a ['Functional System Lane Length' data set from Federal Highway Administration](https://www.fhwa.dot.gov/policyinformation/statistics/2017/hm60.cfm). I figured the table could be cleaned up and presented in a more intuitive way using a map and it would force me to kick start this little prototype.
 
-<iframe src="https://brosstribecom.z14.web.core.windows.net/highway-map-data/map.html" frameborder="0" style="width: 100%; height: 855px;"></iframe>
+<iframe src="/highway-map-data/map.html" frameborder="0" style="width: 100%; height: 900px;"></iframe>
 
 This is what I came up with, its still a work in progress, though updates will likely come slowly and will be applied to the next data visualization project. This is how I approached it.
 
