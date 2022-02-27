@@ -1,48 +1,98 @@
 {
     "routes": [
         {
-            "route": "^/blog/setting-your-metric-for-hyper-v-wireless-networking/",
+            "route": "/blog/setting-your-metric-for-hyper-v-wireless-networking/",
             "redirect": "/blog/2019/setting-your-metric",
             "statusCode": 301
         },
         {
-            "route": "^blog/comprehensive-guide-to-fixing-the-filemaker-web-view-control-on-windows/",
+            "route": "/blog/comprehensive-guide-to-fixing-the-filemaker-web-view-control-on-windows/",
             "redirect": "/blog/2019/fixing-filemaker-web-viewer",
             "statusCode": 301
         },
         {
-            "route": "^/blog/debugging-javascript-in-a-filemaker-web-view-control/",
+            "route": "/blog/debugging-javascript-in-a-filemaker-web-view-control/",
             "redirect": "/blog/2019/debugging-javascript-in-a-filemaker-web-view-control",
             "statusCode": 301
         },
         {
-            "route": "^/blog/supplying-a-environment-specific-variables-to-a-single-page-application/",
+            "route": "/blog/supplying-a-environment-specific-variables-to-a-single-page-application/",
             "redirect": "blog/2019/supplying-a-environment-specific-variables-to-a-single-page-application",
             "statusCode": 301
         },
         {
-            "route": "^/blog/when-a-difference-in-your-environment-make-a-difference/",
+            "route": "/blog/when-a-difference-in-your-environment-make-a-difference/",
             "redirect": "/blog/2019/when-a-difference-in-your-environment-make-a-difference",
             "statusCode": 301
         },
         {
-            "route": "^/blog/graphing-united-states-roadhighway-lane-mileage-by-state-and-type-of-road/",
+            "route": "/blog/graphing-united-states-roadhighway-lane-mileage-by-state-and-type-of-road/",
             "redirect": "/blog/2018/graphing-united-states-road-highway-lane-milage-by-state-and-type-of-road",
             "statusCode": 301
         },
         {
-            "route": "^/blog/my-great-grandmas-buttermilk-pancakes/",
+            "route": "/blog/my-great-grandmas-buttermilk-pancakes/",
             "redirect": "/blog/2018/my-great-grandmas-buttermilk-pancakes",
             "statusCode": 301
         },
         {
-            "route": "^/blog/introducting-my-latest-side-project-fmdata/",
+            "route": "/blog/introducting-my-latest-side-project-fmdata/",
             "redirect": "/blog/2018/introducing-my-latest-side-project-fmdata",
             "statusCode": 301
         },
         {
-            "route": "^/blog/continuous-integration-for-open-source-projects-net-projects/",
+            "route": "/blog/continuous-integration-for-open-source-projects-net-projects/",
             "redirect": "/blog/2018/continuous-integration-for-open-source-projects-dotnet",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/fix-for-remote-desktop-connection-manager-rdcman-on-high-dpi-devices/",
+            "redirect": "/blog/archives/fix-for-remote-desktop-connection-manager-rdcman-on-high-dpi-devices",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/dream-build-play-part-one-my-technology-stack/",
+            "redirect": "/blog/archives/dream-build-play-part-one-my-technology-stack",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/a-fix-for-the-error-a-route-named-something-or-other-is-already-in-the-route-collection-route-names-must-be-unique/",
+            "redirect": "/blog/archives/fix-for-the-error-a-route-named-something-or-other-is-already-in-the-route-collection",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/really-useful-nuget-packages-fastmember-convert-a-generic-list-to-a-dbdatareader-on-the-quick/",
+            "redirect": "/blog/archives/really-useful-nuget-packages-fastmember",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/anatomy-of-a-blob-storage-uri-and-how-to-use-a-blob-name-prefix-to-make-azure-do-your-filtering/",
+            "redirect": "/blog/archives/anatomy-of-a-blob-storage-uri-and-how-to-use-a-blob-name-prefix-to-make-azure-do-your-filtering",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/error-migrating-app-service-plan-because-of-microsoftinsightswebtests/",
+            "redirect": "/blog/archives/error-migrating-app-service-plan-because-microsoftinsightswebtests",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/great-tools-screen-to-gif/",
+            "redirect": "/blog/archives/great-tools-screen-to-gif",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/model-binding-with-file-uploads-using-aspnet-core-action-method-parameter-attributes/",
+            "redirect": "/blog/archives/model-binding-with-file-uploads-using-aspnet-core-action-method-parameter-attributes",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/connecting-open-live-writer-to-umbraco-channels-for-authoring-content-or-blog-posts/",
+            "redirect": "/blog/archives/connecting-open-live-writer-to-umbraco-channels",
+            "statusCode": 301
+        },
+        {
+            "route": "/blog/optimizing-front-end-resources/",
+            "redirect": "/blog/archives/optimizing-front-end-resources",
             "statusCode": 301
         }
     ]
