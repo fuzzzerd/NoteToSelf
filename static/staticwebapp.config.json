@@ -1,0 +1,49 @@
+{
+    "routes": [
+        {
+            "route": "^/blog/setting-your-metric-for-hyper-v-wireless-networking/",
+            "redirect": "/blog/2019/setting-your-metric",
+            "statusCode": 301
+        },
+        {
+            "route": "^blog/comprehensive-guide-to-fixing-the-filemaker-web-view-control-on-windows/",
+            "redirect": "/blog/2019/fixing-filemaker-web-viewer",
+            "statusCode": 301
+        },
+        {
+            "route": "^/blog/debugging-javascript-in-a-filemaker-web-view-control/",
+            "redirect": "/blog/2019/debugging-javascript-in-a-filemaker-web-view-control",
+            "statusCode": 301
+        },
+        {
+            "route": "^/blog/supplying-a-environment-specific-variables-to-a-single-page-application/",
+            "redirect": "blog/2019/supplying-a-environment-specific-variables-to-a-single-page-application",
+            "statusCode": 301
+        },
+        {
+            "route": "^/blog/when-a-difference-in-your-environment-make-a-difference/",
+            "redirect": "/blog/2019/when-a-difference-in-your-environment-make-a-difference",
+            "statusCode": 301
+        },
+        {
+            "route": "^/blog/graphing-united-states-roadhighway-lane-mileage-by-state-and-type-of-road/",
+            "redirect": "/blog/2018/graphing-united-states-road-highway-lane-milage-by-state-and-type-of-road",
+            "statusCode": 301
+        },
+        {
+            "route": "^/blog/my-great-grandmas-buttermilk-pancakes/",
+            "redirect": "/blog/2018/my-great-grandmas-buttermilk-pancakes",
+            "statusCode": 301
+        },
+        {
+            "route": "^/blog/introducting-my-latest-side-project-fmdata/",
+            "redirect": "/blog/2018/introducing-my-latest-side-project-fmdata",
+            "statusCode": 301
+        },
+        {
+            "route": "^/blog/continuous-integration-for-open-source-projects-net-projects/",
+            "redirect": "/blog/2018/continuous-integration-for-open-source-projects-dotnet",
+            "statusCode": 301
+        }
+    ]
+}
