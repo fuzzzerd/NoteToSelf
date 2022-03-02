@@ -4,7 +4,7 @@
       <h1>{{ article.title }}</h1>
       <p class="artical-meta">
         {{ formatDate(article.date) }}
-        by <a href="#">{{ article.author.name }}</a>
+        by <a href="/resume">{{ article.author.name }}</a>
       </p>
       <nuxt-content :document="article" />
     </article>

@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.workingDirectories": [
+        "/"
+    ],
+    "eslint.validate": [
+        "vue",
+        "typescript"
+    ],
+}

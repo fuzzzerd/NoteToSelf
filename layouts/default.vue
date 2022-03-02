@@ -11,7 +11,9 @@ export default Vue.extend({
 <template>
   <div>
     <div id="rightColumn">
-      <Nuxt />
+      <div id="main-container">
+        <Nuxt />
+      </div>
     </div>
     <div id="leftColumn">
       <a href="/" title="Official Bross Tribe">
@@ -131,7 +133,6 @@ html {
 }
 
 #leftColumn {
-  padding: 15px 25px 15px 25px;
   h3 {
     margin: 0;
   }
@@ -145,14 +146,6 @@ html {
     max-width: 100%;
   }
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #leftColumn {
-    margin-top: 3px;
-    border-top: 3px dashed #ccc;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -164,6 +157,7 @@ html {
   }
 
   #leftColumn {
+    padding: 1rem;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -179,14 +173,18 @@ html {
   }
 
   #rightColumn {
-    padding: 15px 35px 15px 45px;
+    padding: 1rem 2rem 1rem 2.5rem;
     position: fixed;
     top: 0;
-    left: 353px; /*Set left value to width+padding+border of leftColumn*/
+    left: 320px; /*Set left value to width+padding+border of leftColumn*/
     right: 0;
     bottom: 0;
     overflow: auto;
     background: #fff;
+    #main-container {
+      width: calc(100vw - 320px - 3px - 7rem);
+      max-width: 975px;
+    }
   }
 }
 
@@ -202,32 +200,29 @@ h6 {
   font-family: 'Josefin Slab', serif;
 }
 
-a.h1 {
-  font-size: 3em;
+.h1 {
+  font-size: 2.1rem;
   font-family: 'Josefin Slab', serif;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.1rem;
 }
 
 h2 {
-  font-size: 2.25em;
-  .h1 {
-    font-size: 3em;
-  }
+  font-size: 1.75rem;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.75em;
+  font-size: 1.25rem;
 }
 
 h5 {
-  font-size: 1.25em;
+  font-size: 1.125rem;
 }
 
 a {
