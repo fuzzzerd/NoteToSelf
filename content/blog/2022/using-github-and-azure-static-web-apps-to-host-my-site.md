@@ -61,10 +61,12 @@ jobs:
           action: "close"
 ```
 
-The one thing I did to make this work with my Nuxt static site, is I use the 
+The one thing I did to make this work with my Nuxt static site, is I use the
 
-```
+```json
 app_build_command: "npm run generate"
 ```
 
-as opposed to the built-in script, which I think is `npm run build`.
+as opposed to the built-in script, which I think is just `npm run build`.
+
+One of the neat features this provides (as evidenced in the action runner) is that it sets up a new environment for each pull request. That means each pull request gets a preview environment to monitor the changes and can faciliate approvals and such without having to fully clone and run a local environment.
