@@ -17,7 +17,7 @@ There are a couple levers we can pull to nudge the control into supporting moder
 
 There are several ways to set the document mode that the control uses, and this behaves much like the IE the full browser. It can be specified couple ways.
 
-### HTTP Header sent from the web server hosting the content loaded in the control.
+### HTTP Header sent from the web server hosting the content loaded in the control
 
 This can be done many ways, depending on the server system in question. A simple way for a site hosted by IIS is to simply add this to web.config:
 

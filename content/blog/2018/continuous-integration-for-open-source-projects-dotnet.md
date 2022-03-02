@@ -8,7 +8,7 @@ tags:
   - web development
   - open source
 ---
-I operate a couple niche open source projects. They don't generate much activity, but they've been useful to me over the years so I share them with the world to help anyone else that happens upon them. 
+I operate a couple niche open source projects. They don't generate much activity, but they've been useful to me over the years so I share them with the world to help anyone else that happens upon them.
 
 They're hosted on my GitHub page. Which is great for sharing the source code and allowing folks to submit issues and submit pull requests (not that my projects are big enough to get any real activity, but I can hope). There isn't a good way to share the binary output from GitHub. You need to utilize additional tools and software. I'm using AppVeyor and MyGet and I outline my configuration below.
 
@@ -16,11 +16,11 @@ The full CI setup could be achieved with MyGet alone since they also offer build
 
 ## AppVeyor Setup
 
-In order to get my .NET Standard 2.0 library to build in AppVeyor I had to make a few changes from the default configuration. 
+In order to get my .NET Standard 2.0 library to build in AppVeyor I had to make a few changes from the default configuration.
 
 ### Build Setup
 
-<content-image 
+<content-image
   src="blog/2018/appveyor-build-config.png"
   alt="build configuration: build nuget packages, do dotnet restore pre build"></content-image>
 
@@ -32,17 +32,17 @@ dotnet restore
 
 ### Deployment Setup
 
-<content-image 
+<content-image
   src="blog/2018/appveyor-deploy-config.png"
   alt="Deployment tab on the left as part of the build, not part of the AppVeyor project across the top."></content-image>
 
-On the Settings >> Deployment tab, in order to push to MyGet you will need to provide the MyGet Feed Url and API key. Both of these are easy to obtain on your feeds detail page. 
+On the Settings >> Deployment tab, in order to push to MyGet you will need to provide the MyGet Feed Url and API key. Both of these are easy to obtain on your feeds detail page.
 
 ### MyGet
 
 There are plenty of resources for setting up a MyGet feed, so I'm not going into those details, but this is where you get the settings utilized in AppVeyor:
 
-<content-image 
+<content-image
   src="blog/2018/myget-feed-settingsg.png"
   alt="myget nuget push url"></content-image>
 

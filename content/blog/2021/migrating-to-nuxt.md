@@ -66,6 +66,7 @@ export default {
 };
 </script>
 ```
+
 I've included a little date formatter here, that convers the `string` date tag stored in the markdown files, and converts it to the users local timezone (this prevents the day behind issue noted in the comment).
 
 This makes for very simple system of writing and managing my main content, and keeps the routing very simple:
@@ -87,7 +88,8 @@ export default {
   components: true
 }
 ```
-Then setup an image binding component in `components/global`, which I found a great example of here: https://woetflow.com/posts/working-with-images-in-nuxt-content/.
+
+Then setup an image binding component in `components/global`, which I found a great example of here: <https://woetflow.com/posts/working-with-images-in-nuxt-content/>.
 
 ```vue
 <script>

@@ -8,7 +8,7 @@ tags:
   - web development
   - nuget
 ---
-Optimizing front-end resources can be lots of fun, if you’re using a good framework for it. For your standard ASP.NET web application WebGrease and the built-in Microsoft tools work pretty darn well. Things get a little bit interesting when you start working with things like LESS or SASS as compilers for these systems can start bundling things up and making minified versions. That’s fine and good, unitl you need or want managed caching. That’s where server side frameworks come into play.
+Optimizing front-end resources can be lots of fun, if you’re using a good framework for it. For your standard ASP.NET web application WebGrease and the built-in Microsoft tools work pretty darn well. Things get a little bit interesting when you start working with things like LESS or SASS as compilers for these systems can start bundling things up and making minified versions. That’s fine and good, until you need or want managed caching. That’s where server side frameworks come into play.
 
 [Enter: ClientDependency Framework.](https://github.com/Shazwazza/ClientDependency) Its what powers this site. Its a nice simple framework that makes sense. The code speaks for itself, and since it lives in the views it doesn’t get lost in some .cs file.
 

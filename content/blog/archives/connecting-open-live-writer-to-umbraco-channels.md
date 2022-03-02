@@ -20,8 +20,8 @@ Setup a channel for the user, in the Backoffice go to:
 
 Users => Users => [Your-Account] => Content Channels (Tab)
 
-<content-image 
-  src="blog/archive/Open-Live-Writer_a540c8a25e14_8DC4_image_2.png" 
+<content-image
+  src="blog/archive/Open-Live-Writer_a540c8a25e14_8DC4_image_2.png"
   alt="Open live writer configuration"></content-image>
 
 I’ve called out the important areas.
@@ -36,7 +36,7 @@ Description Field: the field on the document type in which the main content will
 
 ## Open Live Writer Setup
 
-Website => http://www.example.com/[folder-if-setup]
+Website => <http://www.example.com/[folder-if-setup>]
 
 User => Backoffice Username for this channel
 
@@ -44,10 +44,8 @@ Password => Self Explanitory
 
 Blog Type => Metaweblog API
 
-EndPoint => http://www.example.com/umbraco/channels.aspx 
+EndPoint => <http://www.example.com/umbraco/channels.aspx>
 
 That’s the part I always forget.
-
- 
 
 What’s interesting here, is that if you want to manage multiple content sections from within Open Live Writer, you can create multiple Umbraco Backoffice users with one Channel per area in the site. Since Open Live Writer supports multiple accounts, you can link them all up and have a mostly seamless experience. Using different ‘accounts’ is a clunky way to manage multiple areas, but if you think of them as channels it makes some sense.

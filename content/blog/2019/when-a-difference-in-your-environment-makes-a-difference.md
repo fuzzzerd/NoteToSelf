@@ -26,15 +26,15 @@ For reference and searches, here are the errors I got/overcame.
 
 Using default constructor without flags:
 
-    Internal.Cryptography.CryptoThrowHelper+WindowsCryptographicException: The system cannot find the file specified
+> Internal.Cryptography.CryptoThrowHelper+WindowsCryptographicException: The system cannot find the file specified
 
 Specifying only MachineKeySet, while running as ApplicationPoolIdentity:
 
-    Internal.Cryptography.CryptoThrowHelper+WindowsCryptographicException: Access denied
+> Internal.Cryptography.CryptoThrowHelper+WindowsCryptographicException: Access denied
 
 Relevant sources:
 
- - https://stackoverflow.com/a/27242467/86860
- - https://stackoverflow.com/a/17149834/86860
- - https://github.com/dotnet/corefx/issues/14745
- - https://github.com/dotnet/corefx/issues/23780
+- <https://stackoverflow.com/a/27242467/86860>
+- <https://stackoverflow.com/a/17149834/86860>
+- <https://github.com/dotnet/corefx/issues/14745>
+- <https://github.com/dotnet/corefx/issues/23780>

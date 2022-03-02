@@ -24,4 +24,4 @@ var results = await client.FindAsync(toFind);
 // results = IEnumerable<Model> matching with Name field matching "someName" as a FileMaker Findrequest.
 ```
 
-That's all there is to it, and there's more examples on the project site: https://fmdata.io/
+That's all there is to it, and there's more examples on the project site: <https://fmdata.io/>

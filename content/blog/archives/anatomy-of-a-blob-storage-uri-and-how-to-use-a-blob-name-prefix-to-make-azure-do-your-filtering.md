@@ -19,11 +19,11 @@ There are only three levels of hierarchy built into the system:
 
 Seen as:
 
-> https://[STORAGE_ACCOUNT_NAME].blob.core.windows.net/[CONTAINER-NAME]/[BLOB-NAME]
+> <https://[STORAGE_ACCOUNT_NAME>].blob.core.windows.net/[CONTAINER-NAME]/[BLOB-NAME]
 
 Within the Blob itself, the NAME property can be used to create additional ‘virtual’ directories, but they are just that. Virtual. This is where things get pretty powerful. Using the Storage Client libraries for .NET, the ListBlobsSegmentedAsync method allows you to have Azure filter out blobs based on prefix. The prefix filter here only applies to the Blob Name. If we look at a specific example (redacted to protect the guilty):
 
-> https://[STORAGE_ACCOUNT].blob.core.windows.net/[CONTAINER]/VirtualFolder1/2017/7/01/15/fileanme.ext
+> <https://[STORAGE_ACCOUNT>].blob.core.windows.net/[CONTAINER]/VirtualFolder1/2017/7/01/15/fileanme.ext
 
 You see this whole part [VirtualFolder1/2017/07/01/15/fileanme.ext] is all the Blob Name. It just so happens to be setup by folders Year/Month/Date/Hour and because of this we can use the ListBlobsSegmentedAsync to filter based on it.
 

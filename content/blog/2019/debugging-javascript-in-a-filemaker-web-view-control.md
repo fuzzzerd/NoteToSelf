@@ -12,7 +12,7 @@ Using built in FileMaker tooling, there is no way to see output from console.log
 
 Here's a little demonstration of how it works:
 
-<content-image 
+<content-image
   src="blog/2019/javascript-console-log.gif"
   alt="console.log shows in visual studio"></content-image>
 
@@ -22,13 +22,13 @@ Using Visual Studio 2017 Community edition (download), it is possible to get acc
 
 **Step 2:** Fire up Visual Studio, and use the Debug => Attach To Process menu:
 
-<content-image 
+<content-image
   src="blog/2019/visual-studio-menu-1.png"
   alt="Attach To Process Menu Item"></content-image>
 
 **Step 3:** Select debugging type as "Scripting"
 
-<content-image 
+<content-image
   src="blog/2019/visual-studio-debug-settings.png"
   alt="Set-Scripting-As-Debug-Attach-To"></content-image>
 
@@ -36,7 +36,7 @@ Using Visual Studio 2017 Community edition (download), it is possible to get acc
 
 **Step 5:** Use Debug => Window => Script Console.
 
-<content-image 
+<content-image
   src="blog/2019/visual-studio-javscript-console.png"
   alt="Debug-Show-Window-Javascript-Console"></content-image>
 
