@@ -29,7 +29,7 @@ To support this kind of folder structure, and keep sane routing, following the d
   <div>
     <article>
       <h1>{{ article.title }}</h1>
-      <p class="artical-meta">
+      <p class="article-meta">
         {{ formatDate(article.date) }}
         by <a href="#">{{ article.author.name }}</a>
       </p>

@@ -200,13 +200,10 @@ h6 {
   font-family: 'Josefin Slab', serif;
 }
 
+h1,
 .h1 {
   font-size: 2.1rem;
   font-family: 'Josefin Slab', serif;
-}
-
-h1 {
-  font-size: 2.1rem;
 }
 
 h2 {
@@ -241,12 +238,12 @@ a {
   text-decoration: none;
 }
 
-.artical {
+.article {
   border-bottom: 3px dashed #eee;
   margin-bottom: 15px;
 }
 
-.artical-title {
+.article-title {
   margin: 0;
 
   a {
@@ -254,7 +251,7 @@ a {
   }
 }
 
-.artical-meta {
+.article-meta {
   margin-top: 5px;
   font-size: 0.85em;
   color: #808080;

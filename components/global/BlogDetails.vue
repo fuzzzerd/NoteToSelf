@@ -1,24 +1,9 @@
 <script>
 export default {
-  name: 'BlogListWidget',
+  name: 'BlogDetails',
   props: {
-    postCount: { type: Number, default: undefined }
+    article: { type: Object, default: undefined }
   },
-  data() {
-    return {
-      articles: []
-    };
-  },
-  async fetch() {
-    let chain = this.$content('blog', { deep: true }).sortBy('date', 'desc');
-
-    if (this.postCount) {
-      chain = chain.limit(this.postCount);
-    }
-
-    this.articles = await chain.fetch();
-  },
-  fetchKey: 'home-blog',
   methods: {
     formatDate(input) {
       // fix day behind issue
@@ -42,9 +27,18 @@ export default {
 };
 </script>
 <template>
-  <div>
-    <template v-for="article of articles">
-      <blog-details :key="article.slug" :article="article" />
-    </template>
-  </div>
+  <article>
+    <h2 class="h1">
+      <NuxtLink role="heading" level="1" :to="article.path">
+        {{ article.title }}
+      </NuxtLink>
+    </h2>
+
+    <p class="article-meta">
+      {{ formatDate(article.date) }}
+      by <a href="/resume">{{ article.author.name }}</a>
+    </p>
+
+    <nuxt-content :document="article" />
+  </article>
 </template>
