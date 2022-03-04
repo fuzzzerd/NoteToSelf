@@ -36,14 +36,53 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    ['@nuxtjs/google-analytics', {
-      id: 'UA-70773470-1'
-    }]
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-70773470-1'
+      }
+    ]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', '@nuxtjs/sitemap'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
+
+  sitemap: {
+    hostname: 'https://www.brosstribe.com',
+    gzip: true,
+    routes: async () => {
+      const routes = [];
+
+      const { $content } = require('@nuxt/content');
+      const files = await $content({ deep: true })
+        .only(['path', 'lastMod', 'date'])
+        .fetch();
+
+      routes.push({
+        url: '/',
+        changefreq: 'weekly',
+        priority: 0.5
+      });
+
+      routes.push({
+        url: '/blog',
+        changefreq: 'weekly',
+        priority: 0.75
+      });
+
+      for (const file of files) {
+        routes.push({
+          url: file.path === '/index' ? '/' : file.path,
+          changefreq: 'yearly',
+          priority: 1,
+          lastmod: file.lastMod || file.date
+        });
+      }
+
+      return routes;
+    }
+  }
 };
