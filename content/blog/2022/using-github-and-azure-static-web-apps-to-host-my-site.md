@@ -1,11 +1,13 @@
 ---
 title: Using Github and Azure Static Web Apps to host my Nuxt Site
 date: 2022-02-28
+lastMod: 2022-03-04
 author: 
   name: Nate Bross
 tags: 
   - web development
   - deployment
+  - nuxt
 ---
 
 Hooking up Azure Static Web Apps to a Github repository is very easy and works incredibly well.
