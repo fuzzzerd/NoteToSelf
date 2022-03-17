@@ -46,13 +46,6 @@ export default Vue.extend({
         >
         Cloud user.
         <a
-          rel="noopener"
-          href="https://twitter.com/natebross"
-          target="_blank"
-          title="Twitter Profile."
-          >Tweeter</a
-        >.
-        <a
           rel="noopener noreferrer"
           href="http://www.carcruisechicago.com"
           target="_blank"
