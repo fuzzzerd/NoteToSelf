@@ -1,8 +1,13 @@
 version: 2
 updates:
-- package-ecosystem: npm
+- package-ecosystem: "npm" # See documentation for possible values
+  directory: "/" # Location of package manifests
+  schedule:
+    interval: "daily"
+    timezone: America/Chicago
+- package-ecosystem: "github-actions"
   directory: "/"
   schedule:
-    interval: daily
+    # Check for updates to GitHub Actions every weekday
+    interval: "daily"
     timezone: America/Chicago
-  open-pull-requests-limit: 10
