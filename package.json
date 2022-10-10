@@ -29,6 +29,6 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^8.5.0",
     "prettier": "^2.6.0",
-    "sass": "^1.49.9"
+    "sass": "^1.55.0"
   }
 }
