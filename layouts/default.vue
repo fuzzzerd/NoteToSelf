@@ -34,8 +34,7 @@ export default Vue.extend({
           href="https://steamcommunity.com/id/Fuzzzerd"
           target="_blank"
           title="Steam Profile"
-        >
-          Gamer </a
+          >Gamer</a
         >.
         <a
           rel="noopener"
