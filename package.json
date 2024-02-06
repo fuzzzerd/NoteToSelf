@@ -15,7 +15,7 @@
     "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.35.1",
-    "nuxt": "^2.17.2"
+    "nuxt": "^2.17.3"
   },
   "devDependencies": {
     "@nuxt/types": "^2.17.3",
