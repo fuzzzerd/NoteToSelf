@@ -39,6 +39,6 @@ export default {
       by <a href="/resume">{{ article.author.name }}</a>
     </p>
 
-    <nuxt-content :document="article" />
+    <ContentRenderer :value="article" />
   </article>
 </template>

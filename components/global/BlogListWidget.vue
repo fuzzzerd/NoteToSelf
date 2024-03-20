@@ -1,50 +1,24 @@
-<script>
-export default {
-  name: 'BlogListWidget',
-  props: {
-    postCount: { type: Number, default: undefined }
-  },
-  data() {
-    return {
-      articles: []
-    };
-  },
-  async fetch() {
-    let chain = this.$content('blog', { deep: true }).sortBy('date', 'desc');
-
-    if (this.postCount) {
-      chain = chain.limit(this.postCount);
-    }
-
-    this.articles = await chain.fetch();
-  },
-  fetchKey: 'home-blog',
-  methods: {
-    formatDate(input) {
-      // fix day behind issue
-      // https://stackoverflow.com/a/45407500/86860
-
-      // Date object a day behind
-      const utcDate = new Date(input);
-      // local Date
-      const localDate = new Date(
-        utcDate.getTime() + utcDate.getTimezoneOffset() * 60000
-      );
-
-      return localDate.toLocaleDateString('en-US', {
-        weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-      });
-    }
-  }
-};
-</script>
 <template>
   <div>
-    <template v-for="article of articles">
-      <blog-details :key="article.slug" :article="article" />
-    </template>
+    <blog-details v-for="article of articles" :key="article.slug" :article="article" />
   </div>
 </template>
+
+<script setup lang="ts">
+const props = defineProps<{
+  postCount?: number;
+}>()
+
+const { path } = useRoute();
+const { data: articles } = await useAsyncData(`content-${path}`, async () => {
+  const cnt = queryContent()
+    .where({ _path: { $regex: `/blog/*` } })
+    .sort({ date: -1 });
+
+  if (props.postCount) {
+    cnt.limit(props.postCount);
+  }
+
+  return cnt.find();
+});
+</script>

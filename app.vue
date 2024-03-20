@@ -1,18 +1,11 @@
-<script lang="ts">
-import Vue from 'vue';
-export default Vue.extend({
-  computed: {
-    homelogo() {
-      return require('~/assets/images/signed-b.png');
-    }
-  }
-});
+<script setup lang="ts">
+import homelogo from '@/assets/images/signed-b.png';
 </script>
 <template>
   <div>
     <div id="rightColumn">
       <div id="main-container">
-        <Nuxt />
+         <NuxtPage />
       </div>
     </div>
     <div id="leftColumn">
