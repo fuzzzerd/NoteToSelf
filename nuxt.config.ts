@@ -44,6 +44,9 @@ export default defineNuxtConfig({
   image: {
     dir: '.nuxt/content-assets/public'
   },
+  experimental: {
+    sharedPrerenderData: true
+  },
   // fix for https://github.com/davestewart/nuxt-content-assets/issues/49
   hooks: {
     close: (nuxt) => {

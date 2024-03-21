@@ -67,13 +67,14 @@ useSeoMeta({
           title="one of my side projects"
           >Old Car enthusiast.</a
         >&nbsp;
-        <NuxtLink to="/blog" title="Blog">Blogger.</NuxtLink>
+        <NuxtLink no-prefetch to="/blog" title="Blog">Blogger.</NuxtLink>
       </p>
       <hr />
       <h4>Top Posts</h4>
       <ul>
         <li>
           <NuxtLink
+            no-prefetch
             to="/blog/2018/graphing-united-states-road-highway-lane-milage-by-state-and-type-of-road"
             title="Graphing United States Road/Highway Lane Milage by State and Type Of Road"
           >
@@ -83,6 +84,7 @@ useSeoMeta({
         </li>
         <li>
           <NuxtLink
+            no-prefetch
             to="/blog/archives/optimizing-front-end-resources"
             title="Optimizing Front End Resources"
             >Optimizing Front End Resources</NuxtLink
@@ -90,6 +92,7 @@ useSeoMeta({
         </li>
         <li>
           <NuxtLink
+            no-prefetch
             to="/blog/archives/great-tools-screen-to-gif"
             title="Great Tools: Screen To Gif"
           >
@@ -98,6 +101,7 @@ useSeoMeta({
         </li>
         <li>
           <NuxtLink
+            no-prefetch
             to="/blog/archives/anatomy-of-a-blob-storage-uri-and-how-to-use-a-blob-name-prefix-to-make-azure-do-your-filtering"
             title="Anatomy of a blob storage Uri, and how to use a blob name prefix to make Azure do your filtering."
           >
