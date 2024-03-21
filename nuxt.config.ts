@@ -1,7 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   site: {
-    url: 'https://www.brosstribe.com',
+    url: 'https://www.brosstribe.com'
   },
   modules: [
     'nuxt-content-assets',
@@ -16,8 +16,8 @@ export default defineNuxtConfig({
       preload: ['js', 'ts', 'cs', 'csharp', 'xml']
     },
     markdown: {
-      anchorLinks: false,
-    },
+      anchorLinks: false
+    }
   },
   app: {
     head: {
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
           href: 'https://fonts.googleapis.com/css?family=Josefin+Slab|Share+Tech+Mono|VT323|Poppins|Source+Code+Pro'
         }
       ]
-    },
+    }
   },
   contentAssets: {
     // treat these extensions as content
@@ -36,12 +36,18 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true
-    },
+    }
   },
   sitemap: {
-    sources: ['/api/sitemap'],
+    sources: ['/api/sitemap']
   },
   image: {
     dir: '.nuxt/content-assets/public'
+  },
+  // fix for https://github.com/davestewart/nuxt-content-assets/issues/49
+  hooks: {
+    close: (nuxt) => {
+      if (!nuxt.options._prepare) process.exit();
+    }
   }
 });
