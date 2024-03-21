@@ -20,7 +20,7 @@ jobs:
           submodules: true
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
       - name: Npm CI
         run: npm ci
       - name: Nuxt Generate
@@ -34,7 +34,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: 'upload'
           skip_app_build: true
-          app_location: '/dist' # App source code path
+          app_location: '.output/public' # App source code path
           api_location: '' # Api source code path - optional
           output_location: '' # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
