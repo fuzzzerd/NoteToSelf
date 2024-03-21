@@ -12,9 +12,7 @@ Using built in FileMaker tooling, there is no way to see output from console.log
 
 Here's a little demonstration of how it works:
 
-<content-image
-  src="blog/2019/javascript-console-log.gif"
-  alt="console.log shows in visual studio"></content-image>
+![console.log shows in visual studio](javascript-console-log.gif)
 
 Using Visual Studio 2017 Community edition (download), it is possible to get access to this information. The process is simple once you know the steps.
 
@@ -22,23 +20,17 @@ Using Visual Studio 2017 Community edition (download), it is possible to get acc
 
 **Step 2:** Fire up Visual Studio, and use the Debug => Attach To Process menu:
 
-<content-image
-  src="blog/2019/visual-studio-menu-1.png"
-  alt="Attach To Process Menu Item"></content-image>
+![Attach To Process Menu Item](visual-studio-menu-1.png)
 
 **Step 3:** Select debugging type as "Scripting"
 
-<content-image
-  src="blog/2019/visual-studio-debug-settings.png"
-  alt="Set-Scripting-As-Debug-Attach-To"></content-image>
+![Set-Scripting-As-Debug-Attach-To](visual-studio-debug-settings.png)
 
 **Step 4:** Attach to the "FileMaker Pro Advanced.exe" process.
 
 **Step 5:** Use Debug => Window => Script Console.
 
-<content-image
-  src="blog/2019/visual-studio-javscript-console.png"
-  alt="Debug-Show-Window-Javascript-Console"></content-image>
+![Debug-Show-Window-Javascript-Console](visual-studio-javscript-console.png)
 
 Once attached, you can view the console output and even script source and hit break points and step through code line by line. Basically anything you can do in the Internet Explorer 11 Developer Tools, you can do through Visual Studio attached to the web view control
 

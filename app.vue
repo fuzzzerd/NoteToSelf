@@ -1,24 +1,47 @@
 <script setup lang="ts">
-import homelogo from '@/assets/images/signed-b.png';
+useHead({
+  titleTemplate: '%s - Bross Tribe',
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
+    }
+  ]
+});
+
+useSeoMeta({
+  title: 'Welcome to my site!',
+  ogSiteName: 'Bross Tribe',
+  ogTitle: 'Bross Tribe',
+  twitterTitle: 'Bross Tribe',
+  ogDescription: 'Notes to myself',
+  twitterDescription: 'Notes to myself',
+  ogImage: { url: '/images/signed-b.png', width: 184, height: 288 },
+  twitterImage: { url: '/images/signed-b.png', width: 184, height: 288 },
+  twitterCard: 'summary_large_image'
+});
 </script>
 <template>
   <div>
     <div id="rightColumn">
       <div id="main-container">
-         <NuxtPage />
+        <NuxtPage />
       </div>
     </div>
     <div id="leftColumn">
-      <a href="/" title="Official Bross Tribe">
+      <NuxtLink to="/" title="Official Bross Tribe">
         <img
           style="display: block; margin-left: auto; margin-right: auto"
-          :src="homelogo"
+          src="/images/signed-b.png"
           alt="signed letter b"
           width="100"
           height="124"
         />
-      </a>
-
+      </NuxtLink>
       <hr />
       <p>
         Dad. Geek.
@@ -43,64 +66,61 @@ import homelogo from '@/assets/images/signed-b.png';
           target="_blank"
           title="one of my side projects"
           >Old Car enthusiast.</a
-        >
-        <a href="/blog/" title="Blog">Blogger.</a>
+        >&nbsp;
+        <NuxtLink to="/blog" title="Blog">Blogger.</NuxtLink>
       </p>
       <hr />
       <h4>Top Posts</h4>
       <ul>
         <li>
-          <a
-            href="/blog/2018/graphing-united-states-road-highway-lane-milage-by-state-and-type-of-road"
-            title="Graphig United States Road/Highway Lane Milage by State and Type Of Road"
+          <NuxtLink
+            to="/blog/2018/graphing-united-states-road-highway-lane-milage-by-state-and-type-of-road"
+            title="Graphing United States Road/Highway Lane Milage by State and Type Of Road"
           >
             Graphing United States Road/Highway Lane Mileage by State and Type
             Of Road
-          </a>
+          </NuxtLink>
         </li>
         <li>
-          <a
-            href="/blog/archives/optimizing-front-end-resources"
+          <NuxtLink
+            to="/blog/archives/optimizing-front-end-resources"
             title="Optimizing Front End Resources"
-            >Optimizing Front End Resources</a
+            >Optimizing Front End Resources</NuxtLink
           >
         </li>
         <li>
-          <a
-            href="/blog/archives/great-tools-screen-to-gif"
+          <NuxtLink
+            to="/blog/archives/great-tools-screen-to-gif"
             title="Great Tools: Screen To Gif"
           >
             Great Tools: Screen To Gif
-          </a>
+          </NuxtLink>
         </li>
         <li>
-          <a
-            href="/blog/archives/anatomy-of-a-blob-storage-uri-and-how-to-use-a-blob-name-prefix-to-make-azure-do-your-filtering"
+          <NuxtLink
+            to="/blog/archives/anatomy-of-a-blob-storage-uri-and-how-to-use-a-blob-name-prefix-to-make-azure-do-your-filtering"
             title="Anatomy of a blob storage Uri, and how to use a blob name prefix to make Azure do your filtering."
           >
             Anatomy of a blob storage Uri
-          </a>
-        </li>
-      </ul>
-      <h4>About Me</h4>
-      <ul>
-        <li>
-          <a href="/resume" title="Work History and Achievements">
-            Nate's Resume
-          </a>
+          </NuxtLink>
         </li>
       </ul>
       <hr />
-      <h4>Proud Contributor</h4>
-
-      <a href="https://stackexchange.com/users/31585/nate"
-        ><img
+      <h4>Stack Overflow Contributor</h4>
+      <a
+        rel="noopener noreferrer"
+        title="profile for Nate on Stack Exchange."
+        target="_blank"
+        href="https://stackexchange.com/users/31585/nate"
+      >
+        <img
           src="https://stackexchange.com/users/flair/31585.png"
           alt="profile for Nate on Stack Exchange, a network of free, community-driven Q&amp;A sites"
           title="profile for Nate on Stack Exchange, a network of free, community-driven Q&amp;A sites"
           width="208"
           height="58"
-      /></a>
+        />
+      </a>
 
       <hr />
 

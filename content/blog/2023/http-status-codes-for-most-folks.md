@@ -35,4 +35,4 @@ There are lots of jokes about HTTP status codes, what they mean, and general fru
 - 500: We screwed up.
 - 503: We forgot to start the server.
 
-There are many more status codes, and as a developer I ecourage other developers to use appropriate and specific response codes. For more [specific details, Wikipedia has a good overview](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+There are many more status codes, and as a developer I encourage other developers to use appropriate and specific response codes. For more [specific details, Wikipedia has a good overview](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).

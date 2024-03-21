@@ -20,9 +20,7 @@ Setup a channel for the user, in the Backoffice go to:
 
 Users => Users => [Your-Account] => Content Channels (Tab)
 
-<content-image
-  src="blog/archive/Open-Live-Writer_a540c8a25e14_8DC4_image_2.png"
-  alt="Open live writer configuration"></content-image>
+![Open live writer configuration](Open-Live-Writer_a540c8a25e14_8DC4_image_2.png)
 
 I’ve called out the important areas.
 

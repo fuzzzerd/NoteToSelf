@@ -40,7 +40,7 @@ Lots of examples of doing this method. Advantage to this method is that it works
 
 Each method has benefits and drawbacks, and the later versions of FileMaker set the registry setting during install. FileMaker v16 and v17 both do. Other versions YMMV. It looks like this:
 
-feature browser emuluation registry screen shot
+feature browser emulation registry screen shot
 
 #### Configuring the Input Model
 

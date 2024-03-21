@@ -21,7 +21,7 @@ PM> Install-Package ClientDependency-Mvc
 
 Then you can jump right into your view code:
 
-```cshtml
+```csharp
 @{Html.RequiresCss("~/Content/Site.css");}
 
 @{Html.RequiresJs("~/Scripts/jquery.js");}
@@ -29,7 +29,7 @@ Then you can jump right into your view code:
 
 This makes the view depend on these files, they are not rendered here, but when these views are used, the last call below knows which scripts to include:
 
-```cshtml
+```csharp
 <head>
 ...
 @Html.RenderCssHere()
@@ -40,4 +40,4 @@ This makes the view depend on these files, they are not rendered here, but when 
 </body>
 ```
 
-ClientDependency Framework handles all the messyness of combining and minifiying these resources, adding query strings to the `<script>` and `<link>` tags so they are cached, but can be invaldiated in future updates. Using this framework properly, you should never have to tell a client, just do a “hard” (CTRL + F5) refresh.
+ClientDependency Framework handles all the messiness of combining and minifiying these resources, adding query strings to the `<script>` and `<link>` tags so they are cached, but can be invalidated in future updates. Using this framework properly, you should never have to tell a client, just do a “hard” (CTRL + F5) refresh.

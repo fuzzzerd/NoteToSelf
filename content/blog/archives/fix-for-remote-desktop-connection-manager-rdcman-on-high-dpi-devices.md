@@ -15,8 +15,6 @@ Its been working for me for years. In the last few years, High-DPI devices have 
 
     Simply go to the properties of your shortcut, on the compatibility tab, change the HighDPI drop down from Application to System.
 
-<content-image
-  src="blog/archive/2017-11-28-14_31_02-remote-desktop-connection-manager-properties.png"
-  alt="rdcman connection properties"></content-image>
+![rdcman connection properties](2017-11-28-14_31_02-remote-desktop-connection-manager-properties.png)
 
 I'm rather disappointed it took me this long to figure out, but now that I have it working its fantastic and my remote sessions are no longer scaled way down to fit.
