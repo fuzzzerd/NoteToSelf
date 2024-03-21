@@ -20,9 +20,7 @@ In order to get my .NET Standard 2.0 library to build in AppVeyor I had to make 
 
 ### Build Setup
 
-<content-image
-  src="blog/2018/appveyor-build-config.png"
-  alt="build configuration: build nuget packages, do dotnet restore pre build"></content-image>
+![build configuration: build nuget packages, do dotnet restore pre build"](appveyor-build-config.png)
 
 On the build configuration tab you need to tick the box to build Nuget Packages, and most importantly add a pre-build script to perform
 
@@ -32,9 +30,7 @@ dotnet restore
 
 ### Deployment Setup
 
-<content-image
-  src="blog/2018/appveyor-deploy-config.png"
-  alt="Deployment tab on the left as part of the build, not part of the AppVeyor project across the top."></content-image>
+![Deployment tab on the left as part of the build, not part of the AppVeyor project across the top.](appveyor-deploy-config.png)
 
 On the Settings >> Deployment tab, in order to push to MyGet you will need to provide the MyGet Feed Url and API key. Both of these are easy to obtain on your feeds detail page.
 
@@ -42,9 +38,7 @@ On the Settings >> Deployment tab, in order to push to MyGet you will need to pr
 
 There are plenty of resources for setting up a MyGet feed, so I'm not going into those details, but this is where you get the settings utilized in AppVeyor:
 
-<content-image
-  src="blog/2018/myget-feed-settingsg.png"
-  alt="myget nuget push url"></content-image>
+![myget nuget push url](myget-feed-settings.png)
 
 The last step is pushing the MyGet packages up to Nuget; which can be done directly through the MyGet interface. Right now, this is a manual process for me. I have two separate AppVeyor builds setup for the same project, pushing to the same MyGet feed. One connected to the develop branch and one linked to master. Within AppVeyor I have enabled assembly version patching so they all end up in the MyGet feed and I can push the master releases out to Nuget.
 

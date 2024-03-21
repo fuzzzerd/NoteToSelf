@@ -22,6 +22,4 @@ I set the Metric on my Wireless connection to 1, on my Virtual Adapter (VPN) to 
 
 > Adapter Settings => IPv4 Properties => Advanced => Uncheck Automatic metric, and specify a value.
 
-<content-image
-  src="blog/2019/network-metric.png"
-  alt="Windows network metric settings panel"></content-image>
+![Windows network metric settings panel](network-metric.png)

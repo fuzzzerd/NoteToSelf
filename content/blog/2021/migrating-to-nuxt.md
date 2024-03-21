@@ -67,7 +67,7 @@ export default {
 </script>
 ```
 
-I've included a little date formatter here, that convers the `string` date tag stored in the markdown files, and converts it to the users local timezone (this prevents the day behind issue noted in the comment).
+I've included a little date formatter here, that converts the `string` date tag stored in the markdown files, and converts it to the users local timezone (this prevents the day behind issue noted in the comment).
 
 This makes for very simple system of writing and managing my main content, and keeps the routing very simple:
 

@@ -12,16 +12,12 @@ I’m going to use this post to tag a series of great tools that I use. For thos
 
 Here’s a screenshot of the tool, around my Live Writer editor:
 
-<content-image
-  src="blog/archive/Great-Tools-Screen-To-Gif_D142_image_2.png"
-  alt="Screen To Gif screenshot"></content-image>
+![Screen To Gif screenshot](Great-Tools-Screen-To-Gif_D142_image_2.png)
 
 ScreenToGif has multiple capture options, but the one I find most useful is screen. You drag the ScreenToGif window around the screen area you wish to record. You simply hit the record/stop buttons to record while you work, then it opens your project in the editor to make any post-production changes you need. Then you can save as a .gif file for distribution.
 
 Here is a short recording of the above:
 
-<content-image
-  src="blog/archive/Great-Tools-Screen-To-Gif_D142_ScreenToGifDemo_2.gif"
-  alt="Screen To Gif demo gif"></content-image>
+![Screen To Gif demo gif](Great-Tools-Screen-To-Gif_D142_ScreenToGifDemo_2.gif)
 
 Often a screenshot is plenty, but sometimes a quick gif communicates so much more.

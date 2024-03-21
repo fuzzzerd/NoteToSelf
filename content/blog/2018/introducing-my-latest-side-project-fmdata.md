@@ -1,5 +1,5 @@
 ---
-title: Introducting my latest side project - FMData
+title: Introducing my latest side project - FMData
 date: 2018-09-05
 author: 
   name: Nate Bross

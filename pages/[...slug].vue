@@ -1,11 +1,20 @@
-<template>
-  <ContentDoc />
-</template>
 <script setup lang="ts">
-// const { data: article } = await useAsyncData(`content-${path}`, async () => {
-//   const cnt = queryContent()
-//     .where({ _path: { $regex: `/blog/*` } })
-//     .sort({ date: -1 });
-//    return cnt.findOne();
-// });
+const { path, params } = useRoute();
+const { data: article } = await useAsyncData(
+  `catchall-${params.slug}`,
+  async () => {
+    return await queryContent()
+      .where({ _path: { $regex: path } })
+      .findOne();
+  }
+);
+
+if (article) {
+  useContentHead(article);
+  defineOgImageComponent('UnJs');
+}
 </script>
+<template>
+  <blog-details v-if="article" :article="article" />
+  <ContentDoc v-else />
+</template>

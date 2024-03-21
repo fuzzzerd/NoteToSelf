@@ -9,8 +9,7 @@ const props = defineProps<{
   postCount?: number;
 }>()
 
-const { path } = useRoute();
-const { data: articles } = await useAsyncData(`content-${path}`, async () => {
+const { data: articles } = await useAsyncData(`content-${props.postCount}`, () => {
   const cnt = queryContent()
     .where({ _path: { $regex: `/blog/*` } })
     .sort({ date: -1 });
