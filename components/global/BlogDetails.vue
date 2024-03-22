@@ -3,7 +3,7 @@ import type { ParsedContent } from '@nuxt/content/types';
 
 const props = defineProps<{
   article?: ParsedContent;
-}>()
+}>();
 
 function formatDate(input: string) {
   // fix day behind issue
@@ -28,7 +28,7 @@ function formatDate(input: string) {
 <template>
   <article v-if="article">
     <h2 class="h1">
-      <NuxtLink role="heading" level="1" :to="article._path">
+      <NuxtLink :to="article._path">
         {{ article.title }}
       </NuxtLink>
     </h2>

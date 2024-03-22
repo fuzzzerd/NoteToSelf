@@ -1,5 +1,3 @@
 <template>
-  <div>
-    <blog-list-widget></blog-list-widget>
-  </div>
+  <blog-list-widget></blog-list-widget>
 </template>

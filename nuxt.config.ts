@@ -12,21 +12,11 @@ export default defineNuxtConfig({
   content: {
     documentDriven: false,
     highlight: {
-      theme: 'github-light',
+      theme: { default: 'github-light', dark: 'github-dark' },
       preload: ['js', 'ts', 'cs', 'csharp', 'xml']
     },
     markdown: {
       anchorLinks: false
-    }
-  },
-  app: {
-    head: {
-      link: [
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css?family=Josefin+Slab|Share+Tech+Mono|VT323|Poppins|Source+Code+Pro'
-        }
-      ]
     }
   },
   contentAssets: {

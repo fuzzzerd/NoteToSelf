@@ -18,8 +18,12 @@ useSeoMeta({
   ogSiteName: 'Bross Tribe',
   ogTitle: 'Bross Tribe',
   twitterTitle: 'Bross Tribe',
-  ogDescription: 'Notes to myself',
-  twitterDescription: 'Notes to myself',
+  description:
+    'Welcome to my blog. This site consists of notes to myself. Hopeful that you find them useful.',
+  ogDescription:
+    'Welcome to my blog. This site consists of notes to myself. Hopeful that you find them useful.',
+  twitterDescription:
+    'Welcome to my blog. This site consists of notes to myself. Hopeful that you find them useful.',
   ogImage: { url: '/images/signed-b.png', width: 184, height: 288 },
   twitterImage: { url: '/images/signed-b.png', width: 184, height: 288 },
   twitterCard: 'summary_large_image'
@@ -70,7 +74,7 @@ useSeoMeta({
         <NuxtLink no-prefetch to="/blog" title="Blog">Blogger.</NuxtLink>
       </p>
       <hr />
-      <h4>Top Posts</h4>
+      <h3>Top Posts</h3>
       <ul>
         <li>
           <NuxtLink
@@ -110,7 +114,6 @@ useSeoMeta({
         </li>
       </ul>
       <hr />
-      <h4>Stack Overflow Contributor</h4>
       <a
         rel="noopener noreferrer"
         title="profile for Nate on Stack Exchange."
@@ -128,6 +131,16 @@ useSeoMeta({
 
       <hr />
 
+      <a target="_blank" href="https://512kb.club">
+        <img
+          width="208"
+          src="https://512kb.club/assets/images/blue-team.svg"
+          alt="a proud member of the blue team of 512KB club"
+        />
+      </a>
+
+      <hr />
+
       Thoughts, opinions, and ideas shared here are my own. All content &copy;
       {{ new Date().getFullYear() }} Nate Bross.
     </div>
@@ -137,8 +150,8 @@ useSeoMeta({
 <style lang="scss">
 // Body, Left and Right Column Setup
 html {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
 }
 
 #leftColumn {
@@ -151,7 +164,7 @@ html {
   display: flex;
   justify-content: space-around;
 
-  > div {
+  #main-container {
     max-width: 100%;
   }
 }
@@ -189,7 +202,6 @@ html {
     right: 0;
     bottom: 0;
     overflow: auto;
-    background: #fff;
     #main-container {
       width: calc(100vw - 320px - 3px - 7rem);
       max-width: 975px;
@@ -206,13 +218,14 @@ h5,
 h6 {
   padding: 8px 0;
   margin: 0;
-  font-family: 'Josefin Slab', serif;
+  font-family: Palatino, serif;
+  font-weight: lighter;
 }
 
 h1,
 .h1 {
   font-size: 2.1rem;
-  font-family: 'Josefin Slab', serif;
+  font-family: Palatino, serif;
 }
 
 h2 {
@@ -247,9 +260,13 @@ a {
   text-decoration: none;
 }
 
-.article {
-  border-bottom: 3px dashed #eee;
-  margin-bottom: 15px;
+article {
+  border-bottom: 3px dashed #ccc;
+  // make sure that long posts have some breathing room at the footer
+  &:last-of-type {
+    padding-bottom: 3rem;
+    border-bottom: none;
+  }
 }
 
 .article-title {
@@ -264,5 +281,21 @@ a {
   margin-top: 5px;
   font-size: 0.85em;
   color: #808080;
+}
+
+pre {
+  border: 1px dashed #ccc;
+  padding: 1rem;
+  overflow-x: auto;
+  font-family: Consolas, 'Lucida Console', Monaco, 'Courier New', Courier,
+    monospace;
+}
+
+blockquote {
+  border-left: 3px dashed #ccc;
+  padding-left: 1rem;
+  margin: 0;
+  font-family: Consolas, 'Lucida Console', Monaco, 'Courier New', Courier,
+    monospace;
 }
 </style>

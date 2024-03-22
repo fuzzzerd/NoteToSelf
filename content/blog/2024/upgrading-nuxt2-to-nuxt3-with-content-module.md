@@ -10,7 +10,7 @@ tags:
   - web development
 ---
 
-I often us this site to play with new technology, and as such, it goes through a lot of technical changes. When the site was originally upgraded to Nuxt2, it had already been out for a while and Nuxt3 was in beta stage. So I knew this upgrade was coming. Working on some other projects, I realized I needed a bit better handle on Nuxt3 and decided to jump in.
+I often use this site to play with new technology, and as such, it goes through a lot of technical changes. When the site was originally upgraded to Nuxt2, it had already been out for a while and Nuxt3 was in beta stage. So I knew this upgrade was coming. Working on some other projects, I realized I needed a bit better handle on Nuxt3 and decided to jump in.
 
 ## Using Content v2
 
@@ -32,7 +32,7 @@ It turns out that the default route that gets added with `documentDriven: true` 
 
 I ended up fixing that by backing out of `documentDriven` mode and updated my slug:
 
-```html
+```html [slug.vue]{1} meta-info=val
 <script setup lang="ts">
 const { path } = useRoute();
 const { data: article } = await useAsyncData(`catchall-${path}`, () => {
@@ -52,7 +52,6 @@ This breaks the `@nuxt/sitemap` plug-in however, more on that below.
 ## Handling Images
 
 The site is using both `@nuxt/image` and `nuxt-content-assets` which allows me to store my images right along side my `*.md` files in the `/content/` path. The docs explain how to make it all work, but I'm including a brief snip of the relevant configuration I needed to make it all work.
-
 
 ```js
 // nuxt.config.ts
@@ -79,7 +78,7 @@ The `nuxt-content-assets` package requires this component be added to work with 
 
 ## Sitemap.xml
 
-With Nuxt Content `documentDriven: false` the sitemap doesn't generate any content, and the mechanism for automatically generating urls is a bit different in v5+ (for Nuxt3). Putting this kind of code into `nuxt.config.ts` is an anti-pattern, so support was dropped. 
+With Nuxt Content `documentDriven: false` the sitemap doesn't generate any content, and the mechanism for automatically generating urls is a bit different in v5+ (for Nuxt3). Putting this kind of code into `nuxt.config.ts` is an anti-pattern, so support was dropped.
 
 This requires setting up a server route, which can then be referenced in `nuxt.config.ts` as the source for the sitemap data.
 
