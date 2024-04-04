@@ -13,7 +13,7 @@
     "@nuxt/content": "^2.12.1",
     "@nuxtjs/seo": "^2.0.0-rc.10",
     "nuxt": "^3.11.1",
-    "sass": "^1.72.0"
+    "sass": "^1.74.1"
   },
   "dependencies": {
     "@nuxt/image": "^1.4.0",
