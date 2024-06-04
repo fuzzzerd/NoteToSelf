@@ -10,6 +10,12 @@ useHead({
       type: 'image/x-icon',
       href: '/favicon.ico'
     }
+  ],
+  meta: [
+    {
+      name: 'msvalidate.01',
+      content: '8015305C5FC955DE600FEBB07E5FED33'
+    }
   ]
 });
 
