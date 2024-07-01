@@ -9,7 +9,7 @@ tags:
   - recipe
 ---
 
-Summer is hot. I like sweets. I derrived my recipe from an ~~ancient~~ older [Chicago Tribunte article](https://www.chicagotribune.com/1990/07/26/to-make-your-own-italian-ice-use-sugar-fruit-and-muscle/).
+Summer is hot. I like sweets. I derived my recipe from an ~~ancient~~ older [Chicago Tribune article](https://www.chicagotribune.com/1990/07/26/to-make-your-own-italian-ice-use-sugar-fruit-and-muscle/).
 
 ## Ingredients
 
@@ -18,12 +18,12 @@ Summer is hot. I like sweets. I derrived my recipe from an ~~ancient~~ older [Ch
 - 20 strawberries (substitute a similar volume of your favorite fruit)
 - 6 cups ice cubes
 
-## Dirctions
+## Directions
 
 The first step is to make our fruit sugar mixture:
 
 1. Dice fruit into small pieces.
-1. Make simple syrup: Mix 1 cup sugar and 1 cup water, boil until sugar is disolved.
+1. Make simple syrup: Mix 1 cup sugar and 1 cup water, boil until sugar is dissolved.
 1. Mix 1 cup of hot simple syrup with diced fruit.
 1. Allow to cool, and refrigerate overnight.
 
@@ -37,7 +37,7 @@ You can eat it right away, but it can be a little runny after being in the blend
 
 ## Shortcut
 
-If you have symple syrup already and don't want to wait, simply throw 1 cup of symple syrup, fruit, and 6 cups ice into blender.
+If you have simple syrup already and don't want to wait, simply throw 1 cup of simple syrup, fruit, and 6 cups ice into blender.
 
 ## Enjoy
 
