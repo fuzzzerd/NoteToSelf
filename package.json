@@ -11,7 +11,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "12.1.0",
     "@nuxt/content": "^2.12.1",
-    "@nuxtjs/seo": "^2.0.0-rc.10",
+    "@nuxtjs/seo": "^2.0.0-rc.20",
     "nuxt": "^3.11.1",
     "sass": "^1.78.0"
   },
