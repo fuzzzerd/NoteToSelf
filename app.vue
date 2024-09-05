@@ -137,7 +137,11 @@ useSeoMeta({
 
       <hr />
 
-      <a target="_blank" href="https://512kb.club">
+      <a
+        target="_blank"
+        href="https://512kb.club"
+        aria-label="a proud member of the blue team of 512KB club"
+      >
         <img
           width="208"
           src="https://512kb.club/assets/images/blue-team.svg"
