@@ -158,10 +158,57 @@ useSeoMeta({
 </template>
 
 <style lang="scss">
-// Body, Left and Right Column Setup
+:root {
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-size: 17px;
+  --left-column-width: 320px;
+  --border-width: 3px;
+  --border-style: dashed;
+  --padding: 1rem;
+  --padding-large: 2rem;
+  --padding-extra-large: 2.5rem;
+  --max-width: 975px;
+  --font-family-heading: Palatino, serif;
+  --font-weight-heading: lighter;
+  --font-family-code: Consolas, 'Lucida Console', Monaco, 'Courier New', Courier,
+    monospace;
+  --font-size-h1: 2.1rem;
+  --font-size-h2: 1.75rem;
+  --font-size-h3: 1.5rem;
+  --font-size-h4: 1.25rem;
+  --font-size-h5: 1.125rem;
+  --font-size-meta: 0.85em;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --border-color: #ccc;
+    --color-link: #00362b;
+    --color-link-active: #63694c;
+    --color-link-hover: #3a534f;
+    --color-meta: #808080;
+    --background-color: #ffffff;
+    --color-text: #000000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border-color: #444;
+    --color-link: #80cbc4;
+    --color-link-active: #b2dfdb;
+    --color-link-hover: #4db6ac;
+    --color-meta: #b0bec5;
+    --background-color: #121212;
+    --color-text: #ffffff;
+  }
+}
+
 html {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 17px;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--background-color);
+  color: var(--color-text);
 }
 
 #leftColumn {
@@ -178,6 +225,7 @@ html {
     max-width: 100%;
   }
 }
+
 @media only screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -186,18 +234,19 @@ html {
     overflow: hidden;
     height: 100%;
     max-height: 100%;
+    background-color: var(--background-color);
   }
 
   #leftColumn {
-    padding: 1rem;
+    padding: var(--padding);
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 320px; /*Width of frame div*/
+    width: var(--left-column-width);
     height: 100%;
-    border-right: 3px dashed #ccc;
-    overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+    border-right: var(--border-width) var(--border-style) var(--border-color);
+    overflow: hidden;
 
     ul {
       margin: 0;
@@ -205,21 +254,24 @@ html {
   }
 
   #rightColumn {
-    padding: 1rem 2rem 1rem 2.5rem;
+    padding: var(--padding) var(--padding-large) var(--padding)
+      var(--padding-extra-large);
     position: fixed;
     top: 0;
-    left: 320px; /*Set left value to width+padding+border of leftColumn*/
+    left: var(--left-column-width);
     right: 0;
     bottom: 0;
     overflow: auto;
+
     #main-container {
-      width: calc(100vw - 320px - 3px - 7rem);
-      max-width: 975px;
+      width: calc(
+        100vw - var(--left-column-width) - var(--border-width) - 7rem
+      );
+      max-width: var(--max-width);
     }
   }
 }
 
-// * end body and column setup
 h1,
 h2,
 h3,
@@ -228,41 +280,40 @@ h5,
 h6 {
   padding: 8px 0;
   margin: 0;
-  font-family: Palatino, serif;
-  font-weight: lighter;
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-heading);
 }
 
 h1,
 .h1 {
-  font-size: 2.1rem;
-  font-family: Palatino, serif;
+  font-size: var(--font-size-h1);
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: var(--font-size-h2);
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: var(--font-size-h3);
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: var(--font-size-h4);
 }
 
 h5 {
-  font-size: 1.125rem;
+  font-size: var(--font-size-h5);
 }
 
 a {
-  color: #00362b;
+  color: var(--color-link);
 
   &:active {
-    color: #63694c;
+    color: var(--color-link-active);
   }
 
   &:hover {
-    color: #3a534f;
+    color: var(--color-link-hover);
   }
 }
 
@@ -271,8 +322,8 @@ a {
 }
 
 article {
-  border-bottom: 3px dashed #ccc;
-  // make sure that long posts have some breathing room at the footer
+  border-bottom: var(--border-width) var(--border-style) var(--border-color);
+
   &:last-of-type {
     padding-bottom: 3rem;
     border-bottom: none;
@@ -289,23 +340,21 @@ article {
 
 .article-meta {
   margin-top: 5px;
-  font-size: 0.85em;
-  color: #808080;
+  font-size: var(--font-size-meta);
+  color: var(--color-meta);
 }
 
 pre {
-  border: 1px dashed #ccc;
-  padding: 1rem;
+  border: 1px solid var(--border-color);
+  padding: var(--padding);
   overflow-x: auto;
-  font-family: Consolas, 'Lucida Console', Monaco, 'Courier New', Courier,
-    monospace;
+  font-family: var(--font-family-code);
 }
 
 blockquote {
-  border-left: 3px dashed #ccc;
-  padding-left: 1rem;
+  border-left: var(--border-width) solid var(--border-color);
+  padding-left: var(--padding);
   margin: 0;
-  font-family: Consolas, 'Lucida Console', Monaco, 'Courier New', Courier,
-    monospace;
+  font-family: var(--font-family-code);
 }
 </style>

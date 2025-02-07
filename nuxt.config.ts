@@ -3,7 +3,12 @@ export default defineNuxtConfig({
   site: {
     url: 'https://www.brosstribe.com'
   },
-  modules: ['nuxt-content-assets', '@nuxt/content', '@nuxtjs/seo'],
+  modules: [
+    'nuxt-content-assets',
+    '@nuxt/content',
+    '@nuxtjs/seo',
+    '@nuxtjs/color-mode'
+  ],
   content: {
     documentDriven: false,
     highlight: {
@@ -17,6 +22,15 @@ export default defineNuxtConfig({
   contentAssets: {
     // treat these extensions as content
     contentExtensions: 'md csv ya?ml json'
+  },
+  colorMode: {
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'dark', // fallback value if not system preference found
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: ''
   },
   nitro: {
     prerender: {
