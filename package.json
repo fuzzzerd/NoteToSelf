@@ -14,7 +14,7 @@
     "@nuxtjs/eslint-config-typescript": "12.1.0",
     "@nuxtjs/seo": "^2.0.2",
     "nuxt": "^3.13.1",
-    "sass": "^1.84.0"
+    "sass": "^1.85.0"
   },
   "dependencies": {
     "nuxt-content-assets": "^1.4.4"
