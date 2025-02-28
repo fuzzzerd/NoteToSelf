@@ -1,5 +1,5 @@
 ---
-title: Homemade Coldbrew Coffee The Easy Way
+title: Homemade Cold Brew Coffee, the Easy Way
 date: 2022-03-08
 author: 
   name: Nate Bross
@@ -26,10 +26,10 @@ I use a pair of large mason jars, because they have measurements on the side whi
 
 I start with a 3:1 ratio of water to grounds.
 
-1. I put the grounds into my mason jar, filling about to the 200ml line.
-2. Fill to 800ml line with cold water.
+1. I put the grounds into my mason jar, filling about to the 500ml line.
+2. Fill to 1750ml line with cold water.
 3. Shake or stir the mixture up to ensure all grounds are wet.
-4. Throw it in the fridge for 18-20 hours.
+4. Throw it in the fridge for 18-24 hours.
 
 It doesn't hurt to stir up the batch once or twice while its in the fridge cold brewing, just make sure not to do it right before you strain it out, as that'll make it more difficult to get the grounds out.
 
