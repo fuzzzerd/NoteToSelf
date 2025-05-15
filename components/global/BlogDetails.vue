@@ -35,7 +35,7 @@ function formatDate(input: string) {
 
     <p class="article-meta">
       {{ formatDate(article.date) }}
-      by <NuxtLink to="/resume">{{ article.author.name }}</NuxtLink>
+      by <NuxtLink to="/about">{{ article.author.name }}</NuxtLink>
     </p>
 
     <ContentRenderer :value="article" />
