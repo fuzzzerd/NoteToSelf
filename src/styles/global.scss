@@ -183,6 +183,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 article {
   border-bottom: var(--border-width) var(--border-style) var(--border-color);
 
