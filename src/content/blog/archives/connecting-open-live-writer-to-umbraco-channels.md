@@ -34,7 +34,7 @@ Description Field: the field on the document type in which the main content will
 
 ## Open Live Writer Setup
 
-Website => <http://www.example.com/[folder-if-setup>]
+Website => `http://www.example.com/[folder-if-setup]`
 
 User => Backoffice Username for this channel
 
