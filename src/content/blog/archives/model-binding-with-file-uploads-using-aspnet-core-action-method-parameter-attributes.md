@@ -71,7 +71,7 @@ public async Task photoUpload(
 
 and wait, why isn’t that working? Still getting an empty IEnumerable when the method executes. No Http 415 though, so at least its not a regression.
 
-I went back and compared the ACTUAL http post data that was sent and compared it with a direct form post from a <form method=”post”> and noticed that there was one slight bug in the assembly of the FormData on the front-end:
+I went back and compared the ACTUAL http post data that was sent and compared it with a direct form post from a `<form method=”post”>` and noticed that there was one slight bug in the assembly of the FormData on the front-end:
 
 ```csharp
 var form = new FormData()
@@ -80,4 +80,4 @@ for (let i = 0; i < this.photoFiles.length; i++) {
 }
 ```
 
-The original code was doing something like files[0], files[1], etc for each file uploaded, however, the regular <input type=”file”> control simply uses the same ‘name’ as the input tag.
+The original code was doing something like files[0], files[1], etc for each file uploaded, however, the regular `<input type=”file”>` control simply uses the same ‘name’ as the input tag.
