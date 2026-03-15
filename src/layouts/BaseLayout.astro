@@ -58,34 +58,36 @@ const pageTitle = `${title} - Bross Tribe`;
     </div>
     <Sidebar />
 
-    <div id="image-lightbox" class="lightbox" aria-hidden="true">
-      <button class="lightbox-close" aria-label="Close">&times;</button>
+    <div id="image-lightbox" aria-hidden="true">
+      <button id="lightbox-close" aria-label="Close">&times;</button>
       <img src="" alt="" />
     </div>
 
-    <style>
-      .lightbox {
-        display: none;
+    <style is:global>
+      #image-lightbox {
         position: fixed;
         inset: 0;
         z-index: 1000;
-        background: rgba(0, 0, 0, 0);
-        backdrop-filter: blur(0);
-        cursor: pointer;
+        display: flex;
         justify-content: center;
         align-items: center;
         padding: 1rem;
-        transition: background 0.3s ease, backdrop-filter 0.3s ease;
-        -webkit-tap-highlight-color: transparent;
-      }
-
-      .lightbox[aria-hidden='false'] {
-        display: flex;
         background: rgba(0, 0, 0, 0.92);
         backdrop-filter: blur(8px);
+        cursor: pointer;
+        touch-action: none;
+        -webkit-tap-highlight-color: transparent;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
       }
 
-      .lightbox img {
+      #image-lightbox[aria-hidden='false'] {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      #image-lightbox img {
         max-width: 100%;
         max-height: calc(100vh - 5rem);
         max-height: calc(100dvh - 5rem);
@@ -93,24 +95,22 @@ const pageTitle = `${title} - Bross Tribe`;
         border-radius: 4px;
         box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
         transform: scale(0.95);
-        opacity: 0;
-        transition: transform 0.3s ease, opacity 0.3s ease;
+        transition: transform 0.3s ease;
       }
 
-      .lightbox[aria-hidden='false'] img {
+      #image-lightbox[aria-hidden='false'] img {
         transform: scale(1);
-        opacity: 1;
       }
 
-      .lightbox-close {
+      #lightbox-close {
         position: absolute;
         top: 0.75rem;
         right: 0.75rem;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(255, 255, 255, 0.15);
         border: none;
         border-radius: 50%;
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2.75rem;
+        height: 2.75rem;
         color: #fff;
         font-size: 1.5rem;
         cursor: pointer;
@@ -118,58 +118,58 @@ const pageTitle = `${title} - Bross Tribe`;
         display: flex;
         align-items: center;
         justify-content: center;
-        opacity: 0.8;
-        transition: opacity 0.2s ease;
+        opacity: 0.9;
+        transition: opacity 0.2s ease, background 0.2s ease;
         z-index: 1001;
       }
 
-      .lightbox-close:hover,
-      .lightbox-close:active {
+      #lightbox-close:hover,
+      #lightbox-close:active {
         opacity: 1;
+        background: rgba(255, 255, 255, 0.25);
       }
 
       @media (min-width: 768px) {
-        .lightbox {
+        #image-lightbox {
           padding: 2rem;
         }
 
-        .lightbox-close {
+        #lightbox-close {
           top: 1rem;
           right: 1.5rem;
-          width: auto;
-          height: auto;
-          background: none;
-          border-radius: 0;
-          font-size: 2.5rem;
+          width: 3rem;
+          height: 3rem;
+          font-size: 2rem;
         }
+      }
+
+      body.lightbox-open {
+        overflow: hidden;
+        position: fixed;
+        left: 0;
+        right: 0;
       }
     </style>
 
     <script>
       const lightbox = document.getElementById('image-lightbox')!;
       const lightboxImg = lightbox.querySelector('img')!;
+      let scrollY = 0;
 
       function openLightbox(src: string, alt: string) {
         lightboxImg.src = src;
         lightboxImg.alt = alt;
+        scrollY = window.scrollY;
+        document.body.classList.add('lightbox-open');
+        document.body.style.top = `-${scrollY}px`;
         lightbox.setAttribute('aria-hidden', 'false');
-        document.body.style.overflow = 'hidden';
       }
 
       function closeLightbox() {
-        lightboxImg.style.transition = 'transform 0.2s ease, opacity 0.2s ease';
-        lightboxImg.style.transform = 'scale(0.95)';
-        lightboxImg.style.opacity = '0';
-        lightbox.style.transition = 'background 0.2s ease, backdrop-filter 0.2s ease';
-        lightbox.style.background = 'rgba(0, 0, 0, 0)';
-        lightbox.style.backdropFilter = 'blur(0)';
-        setTimeout(() => {
-          lightbox.setAttribute('aria-hidden', 'true');
-          lightboxImg.src = '';
-          lightbox.removeAttribute('style');
-          lightboxImg.removeAttribute('style');
-          document.body.style.overflow = '';
-        }, 200);
+        lightbox.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('lightbox-open');
+        document.body.style.top = '';
+        window.scrollTo(0, scrollY);
       }
 
       document.querySelectorAll('article img').forEach((img) => {
