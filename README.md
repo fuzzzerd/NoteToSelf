@@ -6,11 +6,11 @@
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:4321
 $ npm run dev
 
-# generate static project
-$ npm run generate
+# build static site to dist/
+$ npm run build
 ```
 
-Code is licensed under MIT license and `/Content/**/*.md` copyright (c) Nate Bross.
+Code is licensed under MIT license and `/src/content/**/*.md` copyright (c) Nate Bross.

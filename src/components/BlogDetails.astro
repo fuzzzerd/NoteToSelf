@@ -1,0 +1,47 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { render } from 'astro:content';
+
+interface Props {
+  article: CollectionEntry<'blog'>;
+  headingLink?: boolean;
+}
+
+const { article, headingLink = true } = Astro.props;
+const { Content } = await render(article);
+
+function formatDate(input: Date): string {
+  const utcDate = new Date(input);
+  const localDate = new Date(
+    utcDate.getTime() + utcDate.getTimezoneOffset() * 60000
+  );
+  return localDate.toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+
+// Reconstruct the URL path from the entry id (e.g. "2024/some-post" -> "/blog/2024/some-post")
+const postPath = `/blog/${article.id}`;
+---
+
+<article>
+  <h2 class="h1">
+    {headingLink ? (
+      <a href={postPath}>{article.data.title}</a>
+    ) : (
+      article.data.title
+    )}
+  </h2>
+
+  <p class="article-meta">
+    {formatDate(article.data.date)}
+    {article.data.author && (
+      <> by <a href="/about">{article.data.author.name}</a></>
+    )}
+  </p>
+
+  <Content />
+</article>

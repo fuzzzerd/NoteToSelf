@@ -8,11 +8,10 @@ tags:
 ---
 Using built in FileMaker tooling, there is no way to see output from console.log, or other diagnostic tools when deploying some web content inside a web view control. I have found a way to do it using some freely available tools.
 
-<!--more-->
 
 Here's a little demonstration of how it works:
 
-![console.log shows in visual studio](javascript-console-log.gif)
+![console.log shows in visual studio](/images/blog/2019/javascript-console-log.gif)
 
 Using Visual Studio 2017 Community edition (download), it is possible to get access to this information. The process is simple once you know the steps.
 

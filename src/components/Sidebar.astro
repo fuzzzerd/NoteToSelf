@@ -1,0 +1,114 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+const currentYear = new Date().getFullYear();
+---
+
+<div id="leftColumn">
+  <a href="/" title="Official Bross Tribe">
+    <img
+      style="display: block; margin-left: auto; margin-right: auto"
+      src="/images/signed-b.png"
+      alt="signed letter b"
+      width="100"
+      height="124"
+    />
+  </a>
+  <hr />
+  <p>
+    Dad. Geek.
+    <a
+      rel="noopener"
+      href="https://steamcommunity.com/id/Fuzzzerd"
+      target="_blank"
+      title="Steam Profile">Gamer</a
+    >.
+    <a
+      rel="noopener"
+      href="https://github.com/fuzzzerd"
+      target="_blank"
+      title="Github profile">Software developer.</a
+    >
+    Cloud user.
+    <a
+      rel="noopener noreferrer"
+      href="http://www.carcruisechicago.com"
+      target="_blank"
+      title="one of my side projects">Old Car enthusiast.</a
+    >&nbsp;
+    <a href="/blog" title="Blog">Blogger.</a>
+  </p>
+  <hr />
+  <h3>Top Posts</h3>
+  <ul>
+    <li>
+      <a
+        href="/blog/2018/graphing-united-states-road-highway-lane-milage-by-state-and-type-of-road"
+        title="Graphing United States Road/Highway Lane Milage by State and Type Of Road"
+      >
+        Graphing United States Road/Highway Lane Mileage by State and Type Of
+        Road
+      </a>
+    </li>
+    <li>
+      <a
+        href="/blog/archives/optimizing-front-end-resources"
+        title="Optimizing Front End Resources">Optimizing Front End Resources</a
+      >
+    </li>
+    <li>
+      <a
+        href="/blog/archives/great-tools-screen-to-gif"
+        title="Great Tools: Screen To Gif"
+      >
+        Great Tools: Screen To Gif
+      </a>
+    </li>
+    <li>
+      <a
+        href="/blog/archives/anatomy-of-a-blob-storage-uri-and-how-to-use-a-blob-name-prefix-to-make-azure-do-your-filtering"
+        title="Anatomy of a blob storage Uri, and how to use a blob name prefix to make Azure do your filtering."
+      >
+        Anatomy of a blob storage Uri
+      </a>
+    </li>
+  </ul>
+  <hr />
+  <a
+    rel="noopener noreferrer"
+    title="profile for Nate on Stack Exchange."
+    target="_blank"
+    href="https://stackexchange.com/users/31585/nate"
+  >
+    <img
+      src="https://stackexchange.com/users/flair/31585.png"
+      alt="profile for Nate on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+      title="profile for Nate on Stack Exchange, a network of free, community-driven Q&amp;A sites"
+      width="208"
+      height="58"
+    />
+  </a>
+
+  <hr />
+
+  <a
+    target="_blank"
+    href="https://512kb.club"
+    aria-label="a proud member of the blue team of 512KB club"
+  >
+    <img
+      width="208"
+      src="https://512kb.club/assets/images/blue-team.svg"
+      alt="a proud member of the blue team of 512KB club"
+    />
+  </a>
+
+  <hr />
+
+  <Fragment
+    set:html={`Thoughts, opinions, and ideas shared here are my own. All content &copy; ${currentYear} Nate Bross.`}
+  />
+
+  <hr />
+
+  <ThemeToggle />
+</div>

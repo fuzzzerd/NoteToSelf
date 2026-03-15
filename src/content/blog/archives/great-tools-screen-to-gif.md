@@ -18,6 +18,6 @@ ScreenToGif has multiple capture options, but the one I find most useful is scre
 
 Here is a short recording of the above:
 
-![Screen To Gif demo gif](Great-Tools-Screen-To-Gif_D142_ScreenToGifDemo_2.gif)
+![Screen To Gif demo gif](/images/blog/archives/Great-Tools-Screen-To-Gif_D142_ScreenToGifDemo_2.gif)
 
 Often a screenshot is plenty, but sometimes a quick gif communicates so much more.

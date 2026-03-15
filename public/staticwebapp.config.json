@@ -1,6 +1,11 @@
 {
     "routes": [
         {
+            "route": "/sitemap.xml",
+            "redirect": "/sitemap-index.xml",
+            "statusCode": 301
+        },
+        {
             "route": "/blog/setting-your-metric-for-hyper-v-wireless-networking/",
             "redirect": "/blog/2019/setting-your-metric",
             "statusCode": 301
