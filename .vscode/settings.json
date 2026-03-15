@@ -1,12 +1,5 @@
 {
     "editor.formatOnSave": true,
-    "eslint.workingDirectories": [
-        "/"
-    ],
-    "eslint.validate": [
-        "vue",
-        "typescript"
-    ],
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#1f6fd0",
         "activityBar.activeBorder": "#ee90bb",

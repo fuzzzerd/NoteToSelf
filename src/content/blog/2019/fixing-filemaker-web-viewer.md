@@ -1,6 +1,5 @@
 ---
-title: Comprehensive Guide to Fixing the FileMaker Web View Control on Windows 
-alt: nice image
+title: Comprehensive Guide to Fixing the FileMaker Web View Control on Windows
 date: 2019-05-14
 author: 
   name: Nate Bross
@@ -9,7 +8,6 @@ tags:
 ---
 Working with the FileMaker Web View control can be a challenge on windows. The FileMaker Web View control is essentially a shim that allows us to put the MSHTML Control on a FileMaker layout. Common wisdom is that this control is "essentially IE" while true, that is misleading. By default the control operates in IE5.5 mode!  There is a lot of historical information and decisions that brought us to those defaults. Fact is, it doesn't have to remain that way. I'm going to outline how to get the MSHTML Control up to IE11 mode.
 
-<!--more-->
 
 There are a couple levers we can pull to nudge the control into supporting modern standards. The Document Mode and the Input Model.
 

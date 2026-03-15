@@ -1,6 +1,6 @@
 ---
+layout: ../layouts/BaseLayout.astro
 title: About Nate
-alt: About Nate
 date: 2025-05-14
 author:
   name: Nate Bross
@@ -20,4 +20,4 @@ When .NET 1.0 was released, I jumped on the band wagon, but I stuck with VB. Wit
 
 I enjoy classic cars, swing music, and all sorts of Americana. In my teenage years, I was really into yo-yos. I was pretty good and even participated in some competitions. I enjoy road trips and I love trains, Amtrak is great and I'm an avid rider. Old time steam engines are so powerful and awesome and they are my true train passion.
 
-Read more about my experience on [my resume.](resume.md)
+Read more about my experience on [my resume.](/resume)

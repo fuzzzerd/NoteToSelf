@@ -12,6 +12,6 @@ While attempting to setup SSH access to a Windows 10 machine, following this gui
 
 Turns out that for some reason the WSUS server that the machine was connected to didn't have that optional feature, so a local gpedit was necessary to configure the machine to directly download optional features from Windows Update.
 
-![windows-gpedit-chang](gpedit-settings-for-install-ssh.drawio.svg)
+![windows-gpedit-chang](/images/blog/2022/gpedit-settings-for-install-ssh.drawio.svg)
 
 After checking the box here, it was as simple as re-running the install from the Settings app.
