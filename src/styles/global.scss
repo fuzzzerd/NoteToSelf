@@ -216,6 +216,15 @@ pre {
   padding: var(--padding);
   overflow-x: auto;
   font-family: var(--font-family-code);
+  max-width: 100%;
+}
+
+code {
+  word-break: break-word;
+}
+
+pre code {
+  word-break: normal;
 }
 
 // Shiki dual-theme: swap to dark colors via prefers-color-scheme
@@ -247,4 +256,6 @@ blockquote {
   padding-left: var(--padding);
   margin: 0;
   font-family: var(--font-family-code);
+  overflow-x: auto;
+  word-break: break-word;
 }
