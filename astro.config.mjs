@@ -3,7 +3,15 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://www.brosstribe.com',
-  integrations: [
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+      config: {
+        limitInputPixels: false,
+      },
+    },
+  },
+integrations: [
     sitemap({
       changefreq: 'weekly',
       priority: 0.7,
