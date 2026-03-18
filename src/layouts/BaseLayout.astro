@@ -1,4 +1,5 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import Sidebar from '@/components/Sidebar.astro';
 import '@/styles/global.scss';
 
@@ -39,6 +40,8 @@ const pageTitle = `${title} - Bross Tribe`;
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content="/images/signed-b.png" />
+
+    <ViewTransitions />
 
     <script is:inline>
       // Apply theme before render to prevent flash
@@ -152,42 +155,48 @@ const pageTitle = `${title} - Bross Tribe`;
     </style>
 
     <script>
-      const lightbox = document.getElementById('image-lightbox')!;
-      const lightboxImg = lightbox.querySelector('img')!;
-      let scrollY = 0;
+      function initLightbox() {
+        const lightbox = document.getElementById('image-lightbox')!;
+        const lightboxImg = lightbox.querySelector('img')!;
+        let scrollY = 0;
 
-      function openLightbox(src: string, alt: string) {
-        lightboxImg.src = src;
-        lightboxImg.alt = alt;
-        scrollY = window.scrollY;
-        document.body.classList.add('lightbox-open');
-        document.body.style.top = `-${scrollY}px`;
-        lightbox.setAttribute('aria-hidden', 'false');
-      }
-
-      function closeLightbox() {
-        lightbox.setAttribute('aria-hidden', 'true');
-        document.body.classList.remove('lightbox-open');
-        document.body.style.top = '';
-        window.scrollTo(0, scrollY);
-      }
-
-      document.querySelectorAll('article img').forEach((img) => {
-        img.style.cursor = 'pointer';
-        img.addEventListener('click', () => {
-          openLightbox((img as HTMLImageElement).src, (img as HTMLImageElement).alt);
-        });
-      });
-
-      lightbox.addEventListener('click', (e) => {
-        if (e.target !== lightboxImg) closeLightbox();
-      });
-
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && lightbox.getAttribute('aria-hidden') === 'false') {
-          closeLightbox();
+        function openLightbox(src: string, alt: string) {
+          lightboxImg.src = src;
+          lightboxImg.alt = alt;
+          scrollY = window.scrollY;
+          document.body.classList.add('lightbox-open');
+          document.body.style.top = `-${scrollY}px`;
+          lightbox.setAttribute('aria-hidden', 'false');
         }
-      });
+
+        function closeLightbox() {
+          lightbox.setAttribute('aria-hidden', 'true');
+          document.body.classList.remove('lightbox-open');
+          document.body.style.top = '';
+          window.scrollTo(0, scrollY);
+        }
+
+        document.querySelectorAll('article img').forEach((img) => {
+          img.style.cursor = 'pointer';
+          img.addEventListener('click', () => {
+            openLightbox((img as HTMLImageElement).src, (img as HTMLImageElement).alt);
+          });
+        });
+
+        lightbox.addEventListener('click', (e) => {
+          if (e.target !== lightboxImg) closeLightbox();
+        });
+
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && lightbox.getAttribute('aria-hidden') === 'false') {
+            closeLightbox();
+          }
+        });
+      }
+
+      // Run on initial load and after each ViewTransitions navigation
+      initLightbox();
+      document.addEventListener('astro:after-swap', initLightbox);
     </script>
   </body>
 </html>
