@@ -113,5 +113,16 @@ const currentYear = new Date().getFullYear();
 
   <hr />
 
-  <ThemeToggle />
+  <div class="sidebar-footer">
+    <a href="/rss.xml" title="RSS Feed">RSS Feed</a>
+    <ThemeToggle />
+  </div>
 </div>
+
+<style>
+  .sidebar-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+</style>
