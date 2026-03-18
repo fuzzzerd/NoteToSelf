@@ -10,6 +10,9 @@ const blog = defineCollection({
     lastMod: z.coerce.date().optional(),
     author: z.object({ name: z.string() }).optional(),
     tags: z.array(z.string()).optional(),
+    source: z.string().optional(),
+    sourceUrl: z.string().url().optional(),
+    draft: z.boolean().optional(),
   }),
 });
 
