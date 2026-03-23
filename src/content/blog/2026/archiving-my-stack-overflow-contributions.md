@@ -8,13 +8,13 @@ tags:
 description: "Why and how I archived my Stack Overflow answers and questions to my own site."
 ---
 
-Over the years I've answered questions on Stack Overflow, asked a few of my own, and generally tried to make the internet a little better, and useful one post at a time. That content has been living on other platforms, under others control. I wanted to bring it home alongside the rest of my content on this site.
+Over the years I've answered questions on Stack Overflow, asked a few of my own, and generally tried to make the internet a little better, and useful one post at a time. Across the network sites I contributed to the most regularly, I helped over 6,000,000 people based on my questions and questions where I shared a highly upvoted answer. I wanted to bring that content home, alongside the rest of my content on this site.
 
 ## Why
 
 Stack Overflow gave developers a lot, it came to the internet in a time when searching for expert answers to technical programming problems was a not an insignificant effort, and was a difficult part of being a developer. Stack Overflow was fast, reduced signal to noise ratio, and got straight to the point. The situation was so bad, that there [is an XKCD comic about the subject.](https://xkcd.com/979/)
 
-Times change, and while Stack Overflow has a lot of great content, it is no longer the community I joined in 2009 and I want to ensure that my contributions remain available, to myself and others, for as long as I maintain an internet presence.
+Times change, and while Stack Overflow has a lot of great content, [it](https://meta.stackexchange.com/q/401324) [is](https://meta.stackexchange.com/q/390106) [no](https://meta.stackoverflow.com/q/438369/86860) longer the community I joined in seventeen years ago. I wish them well, and hope they can align with the community. Its clear by the way the organization is being run that the community feedback that made the site what it is, is no longer a priority. I want to ensure that my contributions remain available, to myself and others, for as long as I maintain an internet presence.
 
 ## How
 
@@ -176,6 +176,17 @@ async function processAnswer(answer: SOPost, userId: number, site: SiteConfig) {
   const isAccepted = answer.is_accepted ?? false;
   const acceptedNote = isAccepted ? ' *(accepted answer)*' : '';
 
+  let transition: string;
+  if (isAccepted && answer.score > 0) {
+    transition = `*I posted the following answer, which was chosen as the accepted answer and received ${answer.score} upvote${answer.score === 1 ? '' : 's'}:*`;
+  } else if (isAccepted) {
+    transition = `*I posted the following answer, which was chosen as the accepted answer:*`;
+  } else if (answer.score > 0) {
+    transition = `*I posted the following answer, which received ${answer.score} upvote${answer.score === 1 ? '' : 's'}:*`;
+  } else {
+    transition = `*I posted the following answer:*`;
+  }
+
   let content = `---
 title: ${escapeYaml(question.title || 'Untitled')}
 description: ${escapeYaml(`My answer to "${question.title}" on ${site.name}`)}
@@ -191,6 +202,8 @@ sourceUrl: "${site.url}/a/${answer.answer_id}"
 *Someone [asked on ${site.name}](${site.url}/q/${question.question_id}):*
 
 ${questionBq}
+
+${transition}
 
 ${answerMd}`;
 
@@ -239,7 +252,7 @@ ${questionMd}${acceptedSection}`;
     content += `\n\n<details>\n<summary>Notable comments</summary>\n\n${cm}\n\n</details>`;
   }
   content += `\n\n---\n*Originally posted on [${site.name}](${site.url}/q/${question.question_id}) — ${question.score} upvotes. Licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*\n`;
-  writePost(join(question.score >= BLOG_MIN_SCORE ? BLOG_DIR : ARCHIVE_DIR, year, `${slug}.md`), content);
+  writePost(join(question.score >= BLOG_MIN_SCORE && question.accepted_answer_id ? BLOG_DIR : ARCHIVE_DIR, year, `${slug}.md`), content);
 }
 
 async function main() {
