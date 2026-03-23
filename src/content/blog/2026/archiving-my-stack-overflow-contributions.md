@@ -14,7 +14,7 @@ Over the years I've answered questions on Stack Overflow, asked a few of my own,
 
 Stack Overflow gave developers a lot, it came to the internet in a time when searching for expert answers to technical programming problems was a not an insignificant effort, and was a difficult part of being a developer. Stack Overflow was fast, reduced signal to noise ratio, and got straight to the point. The situation was so bad, that there [is an XKCD comic about the subject.](https://xkcd.com/979/)
 
-Times change, and while Stack Overflow has a lot of great content, [it](https://meta.stackexchange.com/q/401324) [is](https://meta.stackexchange.com/q/390106) [no](https://meta.stackoverflow.com/q/438369/86860) longer the community I joined in seventeen years ago. I wish them well, and hope they can align with the community. Its clear by the way the organization is being run that the community feedback that made the site what it is, is no longer a priority. I want to ensure that my contributions remain available, to myself and others, for as long as I maintain an internet presence.
+Times change, and while Stack Overflow has a lot of great content, [it](https://meta.stackexchange.com/q/401324) [is](https://meta.stackexchange.com/q/390106) [no](https://meta.stackoverflow.com/q/438369/86860) longer the community I joined [over sixteen years ago](https://stackoverflow.com/help/badges/13/yearling?userid=86860). I wish them well, and hope they can align with the community. Its clear by the way the organization is being run that the community feedback that made the site what it is, is no longer a priority. I want to ensure that my contributions remain available, to myself and others, for as long as I maintain an internet presence.
 
 ## How
 
