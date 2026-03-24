@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/2275907"
 
 > After clicking the WPF buttons in our app they glow blue, back to original color, back to blue, etc. This appears to be default behavior on Windows Vista/7. It does not happen on XP. Any advice?
 
+*I posted the following answer, which was chosen as the accepted answer and received 9 upvotes:*
+
 You need to override the default button template -- [http://mark-dot-net.blogspot.com/2007/07/creating-custom-wpf-button-template-in.html](http://mark-dot-net.blogspot.com/2007/07/creating-custom-wpf-button-template-in.html) should get ya started.
 
 Specifically Section 3:

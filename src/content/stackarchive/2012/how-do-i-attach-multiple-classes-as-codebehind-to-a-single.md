@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/11905817"
 > 
 > Thoughts on how to accomplish this?
 
+*I posted the following answer, which received 1 upvote:*
+
 A partial class is the easy route, because you can move code around but its still all in the same class, so scope is not impacted.
 
 Refactoring into separate classes is probably a better idea, but it sounds right now like your code is tightly coupled to the aspx page -- this is something you should change at the same time. Even if all your new classes do is return a `DataTable` that gets bound to the GridView.

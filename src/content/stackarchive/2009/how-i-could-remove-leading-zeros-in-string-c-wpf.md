@@ -28,6 +28,8 @@ sourceUrl: "https://stackoverflow.com/a/1976443"
 > 
 > What is right and the best way to do this operation?
 
+*I posted the following answer, which received 5 upvotes:*
+
 It looks like you are trying to display currency, if you want to display it as currency, try `salePrStr = String.Format("{0:C}", salePr)` otherwise use the format `0.00`
 
 ---

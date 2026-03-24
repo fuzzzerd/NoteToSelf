@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/5782848"
 > 
 > Now, `Company` has a constructor, so that's easy. But `User` has one that's only internal. Is there any way I can create a `User` and just set one `int` property on it so I can pass that object back on the mock?
 
+*I posted the following answer, which received 6 upvotes:*
+
 One option would be to add your Unit Test Project as an "internal to" of your main project, this allows your unit test code access to things marked "internal" without allowing anyone else to do so. Its a simple thing to implement in the AssemblyInfo.cs file:
 
 ```

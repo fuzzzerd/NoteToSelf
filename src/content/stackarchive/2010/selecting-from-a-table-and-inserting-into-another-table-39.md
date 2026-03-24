@@ -52,6 +52,8 @@ sourceUrl: "https://stackoverflow.com/a/3166893"
 > 
 > ```
 
+*I posted the following answer:*
+
 If you have a column defined as text, because it has both alphas and numbers, you'll only be able to query it as if it were text. Once you've separated out the different "types" of data into their own tables, you should be able to change the schema definition. Please comment here if I'm misunderstanding what you're trying to do.
 
 <details>

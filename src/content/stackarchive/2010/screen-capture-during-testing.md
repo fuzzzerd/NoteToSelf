@@ -33,6 +33,8 @@ sourceUrl: "https://stackoverflow.com/a/2829734"
 > 
 > Ed
 
+*I posted the following answer:*
+
 Windows API? Maybe System.Drawing?
 
 [http://www.codeproject.com/KB/dialog/screencap.aspx](http://www.codeproject.com/KB/dialog/screencap.aspx)

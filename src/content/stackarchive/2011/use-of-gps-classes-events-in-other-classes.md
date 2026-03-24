@@ -65,6 +65,8 @@ sourceUrl: "https://stackoverflow.com/a/4693396"
 > 
 > If I could create an event listener in that class ... I could get my desired functionality :).
 
+*I posted the following answer, which received 1 upvote:*
+
 If you expect that the GPS position will change frequently during your applications execution, and you need real-time updates, what I would do, is simply add a public property called `CurrentLocation` to your class, and set its value in the `PositionChanged` event. Then you keep a global reference to an instance of your `GetGPS` class, and when ever you need to access the location, you use the `CurrentLocation` property.
 
 <details>

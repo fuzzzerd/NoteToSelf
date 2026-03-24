@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/48776998"
 > 
 > Should we write this logic on server side (C#) OR Client side(javascript)?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Technically you can do it on either end; but in reality, you might have slightly better luck with a server side approach as it will be harder for browsers to get around (either they accept cookies or not). Things like noscript and adblockers could interfere with a client side implementation.
 
 Additionally, if you do things server side, you could store that information along with a thumb print of the browser in a database and compare against that for future visits. That would work even if cookies are being blocked/cleared.

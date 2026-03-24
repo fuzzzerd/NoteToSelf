@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/5198151"
 > 
 > Obviously this would be an opt in service. Perhaps you would need to build a mobile application to accomplish the task? If anyone has an idea on how to accomplish this or something similar please let me know.
 
+*I posted the following answer, which received 1 upvote:*
+
 As far as I know, it is not possible to access the contact database via a web page, on any of the major platforms; in order to access this data, a native application is required.
 
 ---

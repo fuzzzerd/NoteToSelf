@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/5184037"
 > 
 > I have tried executing it and it is giving syntax errors.
 
+*I posted the following answer, which received 3 upvotes:*
+
 That SQL appears to be correct for an `INSERT INTO` but not for an `UPDATE` It should read:
 
 ```

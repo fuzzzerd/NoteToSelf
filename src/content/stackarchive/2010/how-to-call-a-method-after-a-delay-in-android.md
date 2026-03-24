@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/3072258"
 > 
 > ```
 
+*I posted the following answer, which received 7 upvotes:*
+
 I suggest the [Timer](http://developer.android.com/intl/fr/reference/java/util/Timer.html), it allows you to schedule a method to be called on a very specific interval. This will not block your UI, and keep your app resonsive while the method is being executed.
 
 The other option, is the [wait();](http://developer.android.com/intl/fr/reference/java/lang/Object.html) method, this will block the current thread for the specified length of time. This will cause your UI to stop responding if you do this on the UI thread.

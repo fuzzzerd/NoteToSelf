@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/1033258"
 > 
 > I was thinking of using a regex to look for specific properties like "catalog=" or "password=" etc.
 
+*I posted the following answer:*
+
 I'd take make a sample file with some random text in it, as well as one connection string in each of your possible formats. Then write (one or many) regexes to that match every connection string in your test file. Then run it on your 6GB of data and hope for the best.
 
 ---

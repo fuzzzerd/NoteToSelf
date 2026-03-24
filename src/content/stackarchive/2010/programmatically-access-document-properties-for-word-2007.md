@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/2638447"
 > 
 > I essentially want to automatically create a document which is a list of all documents beneath a certain folder of the filesystem; and this list would contain such things as the _Title_, _Abstract_ and _Author_ document properties; the _CreateDate_ field; etc. for each document.
 
+*I posted the following answer, which received 1 upvote:*
+
 My guess is that your best bet is [VB or C#](http://www.microsoft.com/express) and the [Office Interop Assemblies](http://msdn.microsoft.com/en-us/library/15s06t57\(VS.80\).aspx). I'm unaware of a native way (within Powershell) to do what you want.
 
 That said, if you use VB or C#, you could write a [powershell cmdlet](http://msdn.microsoft.com/en-us/magazine/cc163293.aspx) to what you are the collation. But at that point, it might be more simple to just write a console app that runs as a scheduled task instead.

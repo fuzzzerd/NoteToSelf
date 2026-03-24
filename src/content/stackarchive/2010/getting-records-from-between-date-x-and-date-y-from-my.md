@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/2051348"
 > 
 > the query executes nice but the problem is i can only able to get details between the dates in single month, if the starting month and ending month differs i cant get the proper result plzz help me
 
+*I posted the following answer:*
+
 I've used this with success, `Recharge >= Date1 and Recharge <= Date2` I haven't used `between` maybe it is more efficent, but I use the former.
 
 ---

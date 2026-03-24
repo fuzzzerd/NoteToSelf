@@ -47,6 +47,8 @@ sourceUrl: "https://stackoverflow.com/a/7210881"
 > 
 > My solution is at the bottom.
 
+*I posted the following answer, which received 1 upvote:*
+
 I'd rewrite your code as follows:
 
 ```

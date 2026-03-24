@@ -104,6 +104,8 @@ sourceUrl: "https://stackoverflow.com/a/53949025"
 > 
 > Is there something I need to account for when running in the context of an xunit test that I am not?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 The only solution I've come up with, is to setup a static Handler on the Startup class of the API project and then override it from within each unit test.
 
 Specifically:

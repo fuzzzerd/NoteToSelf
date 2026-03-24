@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/6334983"
 > 
 > Please help me to find the answer.
 
+*I posted the following answer:*
+
 I suspect that they store the entire contents, and every time they check, they compare. If different, send alert, otherwise don't.
 
 ---

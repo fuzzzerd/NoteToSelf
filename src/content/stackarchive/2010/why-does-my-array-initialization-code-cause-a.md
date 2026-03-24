@@ -38,6 +38,8 @@ sourceUrl: "https://stackoverflow.com/a/2915298"
 > 
 > ```
 
+*I posted the following answer, which received 1 upvote:*
+
 It appears as though what @Jonas H said is accurate, you may be recursivly modifying the Property instead of its backing field.
 
 **WRONG**

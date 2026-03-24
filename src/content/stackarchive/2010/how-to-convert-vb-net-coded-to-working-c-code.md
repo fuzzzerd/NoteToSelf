@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/3112346"
 > 
 > 1) [Convert VB.NET to C#](http://www.developerfusion.com/tools/convert/vb-to-csharp/)
 
+*I posted the following answer, which received 3 upvotes:*
+
 Without the errors and relavent source code, we can't really help. The best bet is to use an online converter (as you did) and fix compiler errors, then test for other errors.
 
 ---

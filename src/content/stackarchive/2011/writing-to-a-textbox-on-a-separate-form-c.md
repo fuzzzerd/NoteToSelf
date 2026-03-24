@@ -37,6 +37,8 @@ sourceUrl: "https://stackoverflow.com/a/6361452"
 > 
 > I ended up making a public routine in Form2, and then just calling this routine from form1. In this public routine of Form2 I would then call the textbox!
 
+*I posted the following answer, which received 1 upvote:*
+
 You need to keep a reference to the second form in the first form.
 
 ```

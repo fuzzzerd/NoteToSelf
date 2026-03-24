@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/2097743"
 > 
 > I am using the entity framework and the repository pattern. So I'd call all the names to a list by \_repository.ToList();
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 Try this: `listViewName.ItemsSource = _repository.ToList();`
 
 I'd also simplify the Xaml, like this:

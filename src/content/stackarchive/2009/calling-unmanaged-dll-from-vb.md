@@ -28,6 +28,8 @@ sourceUrl: "https://stackoverflow.com/a/988955"
 > 
 > But that syntax doesn't work for me.
 
+*I posted the following answer:*
+
 In Visual Studio, add a reference to this Dll.
 
 In Code:

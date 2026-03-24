@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/5196886"
 > 
 > I am a noob at c# xD
 
+*I posted the following answer, which received 1 upvote:*
+
 If you're having trouble instantiating a class, I presume you're also not familiar with the Content Pipeline either, so assuming a basic bullet structure, I'd do something like this:
 
 To load a Texture2D use code like this:

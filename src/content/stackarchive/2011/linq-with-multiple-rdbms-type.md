@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/4859655"
 > 
 > For example I want to write queries once regardless of database type like currently I'm using MS Access database and later then if I wish to move on to SQL Server then I don't want to change my queries. Is this possible??
 
+*I posted the following answer:*
+
 LINQ-to-SQL will only work with SQL server. Linq to objects will work on most any collection, but you lose the deferred execution.
 
 ---

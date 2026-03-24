@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/11677115"
 > 
 > I thought that VS2005 only supports .NET 2.0 which seems not that case here. So I guess how can I make sure that my application would only require .NET 2.0 framework. Is it enough to make sure that I only reference .NET 2.0 and below reference?
 
+*I posted the following answer, which was chosen as the accepted answer and received 5 upvotes:*
+
 As long as the target framework is .NET 2.0 **and** you don't reference any libraries that _do_ target higher .NET framework versions, your app should run just fine on .NET 2.0.
 
 That said, I believe Visual Studio 2008 supports multi-targeting, so you should be able to use VS2008 but still target .NET 2.0 as your output type. Additionally, VS2010 and VS2012RC also support .NET 2.0 only projects.

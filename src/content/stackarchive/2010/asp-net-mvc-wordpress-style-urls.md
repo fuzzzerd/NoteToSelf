@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/3086344"
 > 
 > Does anyone know if this is possible in MVC and is it feasible? Im thinking about a custom 404 handler that would preserve the url in the browser and then fire the required actions.
 
+*I posted the following answer:*
+
 You could add an Action to your controller, with a `RedirectToAction()` call
 
 ```

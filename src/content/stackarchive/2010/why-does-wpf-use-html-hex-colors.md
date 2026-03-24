@@ -40,6 +40,8 @@ sourceUrl: "https://stackoverflow.com/a/4159923"
 > 
 > Btw I use VS 2010 WPF Editor.
 
+*I posted the following answer, which received 7 upvotes:*
+
 If you're an artist, you should really be using [Expression Blend](http://en.wikipedia.org/wiki/Microsoft_Expression_Blend). It will give you a very nice color picker, and it will handle the correct color codes for you. Also, the HEX number you provide is in the form of RGB. Two bytes of RED, two bytes of GREEN, and two bytes of BLUE.
 
 To answer your question, someone from the WPF Design team would have to say, but I suspect it was used to keep some consistency with HTML.

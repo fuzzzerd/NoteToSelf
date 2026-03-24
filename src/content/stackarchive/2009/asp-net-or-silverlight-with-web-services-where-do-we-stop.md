@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/945303"
 > 
 > Thanks,
 
+*I posted the following answer, which received 1 upvote:*
+
 Not sure exactly what your getting at, but Silverlight can be used along with ASP.NET so you can get the best of both worlds. Choose to use Silverlight for grid controls instead of activex is a great use of Silverlight, IMO.
 
 My point is that there is no reason you cannot use both at the same time to maximize the power of your application.

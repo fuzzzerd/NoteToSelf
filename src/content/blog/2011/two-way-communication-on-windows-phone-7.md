@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/8361416"
 > 
 > What is the impact on performance?
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 I don't think there is a way to accept connections on WP7 devices, see [here](http://forums.create.msdn.com/forums/p/84014/506327.aspx).
 
 Since WP7 doesn't support poll duplex WCF services either, I recommend you manually implement it, similar to this: [http://www.dominikschmidt.net/2010/12/windows-phone-7-callbacks-and-duplex-wcf/](http://www.dominikschmidt.net/2010/12/windows-phone-7-callbacks-and-duplex-wcf/)

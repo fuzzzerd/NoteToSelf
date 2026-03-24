@@ -58,6 +58,8 @@ sourceUrl: "https://stackoverflow.com/a/4208100"
 > 
 > ```
 
+*I posted the following answer:*
+
 Because you can use Forms Authentication to secure static content.
 
 ---

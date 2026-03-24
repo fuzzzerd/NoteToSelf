@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/1236076"
 > 
 > Can s3fm be adapted to this solution? or is there something else out there?
 
+*I posted the following answer:*
+
 I believe you would need to build your own system to do this. What you use doesn't really matter, you could use S3, Azure, etc as your base storage "cloud."
 
 ---

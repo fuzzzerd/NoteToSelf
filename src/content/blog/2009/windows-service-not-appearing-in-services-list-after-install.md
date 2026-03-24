@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/1560480"
 > 
 > What am I missing?
 
+*I posted the following answer, which was chosen as the accepted answer and received 118 upvotes:*
+
 The most important part of the article you linked, is here
 
 > **To add a custom action to the setup project**

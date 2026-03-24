@@ -28,6 +28,8 @@ sourceUrl: "https://stackoverflow.com/a/837440"
 > 
 > Michael Allen
 
+*I posted the following answer:*
+
 You can use Graphics.DrawImage() and that will accept a Rectangle.
 
 ---

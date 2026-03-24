@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/2511747"
 > 
 > I used to be extremely descriptive of the reason for the change as well as the specific technical changes. Lately I've been scaling back and just giving a general "This is what I changed on this page" kind of comment.
 
+*I posted the following answer, which received 3 upvotes:*
+
 Personally, I try to make a brief summary of what I changed and/or added. Something that will remind me, "Oh yeah, this is \[probably\] where I added that extra rule to the business object." Because I can always run a "diff" to see specifically what changed.
 
 ---

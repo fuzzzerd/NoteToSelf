@@ -55,6 +55,8 @@ sourceUrl: "https://stackoverflow.com/a/3338185"
 > 
 > Which approach do you prefer and why? Do you use `continue` over nested ifs in your everyday code?
 
+*I posted the following answer, which received 4 upvotes:*
+
 With the `continue` style code; how would you handle a third operation that isn't dependent on SomeOtherNestedCondition, this makes the order of the code important which IMO makes it less maintainable.
 
 For example:

@@ -54,6 +54,8 @@ sourceUrl: "https://stackoverflow.com/a/52878862"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Assuming that you're using [this client](https://github.com/News-API-gh/News-API-csharp), the [method you're calling](https://github.com/News-API-gh/News-API-csharp/blob/ff4a118e1511ff7c32a60dc1341d81f91d518bdc/NewsAPI/NewsApiClient.cs#L179) uses a `Task.Result` which can [cause a deadlock](https://stackoverflow.com/a/17248813/86860). Seems reasonable, since the code/signature and examples match.
 
 I would rewrite your code like this for WinForms:

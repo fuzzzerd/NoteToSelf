@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/15415719"
 > 
 > is there anyway of just getting the value 4?
 
+*I posted the following answer, which received 1 upvote:*
+
 You might also use a regex like this
 
 ```

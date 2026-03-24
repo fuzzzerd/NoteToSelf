@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/3568216"
 > 
 > Any help on this will be greatly appreciated. I've never in my coding career ever had to worry about memory management. Thanks.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 1.  This is acceptable if you'r only ever reading a single file, and you don't expect it to grow much beyond 150MB. The important factor here, is that users of your app have enough memory to open the file. 150Mb isn't much, if you get to 150GB you'll have problems.
 2.  This is because you likely still have a reference to your file in memory somewhere. Likely due to the fact that you're displaying it on screen.
 

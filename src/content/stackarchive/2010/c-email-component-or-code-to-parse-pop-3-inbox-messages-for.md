@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/3729022"
 
 > Anybody have any recommendations? Any example code online? I would like to parse undeliverable messages / ndrs.
 
+*I posted the following answer, which received 1 upvote:*
+
 I've used these sources in the past to create my own pop3 client class:
 
 *   [http://www.codeproject.com/KB/IP/Pop3MailClient.asp](http://www.codeproject.com/KB/IP/Pop3MailClient.asp)

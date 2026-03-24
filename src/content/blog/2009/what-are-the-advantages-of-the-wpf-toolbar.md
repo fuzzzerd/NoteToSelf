@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/1058844"
 > 
 > Are the any other benefits to the WPF ToolBar? Neither of these apply to my simple toolbar.
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 I would say use the Toolbar, because you never know when the next project will come along and need it. You also never know when this project may need it. I don't think there is any real drawback to using it over a StackPanel and the advantage you didn't mention is you'll have more experiance with a built in control for the next project.
 
 On the other hand, I don't see any harm in doing it with the StackPanel, only that if you need to extend functionallity in the future, you'll have to do some rework.

@@ -40,6 +40,8 @@ sourceUrl: "https://stackoverflow.com/a/23891731"
 > 
 > Any ideas how to resolve this?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 You need to set the `Selected` property on the [`SelectListItem`](http://msdn.microsoft.com/en-us/library/system.web.mvc.selectlistitem%28v=vs.118%29.aspx).
 
 I'd update your code to be similar to this:

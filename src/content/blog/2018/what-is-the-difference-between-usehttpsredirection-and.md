@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/52557701"
 
 > I don't quite get the difference between `UseHsts` and `UseHttpsRedirection` in the configure section of the startup file in .net core. Could anyone explain?
 
+*I posted the following answer, which was chosen as the accepted answer and received 49 upvotes:*
+
 According to the documentation you should use both together:
 
 > We recommend all production ASP.NET Core web apps call:

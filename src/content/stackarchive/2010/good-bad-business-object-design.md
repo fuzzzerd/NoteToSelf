@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/4268986"
 
 > I have inherited a suite of business objects, which are working rather well. It looks as though it's based on the CSLA framework by [Rockford Lhotka](http://www.lhotka.net/), but there is one very annoying issue. When the business object does a load, it throws an exception. So, if it tries to load some data that isn't available in the database, you get an exception thrown. Is this good design?
 
+*I posted the following answer, which received 2 upvotes:*
+
 IMHO, Exceptions are for exceptional cases -- missing data is usually not exceptional, unless its on a primary key, or other non-null field.
 
 ---

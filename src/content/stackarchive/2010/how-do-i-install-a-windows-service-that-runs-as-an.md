@@ -44,6 +44,8 @@ sourceUrl: "https://stackoverflow.com/a/3755071"
 > 
 > Why might access to this service be denied?
 
+*I posted the following answer, which received 1 upvote:*
+
 As a quick test, if you open up `services.msc` and check your server to "run as" and enter your credentials, does the error go away? It may be that the LocalService does not have access to stop other services. Providing the UAC prompt permission is likely only allowing you to install the service in the first place, not telling it to run as administrator.
 
 ---

@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/4925860"
 > 
 > Thanks for your time.
 
+*I posted the following answer:*
+
 I would follow this [How-To](http://msdn.microsoft.com/en-us/library/ff402545\(v=VS.92\).aspx) to get push notifications working from server --> phone. That should not be all that difficult, and it sounds like you may already have that working.
 
 What you need to do is setup a polling mechanism on the PC game in order to update the state. You could simulate push style notifications with some type of [long-polling](https://stackoverflow.com/questions/1700917/how-does-a-wcf-server-inform-a-wcf-client-about-changes-better-solution-then-si), since you're using .NET/XNA I presume you'd also be using WCF.

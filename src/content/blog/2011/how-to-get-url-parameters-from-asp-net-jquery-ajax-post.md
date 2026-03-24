@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/4674605"
 > 
 > Can anyone please provide some insight for me on how to accomplish this?
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 If you're using asp.net WebForms, I recommend using the ScriptManager to generate a javascript proxy to your web-service, and then use that javascript proxy instead of manually doing an ajax call. Here's a quick tutorial/walk-through on using ScriptManager with web services: [http://msdn.microsoft.com/en-us/magazine/cc163354.aspx](http://msdn.microsoft.com/en-us/magazine/cc163354.aspx)
 
 Something roughly like this:

@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/5942724"
 > 
 > I've seen the WCF logging/email sending approach, but I don't have a place to publicly host a service.
 
+*I posted the following answer, which received 1 upvote:*
+
 The only other option you have is to use the [EmailComposeTask](http://msdn.microsoft.com/en-us/library/microsoft.phone.tasks.emailcomposetask%28VS.92%29.aspx). This leaves you at the mercy of the user to send the message, because it will give you their email address, but its the only way currently to send a mail message without a WCF service.
 
 Example 1:

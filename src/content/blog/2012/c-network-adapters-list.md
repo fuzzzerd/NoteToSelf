@@ -43,6 +43,8 @@ sourceUrl: "https://stackoverflow.com/a/11677923"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 17 upvotes:*
+
 I would modify the code you currently have:
 
 ```

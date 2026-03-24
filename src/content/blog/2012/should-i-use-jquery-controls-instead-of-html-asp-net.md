@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/9366459"
 
 > I'm relatively new to jQuery. To me, there's three sets of controls (html controls, asp.net controls, and jQuery controls). To build an asp.net web page, how should I choose which one to choose from if these three all have the same control (e.g., button). In other words, in what situation should I pick one over the others?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 My approach is to always use basic html in as many situations as possible. ASP.NET and jQuery controls end up generating standard html controls in the end, they just abstract away some aspects. Without a more specific question, it is very hard to say what you should use. It is probably not what you want to hear, but you need to better understand the differences between these three types and make pick the best option for the situation at hand.
 
 That said, I find myself using standard html input controls as much as possible, and using jQuery for client-side interactions. With ASP.NET MVC this is much easier than WebForms; though it's possible in both. If you're in WebForms you may wish to use the built-in ASP.NET controls.

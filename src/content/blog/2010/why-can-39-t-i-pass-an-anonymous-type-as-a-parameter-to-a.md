@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/3199102"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 7 upvotes:*
+
 > Beginning in Visual C# 3.0, variables that are declared at method scope can have an implicit type var. An implicitly typed local variable is strongly typed just as if you had declared the type yourself, but the compiler determines the type. The following two declarations of i are functionally equivalent:
 
 ```

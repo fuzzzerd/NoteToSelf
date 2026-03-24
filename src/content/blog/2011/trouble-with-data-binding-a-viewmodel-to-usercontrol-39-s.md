@@ -119,6 +119,8 @@ sourceUrl: "https://stackoverflow.com/a/5223698"
 > 
 > As an additional note, the ViewModel has a few `ICommand` properties, which **are** being successfully bound to buttons in the UserControl via XAML -- so I know the DataContext binding correctly.
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Turns out it was a PEBKEC issue -- I had a default value set somewhere, so OnNotifyPropertyChanged never got called, as such it appeared that the binding was broken.
 
 I bound my boolean to a checkbox on the View, and using the UI control to change the value forced my animations to change, the correct code-behind binding was my first try:

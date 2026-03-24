@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/2015944"
 > 
 > What do you think?
 
+*I posted the following answer, which was chosen as the accepted answer and received 17 upvotes:*
+
 Personally, I would simply document a maximum page size, and anything larger than that is simply treated as the maximum.
 
 ---

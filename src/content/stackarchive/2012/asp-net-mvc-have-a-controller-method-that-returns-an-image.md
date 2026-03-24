@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/9266039"
 > 
 > I thought of changing the return type from `ActionResult` to `string`, but that doesn't seem to work as expected.
 
+*I posted the following answer, which received 4 upvotes:*
+
 Check out the [FileResult](http://msdn.microsoft.com/en-us/library/system.web.mvc.fileresult.aspx) class. For example usage see [here](https://stackoverflow.com/questions/1375486/how-to-create-file-and-return-it-via-fileresult-in-asp-net-mvc).
 
 ---

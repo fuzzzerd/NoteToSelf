@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/48626979"
 
 > How to create a web application in ASP .net with VB which should accept HTTP request from users in JSON format (Sender should be able to send it in JSON format) and send response code as 200 OK once we received data. Whenever someone sends JSON data web service should send a response.
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 I'd recommend you [look into ASP.NET Web API.](https://learn.microsoft.com/en-us/aspnet/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api) This link is C#, but it is similar for Visual Basic.
 
 You need to create a controller with an action that accepts the JSON data you anticipate.

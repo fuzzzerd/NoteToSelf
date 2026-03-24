@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/4337414"
 > 
 > So, my question is whether this will be an issue with MEF (the obfuscation) and if so, does Unity also suffer from the same? Thank you in advance.
 
+*I posted the following answer, which received 2 upvotes:*
+
 Since (in an ideal world) bbfuscation does not change the binary compatibility of an assembly, I don't see any issues coming up.
 
 That said, I have not actually done any work with obfuscated assemblies and MEF, so I could be wrong.

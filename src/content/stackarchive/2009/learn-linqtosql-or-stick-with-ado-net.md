@@ -78,6 +78,8 @@ sourceUrl: "https://stackoverflow.com/a/1954557"
 > 
 > However, it does seem like SqlMetal might be able to handle my needs perfectly. I run a command, it regenerates everything from scratch from the database, I'm done. If I keep my database simple (just tables--no stored procedures, views, or functions), perhaps SqlMetal is all I'll need.
 
+*I posted the following answer, which received 3 upvotes:*
+
 > 1.How steep is the learning curve for LinqToSql if you're already familiar with other Linq technologies?
 
 For the project scope you defined, it should be minimal. Doing simple things is dirt simple, more advanced concepts require some knowledge of how it works under the hood, but again, nothing earth shattering.

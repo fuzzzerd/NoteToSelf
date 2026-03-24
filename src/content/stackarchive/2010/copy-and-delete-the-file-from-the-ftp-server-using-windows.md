@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/2524079"
 >     
 > 4.  Repeats step 2 and 3 for all files in the site
 
+*I posted the following answer, which received 1 upvote:*
+
 There are two classes which will be of great value to you for FTP. First, [FtpWebRequest](http://msdn.microsoft.com/en-us/library/system.net.ftpwebrequest.aspx) and second, [FtpWebResponse](http://msdn.microsoft.com/en-us/library/system.net.ftpwebresponse.aspx). As for writing a windows service: [this](http://www.codeproject.com/KB/dotnet/simplewindowsservice.aspx), and [this](https://stackoverflow.com/questions/1560407/c-windows-service-not-appearing-in-services-list-after-install/1560480#1560480) should be helpful as well.
 
 An example lifted from MSDN to delete a file:

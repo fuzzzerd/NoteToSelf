@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/5196969"
 > 
 > I can't see any reason why there should be any difference between the two from outside the class. Is there?
 
+*I posted the following answer, which was chosen as the accepted answer and received 12 upvotes:*
+
 The compiler generates the backing field for Auto-Properties automatically, so no, there shouldn't be any difference.
 
 ReSharper is scanning all the files, because if you have a `Partial` class defined, it could be using the backing field instead of the public property even though the code exists in physically different files.

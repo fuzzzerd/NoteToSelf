@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/3348211"
 > 
 > Can someone please point me to the right direction?
 
+*I posted the following answer:*
+
 You need an animation storyboard and then use code like this:
 
 ```

@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/45619243"
 > 
 > **Note**: the reference must be made from that path even after the application gets deployed.
 
+*I posted the following answer, which received 1 upvote:*
+
 I would try using [`Assembly.LoadFrom(string)`](https://msdn.microsoft.com/en-us/library/1009fa28%28v=vs.110%29.aspx). This overload takes the path to the assembly and allows you to utilize it via reflection.
 
 You can get the assembly like this:

@@ -46,6 +46,8 @@ sourceUrl: "https://stackoverflow.com/a/7502602"
 > 
 > thanks,
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 If you are already performing your task asynchronously, then the user should already be able to switch between tabs because the async operations will not be blocking the UI thread.
 
 If you are not really doing your task asynchronously the user will not be able to do much of anything because you are blocking the UI thread.

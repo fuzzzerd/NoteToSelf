@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/5300695"
 > 
 > I've tracked this to the fact that changing tabs, causes the Constructor for all child UserControls in the newly visible tab to run. Is there a way to avoid this?
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Turns out that because I binding the `Content` of the Tab it was unloading and reloading. Changing over to `StaticResources` and using `DataContext` fixed the issue in my case.
 
 ---

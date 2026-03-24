@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/3167003"
 > 
 > I'd also like to reverse the minified markup when its presented back to the user to edit in my theme options. In that view, I just want to reformat the minified css code so that each directive is back on its own line.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 It depends what you want achieve by doing this. I agree with @thomasfedb that you will likely messup the style of most peoples CSS by doing this transformation and will likely cause more trouble than its worth.
 
 It's my suggestion that you keep the data exactly as the user entered it, and then 'minify' it when you render it to the page.

@@ -42,6 +42,8 @@ sourceUrl: "https://stackoverflow.com/a/945611"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 I feel dumb; I had not added the stylesheet to my page's header, and my custom icon was rendering transparent as a result of the stylesheet not being available.
 
 ---

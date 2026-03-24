@@ -38,6 +38,8 @@ sourceUrl: "https://stackoverflow.com/a/3559028"
 > 
 > Can anyone help me? Thanks in advance!
 
+*I posted the following answer, which received 2 upvotes:*
+
 I'd try something like this:
 
 ```

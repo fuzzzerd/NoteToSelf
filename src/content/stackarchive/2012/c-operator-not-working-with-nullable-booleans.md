@@ -29,6 +29,8 @@ sourceUrl: "https://stackoverflow.com/a/9037271"
 > 
 > Not sure how to resolve this as yes, they need to be nullable booleans and I need to use the OR (||).
 
+*I posted the following answer, which received 1 upvote:*
+
 ```
 where ((tf.Shipped.HasValue && tf.Shipped.Value) 
    || (tf.Ordered.HasValue && tf.Ordered.Value) 

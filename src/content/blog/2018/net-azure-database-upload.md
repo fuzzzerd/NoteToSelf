@@ -34,6 +34,8 @@ sourceUrl: "https://stackoverflow.com/a/48672742"
 > 
 > What would my web.config transformation connection string then be?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 I would get the database up to Azure myself. I recommend you look into the [Data Migration Assistant.](https://learn.microsoft.com/en-us/sql/dma/dma-overview)
 
 Once on Azure, you can use the [Azure App service App Settings](https://learn.microsoft.com/en-us/azure/app-service/web-sites-configure) to specify [the connection string](https://azure.microsoft.com/en-us/blog/windows-azure-web-sites-how-application-strings-and-connection-strings-work/) your application should use instead of web.config transformations.

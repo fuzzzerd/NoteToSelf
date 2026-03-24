@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/4137487"
 > 
 > What makes the most sense from a supportability perspective?
 
+*I posted the following answer, which received 1 upvote:*
+
 This is subjective, but I'd go for EF4.
 
 ---

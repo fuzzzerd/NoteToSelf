@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/12465333"
 > 
 > But the issue is that when I tried to call it using VB6, I get an error that it cannot load the third party dll. Please help as I seem not to know what's going on.
 
+*I posted the following answer, which received 3 upvotes:*
+
 You need to specify the [ComVisibleAttribute](http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.comvisibleattribute%28v=vs.71%29.aspx) on the assembly in order to call it from VB6.
 
 ---

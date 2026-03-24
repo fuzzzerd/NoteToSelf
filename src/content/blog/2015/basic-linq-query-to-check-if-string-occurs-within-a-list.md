@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/28883029"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 6 upvotes:*
+
 I think what you need, based on the information you've provided, is the opposite of what you have.
 
 Something like this:

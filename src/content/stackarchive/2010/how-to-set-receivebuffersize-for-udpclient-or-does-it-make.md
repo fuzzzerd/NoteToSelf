@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/3017669"
 > 
 > I don't know whether I am all right at these points. Please give me some help.
 
+*I posted the following answer:*
+
 The UDP protocol does not guaratnee delivery, you should switch to TCP if you need to guaratnee packet delivery.
 
 UDP is better suited to apps where loosing a packet is better than waiting for a packet to find its way to you. i.e. streaming media or somehting similar.

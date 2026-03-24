@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/1953883"
 > 
 > The exception message is `Logon failure: unknown user name or bad password`. How do I get this code to work under the Network Service account? Is it a setting in Windows Server 2003, or do I need to add some code to this to make it work?
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 On the network share, you'll need to add permissions for the "Network Service" account on the server running the service. While this will work, @nicholas points out that this may provide an overly broad group of users access to the share.
 
 Another option, and in my opinion **_the better option_**, is to create a domain account and then give that account read/write permission on the share. Then you configure the service to "run as" the domain account with proper permissions.

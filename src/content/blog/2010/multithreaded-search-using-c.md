@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/3504678"
 > 
 > and run these 3 select statment in parallel.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 Yes, but the real question is why?
 
 Something like this might get you started:

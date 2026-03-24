@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/18992853"
 
 > I was just doing a bit of Visual Studio 2012 for Windows Phone 8, but when I started typing Click="" in the .xaml file, no thing showed up in a dropdown list. It used to show up but now it isn't!
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Have you tried restarting your computer? That often fixes these types of issues (sometimes just restart Visual Studio does the trick).
 
 That said, you can always generate your own event handlers. Intellisense is great; but not having it should not cripple you. The below should work, adjusting for your button name.

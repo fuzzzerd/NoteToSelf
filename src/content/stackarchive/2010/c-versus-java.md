@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/3168859"
 > 
 > \-Thanks all!
 
+*I posted the following answer, which received 1 upvote:*
+
 I'd checkout MonoDevelop on OS X and [Mono](http://www.mono-project.com/Main_Page) -- C# + .NET (read Mono) but on Linux and OS X... ;)
 
 I know that doesn't directly answer your question, but it answeres the implied question based on the extra background you gave.

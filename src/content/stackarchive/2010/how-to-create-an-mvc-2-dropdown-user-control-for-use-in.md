@@ -29,6 +29,8 @@ sourceUrl: "https://stackoverflow.com/a/3470188"
 > 
 > Mike
 
+*I posted the following answer:*
+
 I believe what you are looking for is a [Templated Helper](http://msdn.microsoft.com/en-us/library/ee308450.aspx).
 
 It lets you define a bit of markup that you can reuse all over your application, like so:

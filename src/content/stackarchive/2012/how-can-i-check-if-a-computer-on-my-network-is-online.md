@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/10818387"
 > 
 > My goal is to check if they are active, or open.
 
+*I posted the following answer, which received 6 upvotes:*
+
 The best you can probably hope for without installing some custom software on the target machine is to [use the Ping class.](http://msdn.microsoft.com/en-us/library/system.net.networkinformation.ping.aspx)
 
 A quick and dirty implementation might look like this:

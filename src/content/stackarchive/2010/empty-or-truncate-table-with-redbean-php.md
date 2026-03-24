@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/4348089"
 
 > I'm using RedBean PHP for testing purposes and I like it very much, however I have no idea how I can truncate a table. I can fetch all the beans and delete them, but that seems cumbersome.
 
+*I posted the following answer, which received 2 upvotes:*
+
 RedBean is just an ORM tool (AFAIK) so if your back-end database is SQL based, you can simply do an SQL statement like: `TRUNCATE TABLE yourTable;`
 
 To execute queries directly via RedBean

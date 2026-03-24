@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/21033848"
 > 
 > I'm trying to understand the whole += concept, but I'm not sure how to use the code I have to enter the serial data into a textbox... can someone please help me understand this.
 
+*I posted the following answer:*
+
 In your case listed above the `+=` operator is used to subscribe to an event.
 
 ```

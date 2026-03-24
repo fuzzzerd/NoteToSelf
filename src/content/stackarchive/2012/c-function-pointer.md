@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/13976078"
 > 
 > If it is something difficult, an example would be nice as well.
 
+*I posted the following answer, which received 5 upvotes:*
+
 I think what you want to do is use a [delegate](http://msdn.microsoft.com/en-us/library/900fyy8e%28v=vs.110%29.aspx).
 
 ---

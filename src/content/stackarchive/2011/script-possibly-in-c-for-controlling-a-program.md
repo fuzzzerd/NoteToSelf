@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/5197853"
 > 
 > Need a Script-> When launched it would run a screen capture program(camtasia probably)->Then it would automatically send the saved file to a server. My problem is I do not know where to start or what to look at ... hope this helps
 
+*I posted the following answer:*
+
 You would need to write a batch file or a powershell script; the main issue you're going to have is finding a video capture program which allows itself to be controlled from the command line.
 
 Assuming you find one, something like this would work:

@@ -52,6 +52,8 @@ sourceUrl: "https://stackoverflow.com/a/2497609"
 > 
 > Any ideas on how to mock (using Moq) the Session that is accessed in the base controller so the test in the descendant controller will run?
 
+*I posted the following answer, which received 1 upvote:*
+
 I'd checkout the ASP.NET-MVC book listed here -- toward the end, there is a good section on Mocking framewors -- [http://www.hanselman.com/blog/FreeASPNETMVCEBookNerdDinnercomWalkthrough.aspx](http://www.hanselman.com/blog/FreeASPNETMVCEBookNerdDinnercomWalkthrough.aspx)
 
 ---

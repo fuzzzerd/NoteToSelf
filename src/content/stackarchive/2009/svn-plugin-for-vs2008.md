@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/855109"
 > 
 > I couldn't find any addons for Visual Studio to do that and was wondering if anyone knows about anything good.
 
+*I posted the following answer, which received 2 upvotes:*
+
 I'm assuming VisualSVN is your "server" (even if running on the same machine).
 
 AnkhSVN is a good Visual Studio Integrated SVN Client.

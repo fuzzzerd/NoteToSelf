@@ -44,6 +44,8 @@ sourceUrl: "https://stackoverflow.com/a/3159707"
 > 
 > Any info on how to solve this would be extremely helpful, it seems to make no sense.
 
+*I posted the following answer, which received 5 upvotes:*
+
 In the Add Service Reference, you can choose which type to use for Collections. For some reason Array is default. After changing it, I've had to delete the entire reference and re-add it, choosing List from the beginning. I've had weird issues changing it after the fact.
 
 <details>

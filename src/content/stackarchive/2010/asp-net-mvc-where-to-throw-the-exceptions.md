@@ -53,6 +53,8 @@ sourceUrl: "https://stackoverflow.com/a/3694985"
 > 
 > ```
 
+*I posted the following answer:*
+
 I would throw `HttpException` in the controller, and return `null` from the repository.
 
 ---

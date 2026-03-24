@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/11163884"
 > 
 > ![enter image description here](https://i.sstatic.net/U5hRl.png)
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 If you update to the Windows Phone 7.1 SDK and Emulator, the new emulator has a built-in screenshot function to take screenshots without these issues.
 
 ![emulator screenshot taking utility](https://i.sstatic.net/Qhd9p.png)

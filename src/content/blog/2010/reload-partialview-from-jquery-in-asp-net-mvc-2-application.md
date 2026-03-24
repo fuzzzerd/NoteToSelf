@@ -48,6 +48,8 @@ sourceUrl: "https://stackoverflow.com/a/4378563"
 > 
 > It actually worked, I had just confused the two input fields I have on the page. But I'll rephrase the question to a simple one: Is this the best way to do this sort of thing with PartialViews, or should I go about it another way? (I.e. I was just trying to figure out a way to achieve what I wanted without knowing if it is the "best practice" way of doing it).
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 I have typically used the [load](http://api.jquery.com/load/) method, which sets the innerHtml.
 
 ```

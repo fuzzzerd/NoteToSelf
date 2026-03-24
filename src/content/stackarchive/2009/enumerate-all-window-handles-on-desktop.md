@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/1032977"
 
 > Is there a Win32 API way to get an enumeration of all the open windows? Seems like there must be just not sure where to start looking.
 
+*I posted the following answer, which received 3 upvotes:*
+
 You'll want to use the EnumDesktopWindows function in user32.dll.
 
 Here's some C# code to get you pointed to the correct API Calls. I'm not sure how this would look in C but you get the idea.

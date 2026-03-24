@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/3513486"
 
 > Is it possible to have a RSS feed by using a Javascript code?
 
+*I posted the following answer:*
+
 That depends what you mean. Probably not.
 
 ---

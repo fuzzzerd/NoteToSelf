@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/5196178"
 > 
 > **EDIT:** I'm looking for something that underlines with a red line a wrong word in the textbox and also proposes corrections in a contextmenu: ![enter image description here](https://i.sstatic.net/c18RI.png)
 
+*I posted the following answer, which received 1 upvote:*
+
 WPF has a built-in [SpellCheck](http://msdn.microsoft.com/en-us/library/system.windows.controls.spellcheck.isenabled.aspx); however, I don't believe its fully portable to Mono since its WPF and not WinForms.
 
 ---

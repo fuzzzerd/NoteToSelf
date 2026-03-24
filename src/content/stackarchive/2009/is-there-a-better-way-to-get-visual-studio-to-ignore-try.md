@@ -40,6 +40,8 @@ sourceUrl: "https://stackoverflow.com/a/893291"
 > 
 > I do not want to have to write all the #statements and having them cluttering up my code. It seems like this should be a common need and there has to be a better way. Does anyone know a better way?
 
+*I posted the following answer:*
+
 In the catch section of your Try..Catch you should write the exception message, stacktrace, and anything else you may want to a log file -- additionally you could write that data to the Windows Event log as well.
 
 At worst, you could just put break-points in the Catch section of your Try..Catch blocks, since you shouldn't normally hit them it should'nt be a big deal once setup.

@@ -37,6 +37,8 @@ sourceUrl: "https://stackoverflow.com/a/75678761"
 > 
 > I've tried a lot of stuff like only using Bitmap Controls and static image source, which is not what I want to use, but even that didn't work. Is there any setting I need to change to make it work? If I load the source directly into the XAML code it does work, but then I can't change it depending on the cards I get dealt. Any help would be massively appreciated!
 
+*I posted the following answer:*
+
 You should simply initialize the `BitmapImage` directly:
 
 ```

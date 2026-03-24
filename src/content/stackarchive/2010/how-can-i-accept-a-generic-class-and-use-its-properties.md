@@ -168,6 +168,8 @@ sourceUrl: "https://stackoverflow.com/a/3009932"
 > 
 > Finally I might have a form that sits on top of the legend that displays the properties of the various color schemes based on which type of color scheme it is. Hopefully that helps clarify a bit.
 
+*I posted the following answer:*
+
 If you need to access different properties based on **which** derived class is passed something like this should help:
 
 ```

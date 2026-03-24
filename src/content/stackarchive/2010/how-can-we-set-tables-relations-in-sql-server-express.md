@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/3710806"
 
 > I have SQL Server Express 2008. How can I set a table's relations in it?
 
+*I posted the following answer, which received 1 upvote:*
+
 You need to install SQL Server Management Studio or run the SQL to create the FKs yourself.
 
 <details>

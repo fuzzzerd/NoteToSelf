@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/5159633"
 > 
 > Ideas?
 
+*I posted the following answer, which was chosen as the accepted answer and received 13 upvotes:*
+
 You need to use the the `PrincipalContext` constructor that takes username and password.
 
 The reason that Validate works is because its using the provided credentials to bind to the directory.

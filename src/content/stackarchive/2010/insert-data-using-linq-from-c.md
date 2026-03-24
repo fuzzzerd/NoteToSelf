@@ -45,6 +45,8 @@ sourceUrl: "https://stackoverflow.com/a/4540450"
 > 
 > ```
 
+*I posted the following answer:*
+
 Assuming this is the code you're wondering about:
 
 ```

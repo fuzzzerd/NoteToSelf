@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/1765183"
 > 
 > It appears that the best solution might involve something like C or C# or C++. Unfortunately, I have very little experience of these languages. Would anyone be able to tell me whether it is possible to achieve this in C? Thanks.
 
+*I posted the following answer:*
+
 You will need a client-side plugin to make this work in a browser, Silverlight, Flex, or Flash will most likely be your best/only option.
 
 On a website, with limited access to hardware, what you want to do will be hard, if not impossible. Your best bet is to have many audio files (for each note/pitch you want) and have the slide control play a different file.

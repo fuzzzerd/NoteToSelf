@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/23765026"
 > 
 > Regards and thanks.
 
+*I posted the following answer, which received 1 upvote:*
+
 No. Not really. You are returning the entire record, and there is no need for that. You can modify your query to be the following:
 
 ```

@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/5759349"
 
 > I have a server that I need to deploy a website too (website already exists on the server, but I have an update to publish), but the website doesn't live under the "Default Web Site" on the server. Instead it lives under a named "Sharepoint - 80" site. Looks like I can't think publish the site via `\\servername\wwwroot$` as it doesn't live there. How do I go about publishing to this other site?
 
+*I posted the following answer:*
+
 You can check the properties of "Sharepoint - 80" in IIS manager to determine where the physical files are located, then you can publish your update there.
 
 <details>

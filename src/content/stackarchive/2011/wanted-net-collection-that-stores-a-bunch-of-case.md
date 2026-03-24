@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/4695351"
 > 
 > Does anyone know what kind .Net collection I should use?
 
+*I posted the following answer:*
+
 Write your own `Contains()` and `Remove()` methods, which perform the case insensitve comparison.
 
 <details>

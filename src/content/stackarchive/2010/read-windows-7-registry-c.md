@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/4090328"
 > 
 > %userprofile%
 
+*I posted the following answer, which received 5 upvotes:*
+
 In C#, you can use this:
 
 `Environment.GetFolderPath (Environment.SpecialFolder.UserProfile)`

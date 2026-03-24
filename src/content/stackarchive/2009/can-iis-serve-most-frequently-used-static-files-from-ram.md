@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/715152"
 > 
 > Thanks.
 
+*I posted the following answer:*
+
 You may be able to setup a ram drive, and then move your files there and setup IIS virtual directory there.
 
 ---

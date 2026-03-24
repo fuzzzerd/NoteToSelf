@@ -31,6 +31,8 @@ sourceUrl: "https://stackoverflow.com/a/7196273"
 > 
 > What is the proper way to perform this function? I just want to to return an item with the proper ID.
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 I would recommend using `SingleOrDefault` instead of `FirstOrDefault`.
 
 > **Enumerable.FirstOrDefault()**

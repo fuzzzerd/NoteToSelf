@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/5875677"
 > 
 > Is there any specific guidance on building clean three-tier applicaiton using Entity Framework.
 
+*I posted the following answer, which was chosen as the accepted answer and received 19 upvotes:*
+
 Sounds like your BLL is exposing the `entity` classes you added in the DAL. You'll need to create wrapper classes (That are POCO) in the BLL and return those instead of the entities from the DAL.
 
 This is probably what you **are** doing:

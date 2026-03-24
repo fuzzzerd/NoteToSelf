@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/927871"
 > 
 > Still, for curiosity, I'd like to know if such task can be accomplished by purely managed code using the dot net framework (version 2.0 and above), without p/invoke and without visiting the C++ side (which, in turn, can use windows API pretty easily).
 
+*I posted the following answer:*
+
 I'm not sure you can use completely managed code to do this.
 
 This uses Windows API but is still very simple: [Launch System Screensaver from C# Windows Form](https://stackoverflow.com/questions/267728/launch-system-screensaver-from-c-windows-form)

@@ -29,6 +29,8 @@ sourceUrl: "https://stackoverflow.com/a/16592514"
 > 
 > **Update:** Just found code to find the default browser [here](https://stackoverflow.com/questions/13621467/how-to-find-default-web-browser-using-c).
 
+*I posted the following answer, which received 1 upvote:*
+
 I just tested IE, by typing this in to the Start -> Run prompt:
 
 > "c:\\Program Files\\Internet Explorer\\iexplore.exe" "stack overflow"

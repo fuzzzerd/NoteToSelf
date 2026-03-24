@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/4329417"
 
 > I have to build a web application on asp.net MVC that have a data service reference WCF as DB. I have no idea on how data persistence work on asp.net. There are resource on this arguments?
 
+*I posted the following answer:*
+
 WCF on the .NET Stack is very simple, after you add a Service Reference, you simply write code like this:
 
 ```

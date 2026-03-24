@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/51973493"
 > 
 > Mark
 
+*I posted the following answer:*
+
 The most straight forward way would be to create the web config for each directory explicitly. They should 'roll up' from `MachineConfig` all the way to your lowest level directory.
 
 Another post here on SO demonstrates how you might do this programmatically: [https://stackoverflow.com/a/2260335/86860](https://stackoverflow.com/a/2260335/86860)

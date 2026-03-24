@@ -29,6 +29,8 @@ sourceUrl: "https://stackoverflow.com/a/4959785"
 > 
 > Does this work by default within the entity framework, because I assume that the Cars property is lazy when using it on the server side.
 
+*I posted the following answer:*
+
 I've used LINQ-To-SQL to achieve a similar result, and for me it "just worked." I'd try it out and see what happens. You may need to explicitly define the `[DataContract]` on the items.
 
 ---

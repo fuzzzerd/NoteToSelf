@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/885283"
 > 
 > What are the pros and cons of WPF compared to Windows Forms?
 
+*I posted the following answer, which received 3 upvotes:*
+
 WPF will require .NET 3.0 (or later) and will lend itself toward better seperation of your presentation / business logic / data access layers. If you have a UI Designer or you are proficent in Expression Blend WPF is probably the way to go.
 
 If there is not a UI Designer and seperation of concerns is not an issue, WinForms will not introduce any additional learning curve to your project.

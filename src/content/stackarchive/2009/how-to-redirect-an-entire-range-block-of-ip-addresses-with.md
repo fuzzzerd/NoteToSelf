@@ -33,6 +33,8 @@ sourceUrl: "https://stackoverflow.com/a/1466967"
 > 
 > I need to use PHP rather than mod\_rewrite and .htaccess for other reasons.
 
+*I posted the following answer:*
+
 I believe that you'll need to create a for loop to add each IP address (within the range) to your array.
 
 pseudo code

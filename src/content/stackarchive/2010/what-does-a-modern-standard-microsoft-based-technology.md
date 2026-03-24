@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/2850756"
 > 
 > I'm guessing this stack includes some combination of .NET, SQL Server, ASP.NET, IIS, etc. but I am not familiar with this world. Looking for ideas on the equivalent in Microsoft-land.
 
+*I posted the following answer, which received 1 upvote:*
+
 I'd say something like
 
 *   Windows Server 2008 R2

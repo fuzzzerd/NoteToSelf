@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/945740"
 > 
 > Or better yet, can someone point me to an article on how to line number an rtf box
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Counting Lines - [http://ryanfarley.com/blog/archive/2004/04/07/511.aspx](http://ryanfarley.com/blog/archive/2004/04/07/511.aspx)
 
 RTB With Line Numbers - [http://www.xtremedotnettalk.com/showthread.php?s=&threadid=49661&highlight=RichTextBox](http://www.xtremedotnettalk.com/showthread.php?s=&threadid=49661&highlight=RichTextBox)

@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/3197559"
 > 2.  How fast or slow is System.Int32 in comparison to int type?
 > 3.  Calling System.Runtime.InteropServices.Marshal.SizeOf on a variable of type System.Int32 results in 4; how does this work? Would the size of this class be exactly same as that of int internally?
 
+*I posted the following answer, which received 4 upvotes:*
+
 Effectivly there is no difference.
 
 `int == Int32`.

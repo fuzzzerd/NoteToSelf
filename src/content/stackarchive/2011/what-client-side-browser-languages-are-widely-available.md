@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/4949154"
 > 
 > All this said, is there anything available or about to be available that will do things better?
 
+*I posted the following answer, which received 1 upvote:*
+
 JavaScript is the main language for client-side browser development that interacts with the elements on the page, does ajax requests (update screen without a full page refresh), etc. Depending on your specific requirements, I would recommend JavaScript, as its most likely the tool that will accomplish your needs.
 
 Java is NOT a client-side browser language, Java is a programming language, you can write apps in Java and embed them in a website, that is called a Java Applet. This will require that all users have a JRE installed on their machine for your applet to work.

@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/988811"
 > 
 > Different propertyname strings will be passed into the function
 
+*I posted the following answer, which received 2 upvotes:*
+
 I have only ever been able to do this through reflection.
 
 ```

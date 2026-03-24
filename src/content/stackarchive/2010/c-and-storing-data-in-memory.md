@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/2164998"
 
 > I'm using Visual C#.NET, and am making an app that uses winforms. I essentially need to open multiple files as strings, and manipulate the data in various places without saving the information back to the file. How do I go about storing this data so that I may use it in various parts of my code?
 
+*I posted the following answer:*
+
 I'd probably use a static class, unless there are other requirements you didn't mention.
 
 ```

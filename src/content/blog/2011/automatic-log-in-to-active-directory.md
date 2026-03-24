@@ -61,6 +61,8 @@ sourceUrl: "https://stackoverflow.com/a/4866202"
 > 
 > Does anyone have an idea as to what I should be doing?
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 If you are trying to modify `UserPrincipals`, you have a couple options:
 
 1.  User is already authenticated to windows as a user with permission to edit active directory:

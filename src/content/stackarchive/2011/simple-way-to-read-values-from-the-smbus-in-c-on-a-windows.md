@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/7073498"
 > 
 > What is a simple way to access the SMBus in C#? If you can help me out to the point where I can pull SOME value, ANY value, out of a slave device on the SMBus, that will get me started.
 
+*I posted the following answer:*
+
 Have you looked at the [Windows Driver Kit](http://msdn.microsoft.com/en-us/windows/hardware/gg487428.aspx)? Searching around the web, it seems like its the place to start when communicating on SMBus from within windows.
 
 <details>

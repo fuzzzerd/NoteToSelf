@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/859799"
 > 
 > Basically the use case is an XBAP application running on a mobile laptop connected to an intranet via WiFi. The laptop will not have a connection to the Internet. The WiFi connection may or may not be there depending upon where the user is at the time.
 
+*I posted the following answer, which was chosen as the accepted answer and received 4 upvotes:*
+
 GateWayIPAddressInformation should work: [http://msdn.microsoft.com/en-us/library/system.net.networkinformation.gatewayipaddressinformation(loband).aspx](http://msdn.microsoft.com/en-us/library/system.net.networkinformation.gatewayipaddressinformation\(loband\).aspx)
 
 If you get the gateway IP address, and you can Ping ([http://msdn.microsoft.com/en-us/library/system.net.networkinformation.ping(loband).aspx](http://msdn.microsoft.com/en-us/library/system.net.networkinformation.ping\(loband\).aspx)) it you are probably connected.

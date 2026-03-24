@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/4575499"
 > 
 > Also, more generally speaking, I could (sort of) define a custom protocol for my API, to keep things simpler (i.e. accepting only GET request containing the parameters I need): would this be so bad? Is using a standard protocol a must-do?
 
+*I posted the following answer:*
+
 To answer your question, I think SOAP or RESTful API would be the best to implement as consumers of your API would likely have more experience with them.
 
 Additionally, your last bit, where you talk about accepting get requests with specific parameters, that is a very large part of designing a RESTful API. If you think that would be easy to implement, I strongly encourage you to do some research on building a RESTful API in your language of choice, because I think you will find it very close to the alternate solution that you proposed.

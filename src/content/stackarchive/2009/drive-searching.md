@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/1560939"
 
 > I am developing an application and I would like to be able to search the whole drive for a regular expression. I would prefer to do this in c# but I can call other languages. Is there any easy way to just seek through all the binary data on a drive from begining to end?
 
+*I posted the following answer:*
+
 I don't think C# can read all files / data for the drive the OS is on, since the OS locks some files.
 
 You could use the System.IO namespace to enumerate all files, and then scan them individually byte by byte, this obviously would take a long time.

@@ -66,6 +66,8 @@ sourceUrl: "https://stackoverflow.com/a/1862388"
 > 
 > ```
 
+*I posted the following answer, which received 3 upvotes:*
+
 I would use the code you have
 
 ```

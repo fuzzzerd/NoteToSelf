@@ -42,6 +42,8 @@ sourceUrl: "https://stackoverflow.com/a/10387391"
 > 
 > How can I loop the list and insert the data into the database?
 
+*I posted the following answer:*
+
 First, you will need to use [the ADO.NET Driver for MySQL (Connector/NET)](http://www.mysql.com/products/connector/) to connect to the database.
 
 Second, you will want to open a connection to the database, and then insert some data:

@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/1494261"
 > 
 > ```
 
+*I posted the following answer, which received 1 upvote:*
+
 I believe if you turn on ASP 3.0 Classic Compatibility Mode you can do this; that said, I'd really recommend looking into another approach.
 
 ---

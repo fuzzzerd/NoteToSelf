@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/10231021"
 
 > i need that in my form the width is twice the height (1:2) **also when i resize** How i can do that? Thanks for help and sorry for my english :)
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Checkout the [Control.Resize event](http://msdn.microsoft.com/en-us/library/system.windows.forms.control.resize.aspx) -- also
 
 ```

@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/2830455"
 > 
 > Which should I be planning first, the db structure or the classes?
 
+*I posted the following answer, which received 1 upvote:*
+
 I typically plan as best I can, then I start creating the database per the planning/design specs I wrote for myself.
 
 Then, I use something like Linq-To-SQL to generate some basic DAL classes -- wrap those in a repository class that manages most of my CRUD situations.

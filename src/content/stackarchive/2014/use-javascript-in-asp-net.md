@@ -63,6 +63,8 @@ sourceUrl: "https://stackoverflow.com/a/23724393"
 > 
 > How can I do it? Thank you.
 
+*I posted the following answer, which received 3 upvotes:*
+
 You need the OnClientClick to return true or false (which if true will submit the button and if false will not). Something like this should work:
 
 ```

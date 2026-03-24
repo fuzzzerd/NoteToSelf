@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/17326478"
 > 
 > I was wondering if the is a win api call that can make things easier.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 What about [a WMI Query to the Win32\_DesktopMonitor class](http://msdn.microsoft.com/en-us/library/windows/desktop/aa394122%28v=vs.85%29.aspx)?
 
 > PixelsPerXLogicalInch

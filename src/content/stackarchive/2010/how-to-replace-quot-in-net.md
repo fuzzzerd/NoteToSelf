@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/3729356"
 
 > Simple! How to replace " in .NET with something...?
 
+*I posted the following answer, which received 3 upvotes:*
+
 Something like this:
 
 ```

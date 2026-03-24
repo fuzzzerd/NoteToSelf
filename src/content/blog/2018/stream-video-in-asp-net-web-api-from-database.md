@@ -116,6 +116,8 @@ sourceUrl: "https://stackoverflow.com/a/48628798"
 > 
 > i tried to read from this method and write on response output stream, but i couldn't. it seems i can't handle _From_ and _To_ receiving from google chrome. Any thoughts?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Based on the information you've provided, and assuming the method in your Engine class does what one would assume it does by name and signature, you should try replacing the file system stuff with your Engine.DownloadStreamFile method:
 
 ```

@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/3238337"
 > 
 > But that is tedious and error prone. There has to be a way to do this on the whole table?
 
+*I posted the following answer:*
+
 I think you'll need to pull each row into a language like C#, php, etc.
 
 Something like:

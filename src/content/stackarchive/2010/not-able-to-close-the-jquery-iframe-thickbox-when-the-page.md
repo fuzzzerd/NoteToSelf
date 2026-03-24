@@ -29,6 +29,8 @@ sourceUrl: "https://stackoverflow.com/a/2646432"
 > 
 > Any solution. I want to be able to close the thikbox irrespective to whether its is https or http page that it is displaying in an iframe.
 
+*I posted the following answer:*
+
 As Daniel said, you should use a relative url. The reason it fails is because you you must only read javascript content at the same "trust" (ssl) level that you are currently on.
 
 You wouldn't want your bank's HTTPS site doing an ajax query to a non-https web service would you?

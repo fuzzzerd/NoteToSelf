@@ -42,6 +42,8 @@ sourceUrl: "https://stackoverflow.com/a/6205659"
 > 
 > Many thanks for any pointers.
 
+*I posted the following answer:*
+
 Add a counter, then add 1 every time through the loop. Use the mod operator to add class every other time.
 
 ```

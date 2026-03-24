@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/11587353"
 > 
 > I'm really not sure what this means - googling the error did not prove helpful. Can anybody shed some light on what I am doing wrong?
 
+*I posted the following answer, which received 1 upvote:*
+
 Your Foreign Key must be defined as `UNIQUE` in order to enforce a One-To-Zero-Or-One relationship.
 
 Maybe try something like this:

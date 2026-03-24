@@ -33,6 +33,8 @@ sourceUrl: "https://stackoverflow.com/a/9570755"
 > 
 > ```
 
+*I posted the following answer, which received 1 upvote:*
+
 Sounds like you are in over your head (based on the vague nature of your question). So I'm offering my advise to get up to speed, so you can get started and ask a question that we can help give a definitive answer to.
 
 With WP7 and .NET you shouldn't really have to do much manual parsing of [Web Services](http://zetitle.wordpress.com/2010/03/30/wp7-connecting-to-web-services-that-uses-authentication/). You should be able to [add a Service Reference](http://social.msdn.microsoft.com/forums/en-us/windowsphone7series/thread/E3F8BA1D-F044-4230-BD1B-7E61F93E90EA) and generate a proxy which will handle this for you. This will also generate business objects for the data returned by your service.

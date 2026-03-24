@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/15975773"
 > 
 > I know that in terms of outbound traffic and storage in my DB depends entirely on the number of users, but what kind of service I choose Windows Azure application to ASP.NET and server chat? Websites?? Cloud services?? In how web roles and worker roles results? What if I want scalability of any of the two services? thanks
 
+*I posted the following answer:*
+
 You can deploy an asp.net mvc application _directly_ to Azure Websites; in order to use a web role you need to have additional project setup. Also, websites allows you do deploy directly from source control. Since they are free to try, start with a website and see where it takes you. If it works, keep using it, if it limits you, try switching to a web role.
 
 ---

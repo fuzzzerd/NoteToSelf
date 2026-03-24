@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/5197499"
 > 
 > Thanks in advance, and the answer may be out there, but I have been looking for a long time, and can't figure out why ASP.NET uses public and even the desktop C# apps use private.
 
+*I posted the following answer:*
+
 Public Properties are the way the .NET community has elected to deal with this.
 
 Note the difference here:

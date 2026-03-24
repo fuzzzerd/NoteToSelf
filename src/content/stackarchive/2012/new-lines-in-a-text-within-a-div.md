@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/12464299"
 > 
 > Thanks.
 
+*I posted the following answer, which received 1 upvote:*
+
 This will generate incorrect html. You will have a bunch of `</p>` with no `<p>` if you want to replace `\n` with a new line, try `<br />` instead of `</p>.` As suggested above my @MarcB you may also want to try replacing `\r\n`.
 
 ---

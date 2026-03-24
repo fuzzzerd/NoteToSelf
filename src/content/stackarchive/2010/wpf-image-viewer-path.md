@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/3677812"
 
 > I would like to make an image viewer where the client can load thumbnails to a file, then when the Photo Gallery button is selected the thumbnails appear in a grid and when the thumbnail is selected a larger photo will show in a viwbox. How do I get the path for the button click event to the photos? Can this be done in a markup ext?
 
+*I posted the following answer:*
+
 I assume you already have thumbnails created on the file system, something like this:
 
 ```

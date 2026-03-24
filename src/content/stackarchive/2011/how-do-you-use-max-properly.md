@@ -38,6 +38,8 @@ sourceUrl: "https://stackoverflow.com/a/7653190"
 > 
 > the problem is the `ORDER BY score ASC` part seems to just pull a random 5 out that have the correct score, I want it to pull the concurrent positions in the high score table
 
+*I posted the following answer:*
+
 Try
 
 ```

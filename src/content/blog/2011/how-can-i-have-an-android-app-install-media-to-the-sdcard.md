@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/5228714"
 > 
 > I know about installing the entire app to the SDcard, but that only works for 2.2+, eh? Enough phones are still running 2.1 that I want to support those.
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 I've seen several android apps offer something similar, via separate Marketplace downloads, space physics is a good example. Not really elegant, but it works well.
 
 ---

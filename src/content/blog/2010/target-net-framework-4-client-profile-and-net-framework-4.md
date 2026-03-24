@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/4548285"
 > 
 > **So, should I mix targeting the _Client Profile_ and the _full_ framework in the same solution? Or just target the _full_ framework for every project type in a Solution containing a Web Application project? Or does it not matter either way?**
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 If you plan to reuse the Class Library in a WPF or WinForms app, then Client Profile is a good choice, since you are likely going to be able to set your WPF or WinForms app to use Client Profile as well. Even if your WPF or WinForms app ends up requiring the full framework, Client Profile is a subset of the full framework so it will still work just fine.
 
 If your reuse plans on the Class Library are WebApp only or your only using a Class Library to help segment code, then the target framework is really not important.

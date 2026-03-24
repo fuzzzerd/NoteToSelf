@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/1245415"
 > 
 > And does anyone know what "Apple's best practices and other guidelines on how Applications should access and use the cellular network" are exactly.
 
+*I posted the following answer:*
+
 If you are on the Edge network you can saturate the pipe, since it is so slow anyway. If you are on 3G I'd say 20-50KB/s is reasonable.
 
 My two cents...

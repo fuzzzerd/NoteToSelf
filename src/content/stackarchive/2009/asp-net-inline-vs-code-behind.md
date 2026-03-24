@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/1201450"
 > 
 > Is there a right and a wrong way here?
 
+*I posted the following answer:*
+
 I tend to use the code-behind since it is the only way for WPF and I try to stay consistant and it feels more natural. But thats subjective.
 
 ---

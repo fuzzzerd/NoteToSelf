@@ -28,6 +28,8 @@ sourceUrl: "https://stackoverflow.com/a/2882813"
 > 
 > Thanx a bunch :)
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Writing a "managed" program will have equal performance in C++ or C# or VB, since they all compile to IL anyway.
 
 I don't know, but if you write an unmanaged C++ class library and invoke it from managed C# app you may loose some performance during the p/invoke but your speed increase (from going unmanaged) may be enough to justify it. There's an equal chance the p/invoke might cancel it out any potential performance gain from going unmanaged.

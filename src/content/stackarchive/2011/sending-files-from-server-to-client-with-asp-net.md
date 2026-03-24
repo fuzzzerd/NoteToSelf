@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/6101485"
 > 
 > Any idea?
 
+*I posted the following answer, which received 1 upvote:*
+
 If you want users of your webapp to download files, I'd look into an "ashx generic handler." It will allow you to send files back down to clients over HTTP(s).
 
 If you are looking to have remote users, tell your webserver to copy files to other servers ON THE SAME LAN AS THE SERVER, you would write using normal System.IO operations.

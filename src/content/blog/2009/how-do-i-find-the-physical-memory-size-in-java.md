@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/950805"
 > 
 > In this case, it's safe to assume that the product will be the only/main application running on the box, so I don't have to worry about squeezing anyone else out. I don't want to over-allocate as this, in our experience, can hurt performance.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 For windows, you'll need to access WMI - this will get you going: [Accessing Windows Management Instrumentation (WMI) from Java](http://j-integra.intrinsyc.com/support/com/doc/other_examples/WMI_Scripting_from_Java.htm).
 
 You'll want to use this section of WMI: Win32\_LogicalMemoryConfiguration.

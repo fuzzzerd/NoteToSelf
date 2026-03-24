@@ -42,6 +42,8 @@ sourceUrl: "https://stackoverflow.com/a/2828879"
 > 
 > how do you impersona
 
+*I posted the following answer:*
+
 I don't think so, because you need to bind to the domain with valid credentials in order to read from active directory.
 
 Think of the username/password as part of a connection string to a database. I'd request a complex username and password from your domain administrator and request that they give it limited login permissions and set the password to never expire. Then store and use those in your Web.config file.

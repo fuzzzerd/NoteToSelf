@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/853940"
 > 
 > Thanks, Vaccano
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 You should be able to edit the host header values for the IIS website to accept \*.Mycompany.com. To get the DNS to resolve and work correctly, you may need to add an entry to your windows hosts file -- mycomputer.mycompany.com 127.0.0.1. that will let you test locally.
 
 Another option would be to use a self-signed cert for local development.

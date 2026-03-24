@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/1050838"
 
 > Is it possible to copy a file or a folder from one location to another without modifying its attribute data? For example if I have a folder on a network drive and it was created on 2/3/2007 and I want to copy it to my c: drive .. but leave the date/time stamp as 2/3/2007...is that possible?
 
+*I posted the following answer, which received 6 upvotes:*
+
 I'm not sure if it is possible; however you can use the methods within [System.IO.File](http://msdn.microsoft.com/en-us/library/system.io.file_methods\(loband\).aspx) and [System.IO.Directory](http://msdn.microsoft.com/en-us/library/system.io.directory_methods\(loband\).aspx) to reset these attributes back to what they were originally.
 
 Specifically the SetCreationTime and SetModificationTime methods will be of most value to you in this case.

@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/832803"
 
 > I want to develop a photo browser application in Windows platfrom, the UI should be very cool and has 3D effects,Adobe AIR is a good engine as GUI, but I don't know how to integrate my C and C++ engines which I worte before into Adobe AIR, it seems the engine can't hold ActiveX? What can I do? Thanks.
 
+*I posted the following answer, which was chosen as the accepted answer and received 4 upvotes:*
+
 If you are windows only, something like WPF is probably a better option, since you will be able to leverge any old C/C++ libraries you have throuhg PInvoke.
 
 Air is best suited to using data with web services.

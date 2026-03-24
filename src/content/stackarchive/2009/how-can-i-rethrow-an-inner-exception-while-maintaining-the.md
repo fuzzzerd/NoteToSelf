@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/1009782"
 > 
 > **CLARIFICATION:** The reason I want only the inner exception is that this class tries to 'abstract away' the whole fact that these functions (delegates supplied by caller) are run on other threads and whatnot. If there is an exception, then odds are it has nothing to do with being run on a background thread, and the caller would really like the stack trace that goes into their delegate and finds the real issue, not my call to invoke.
 
+*I posted the following answer:*
+
 Using the "throw" keyword with an exception will always reset the stack trace.
 
 The best thing to do is to catch the actual exception you want, and use "throw;" instead of "throw ex;". Or to throw your own exception, with the InnerException that you want to pass along.

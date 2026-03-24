@@ -49,6 +49,8 @@ sourceUrl: "https://stackoverflow.com/a/14076053"
 > 
 > HttpSessionStateBase Controller Session
 
+*I posted the following answer, which was chosen as the accepted answer and received 4 upvotes:*
+
 There are a few types of Session State. InProc, StateServer, and SqlServer. I believe the default is InProc. You can read more about this on MSDN [here](http://msdn.microsoft.com/en-us/library/vstudio/h6bb9cz9%28v=vs.100%29.aspx) and [here](http://technet.microsoft.com/en-us/library/cc776818%28v=WS.10%29.aspx).
 
 Each of these will obey the timeout value for sessionState defined in your web.config file. For a single server setup (which is what I typically do) I usually have my sessionState setup as follows:

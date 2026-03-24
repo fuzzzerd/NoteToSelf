@@ -64,6 +64,8 @@ sourceUrl: "https://stackoverflow.com/a/52878043"
 > 
 > When my object `EventViewModel` has no attributes with a "null" value it works with no problems, but when I have "null" attributes it doesn't work (the `EventViewModel` became "null") and I want to have sometimes "null" attributes.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 Your C# model has a non-nullable `int` for the Id column. If you want it to be nullable (as you set it to null in your javascript model) you should define it as `int?` or `Nullable<int>`.
 
 See also: [Nullable Types.](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/nullable-types/index)

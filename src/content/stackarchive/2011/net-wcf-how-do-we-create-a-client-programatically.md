@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/5081989"
 
 > How do I create a client programatically?
 
+*I posted the following answer, which received 1 upvote:*
+
 You'll need to start the `svcutil.exe` process -- it could be done from a program, but it will generate source code, not binary code.
 
 ---

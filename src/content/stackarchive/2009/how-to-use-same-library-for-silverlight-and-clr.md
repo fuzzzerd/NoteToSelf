@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/832849"
 > 
 > Is it possible to compile the same code for 2 different runtimes and reference different flavours from different consumers? How
 
+*I posted the following answer:*
+
 Add two class library projects (SLLib, CLRLib) to your solution. Then add all your .cs files to both solutions.
 
 ---

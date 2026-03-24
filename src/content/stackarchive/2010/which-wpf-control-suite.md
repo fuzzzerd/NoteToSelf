@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/2998786"
 > 
 > EDIT - I know that this is vague and understand that the answer might be different depending on the exact requirements. I guess what I'm getting at is that there are numerous WPF control libraries out there (e.g. Infragistics, Telerik, Syncfusion to name but a few) and instead of forking out for a different one per project because that is the best fit right now, based on experience with costs, upgrades, support, etc. who would you choose as a "preferred" supplier?
 
+*I posted the following answer, which received 1 upvote:*
+
 Going on the assumption that you are looking for the best control suite, to suite most general purpose uses, I'd recommend [telerik](http://www.telerik.com/). They have a pretty wide range of controls, in basically every UI platform on the Microsoft stack. WPF, WebForms, WinForms, Silverlight, and ASP.NET MVC.
 
 ---

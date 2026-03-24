@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/4550219"
 > 
 > In general, how do people decide between storing files (e.g., images, PDFs) in the file system or in the database?
 
+*I posted the following answer, which was chosen as the accepted answer and received 15 upvotes:*
+
 Personal opinion: I ALWAYS store images on the file system, and only store a filepath in the database. In many situations, databases are stored on fast (read: expensive storage, 15k RPM or SSD drives) storage. Images or other files, typically can be stored on slower (read: cheaper, larger drives, 7.2k RPM drives) storage.
 
 I find this to be the best, since it allows for the database to remain small in size. In general, databases store "data" well. They can search and retrieve small bits of data fast. File Systems store "files" well, they are optimized to find and retrieve larger bits of data fast.

@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/2821979"
 > 
 > \-Doug
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 I believe that the full-trust option is only available as an OOB application -- ref: [http://timheuer.com/blog/archive/2009/11/18/whats-new-in-silverlight-4-complete-guide-new-features.aspx#elevated](http://timheuer.com/blog/archive/2009/11/18/whats-new-in-silverlight-4-complete-guide-new-features.aspx#elevated)
 
 ---

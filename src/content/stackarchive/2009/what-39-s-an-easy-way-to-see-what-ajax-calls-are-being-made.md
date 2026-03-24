@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/911218"
 > 
 > _(In case you're curious, the main reason for wanting this is that I want to scrape a local copy of a site that is using JS to load all its contents, and I don't want to spend hours digging through their JS code when I could just see the subrequests being made.)_
 
+*I posted the following answer, which received 10 upvotes:*
+
 [Fiddler 2](http://www.fiddler2.com/fiddler2/) is a great tool for watching HTTP traffic.
 
 **\* 2014 Update \***

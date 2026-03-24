@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/6904109"
 > 
 > Is it correct?
 
+*I posted the following answer:*
+
 Generally, they are one and the same; however, this might be a good way to think about it.
 
 Each "layer" is a logical grouping of code. Each "tier" is where the code lives. If you need to scale out, it makes sense to have each "layer" on its own "tier" (thus making them one and the same), but there is no reason they could not all be on the same machine, or even the same process.

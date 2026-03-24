@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/6078041"
 > 
 > Hope somebody finds me the right link to a tutorial or a method of how to use this in a proper way.
 
+*I posted the following answer:*
+
 In my experience, each "filter" on the side maps to a field in the database. This makes it simple to do a filter:
 
 ```

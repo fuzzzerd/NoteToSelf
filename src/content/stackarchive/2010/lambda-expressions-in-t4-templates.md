@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/3038473"
 > 
 > Thanks!
 
+*I posted the following answer:*
+
 As a work around, you might put that code into an external class library, which you can then call from within the T4 template. I've had to do that a number of times. Its not ideal, but it works.
 
 ---

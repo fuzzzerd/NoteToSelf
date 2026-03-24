@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/1765008"
 > 
 > ```
 
+*I posted the following answer:*
+
 You'll want to use code like you have, or Jobi posted, in the Key\_Down (or Up) event of the text control.
 
 ---

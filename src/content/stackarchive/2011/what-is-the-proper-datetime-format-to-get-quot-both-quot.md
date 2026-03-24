@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/7592656"
 > 
 > So my question is in what format (or what type) should the fields "StartTime" and "EndTime" be in my MySQL table to meet the above two conditions? Also to which format in C# should I be retrieving the value from MySQL table?
 
+*I posted the following answer, which received 1 upvote:*
+
 In c# you should use DateTime. I believe the mySQL equivalent is TimeStamp.
 
 ---

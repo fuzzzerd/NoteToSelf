@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/860720"
 
 > I'm trying to send information from a form and a hidden email variable (from a db) to a PHP script using cURL. I have the post items moving correctly, but I am not sure if can also send a variable vai the url. (the $\_Get)
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 A standard querystring should work.
 
 ---

@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/7258522"
 > 
 > Thanks in Advance for your help
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 I think you're confusing Design Patterns with Software Architecture, they are related but different.
 
 A 3-layer architecture consists of UI, Logic, and Persitance code. Using something like MVC or MVVM simply provide a nice way to seperate these bits out.

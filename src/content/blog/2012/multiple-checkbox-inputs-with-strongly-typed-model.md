@@ -70,6 +70,8 @@ sourceUrl: "https://stackoverflow.com/a/13367865"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 There may be a better way to solve this, but I ended up switching from `Dictionary<String,Bool>` to a `List<SelectListItem>`
 
 The view code that generates correct post data is as follows:

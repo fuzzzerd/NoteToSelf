@@ -49,6 +49,8 @@ sourceUrl: "https://stackoverflow.com/a/3875311"
 > 
 > **UPDATE** Thanks for your answers guys. I guess I should have mentioned that most of the time this object is bound via DataContexts or from an Http.Post from my client side (MVC project), so I don't really have any constructors. Is there any other way, or should I start getting creative with my programming?
 
+*I posted the following answer:*
+
 All "required" properties should be in the constructor of your class.
 
 ---

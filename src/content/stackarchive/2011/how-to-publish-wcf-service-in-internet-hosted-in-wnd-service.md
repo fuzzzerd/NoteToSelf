@@ -55,6 +55,8 @@ sourceUrl: "https://stackoverflow.com/a/7689536"
 > 
 > I don't know, what binding use.. what port, what settings should be changed on my laptop?
 
+*I posted the following answer:*
+
 If you have a WCF service running on your laptop hosted via `ServiceHost` you'll need to duplicate that configuration in your ASP.NET web.config file, as well as add a "service.svc" file which is referenced to the Interface of your service.
 
 ---

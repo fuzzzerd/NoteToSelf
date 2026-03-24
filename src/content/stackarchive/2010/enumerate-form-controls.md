@@ -100,6 +100,8 @@ sourceUrl: "https://stackoverflow.com/a/3935014"
 > 
 > where I expected PropertyDescriptor.
 
+*I posted the following answer, which received 2 upvotes:*
+
 In your C# code, you probably have a class defined as Form2 which has controls on it. In your powershell, you are loading up a vanilla System.Windows.Forms.Form which wont have any controls on it.
 
 ---

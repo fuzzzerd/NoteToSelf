@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/878894"
 > 
 > P.S: Right now, I can't sign up for the [Windows Error Reporting service](http://www.microsoft.com/whdc/winlogo/maintain/StartWER.mspx) itself.
 
+*I posted the following answer, which received 2 upvotes:*
+
 1.  System.OperatingSystem osInfo=System.Environment.OSVersion;
     
 2.  [Link](https://web.archive.org/web/20201206020837/http://geekswithblogs.net/lorint/archive/2006/01/30/67654.aspx)

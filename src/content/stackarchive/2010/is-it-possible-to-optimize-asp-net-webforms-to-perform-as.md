@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/3239679"
 > 
 > I have noticed a significant difference in speed between ASP.NET MVC and ASP.NET webforms. MVC is a lot snappier and loads pages faster than webforms. Can I achieve the same with ASP.NET webforms by optimizing it? If yes, what would you recommend?
 
+*I posted the following answer, which received 5 upvotes:*
+
 One reason for that is because of ViewState, among other bloated code rendered as part of an `<ASP:TextBox>`, etc. You should focus on page weight.
 
 Everything else being equal, that is the main performance difference that I'm aware of.

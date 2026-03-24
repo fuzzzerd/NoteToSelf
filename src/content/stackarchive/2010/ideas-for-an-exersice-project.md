@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/4199400"
 > 
 > What have you done to learn a technology for the homework project? Is it hosted somewhere and if so - can you post link?
 
+*I posted the following answer:*
+
 Build something that will need all of the basic CRUD operations. A blog engine typically requires this, but there are other options as well.
 
 **C** reate blog entries and comments **R** ead blog entries for list and details **U** pdate posts you've entered **D** elete nasty comments

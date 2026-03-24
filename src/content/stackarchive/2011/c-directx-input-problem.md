@@ -68,6 +68,8 @@ sourceUrl: "https://stackoverflow.com/a/6602970"
 > 
 > Can someone tell me where is the problem?
 
+*I posted the following answer:*
+
 The DirectX assemblies are built against .NET v1.1 Microsoft stopped actively developing them before .NET v2.0 was released.
 
 They cannot be used in projects targeting other than .NET v1.1. XNA is the "blessed" path forward for managed access to Direct X features. I don't know all if it's features, but [SlimDX](http://slimdx.org/) appears to give a more Direct X feeling API for C# than XNA, though I have not used it, I've heard a lot about it.

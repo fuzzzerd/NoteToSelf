@@ -33,6 +33,8 @@ sourceUrl: "https://stackoverflow.com/a/3591641"
 > 
 > Thank you!
 
+*I posted the following answer, which received 3 upvotes:*
+
 After re-reading the question, I think the only option you have is to convert to a string, take the first 10 characters, then convert back to double.
 
 If your number is a decimal (you've got a `,` not a `.` so I'm not sure) the method below should work, otherwise you'll need to do the string thing.

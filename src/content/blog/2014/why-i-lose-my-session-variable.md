@@ -40,6 +40,8 @@ sourceUrl: "https://stackoverflow.com/a/24534434"
 > 
 > The problem is that after a while (30 mins approximately), i lose `Session["IDCompany"]` and `Session["IDSubsidiary"]` (becomes null). The problem can be that, for example, Session\["IDSubsidiary"\] and `Response.Cookies["IDSubsidiary"]` has the same name?
 
+*I posted the following answer, which was chosen as the accepted answer and received 4 upvotes:*
+
 There are two reasons this could be happening. 1) The session is timing out, or 2) you are using "In Process" session state.
 
 If the user sits on a page for thirty minutes, and then the value is gone the next time they refresh or go to another page, its likely a timeout problem. You could try increasing the sessionState timeout; however, you'll probably start running into the issue described below. If you are determined to use Session variables, you should probably switch to a different state mode than "in process" which is the default.

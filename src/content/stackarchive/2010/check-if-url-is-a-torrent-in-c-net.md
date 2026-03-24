@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/2732123"
 
 > What's the best way for me to take url like: [http://foobar.com/foo.torrent](http://foobar.com/foo.torrent) and check if that really is a torrent, not a html page or something else funny. Suggestions? Thank you :)
 
+*I posted the following answer, which received 1 upvote:*
+
 Read the torrent file specification, then write a C# app to download the contents of the URL and see if it meets the rules in the specification.
 
 ---

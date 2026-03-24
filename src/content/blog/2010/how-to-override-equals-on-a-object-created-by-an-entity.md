@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/2472542"
 
 > I have an Entity Data Model that I have created, and its pulling in records from a SQLite DB. One of the Tables is People, I want to override the person.Equals() method but I'm unsure where to go to make such a change since the Person object is auto-generated and I don't even see where that autogen code resides. I know how to override Equals on a hand made object, its just where to do that on an autogen one.
 
+*I posted the following answer, which was chosen as the accepted answer and received 11 upvotes:*
+
 You need to create a partial class. Add a new .cs file to your solution, and start it like this:
 
 ```

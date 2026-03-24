@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/4268843"
 > Thank you,  
 > Ben
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 In the script that is called on your "View Cerficiate" button, try adding a "Commit Record/Request" script step.
 
 ---

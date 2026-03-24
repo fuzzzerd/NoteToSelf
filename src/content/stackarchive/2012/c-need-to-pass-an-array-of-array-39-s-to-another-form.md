@@ -43,6 +43,8 @@ sourceUrl: "https://stackoverflow.com/a/9299126"
 > 
 > to the ResultDialog.Show method
 
+*I posted the following answer:*
+
 Seems like you might be better suited to a multidimension array...
 
 ```

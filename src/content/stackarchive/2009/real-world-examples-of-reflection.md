@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/869972"
 
 > What are your best examples of using Reflection in production code?
 
+*I posted the following answer:*
+
 WPF Databinding:
 
 1) Binding path "(TextBox.Text)" vs "Text"?

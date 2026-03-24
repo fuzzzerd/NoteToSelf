@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/7180112"
 > 
 > Specifically I want to count the number of `<item>`s in the RSS. But some kind of LINQ method that could be reused to, say for example, return a list of the item `<title>` elements would be most useful, if it can be kept short.
 
+*I posted the following answer, which received 5 upvotes:*
+
 What about something like this:
 
 ```

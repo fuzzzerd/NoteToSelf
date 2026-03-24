@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/3095539"
 > 
 > Anyone one if and how this is possible?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 In visual studio you can use T4 templating to generate any type of output using a psudo "asp classic" style syntax, where you intermix your code (F#) and the "output."
 
 Heres a good place to get started: [http://www.hanselman.com/blog/T4TextTemplateTransformationToolkitCodeGenerationBestKeptVisualStudioSecret.aspx](http://www.hanselman.com/blog/T4TextTemplateTransformationToolkitCodeGenerationBestKeptVisualStudioSecret.aspx)

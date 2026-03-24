@@ -37,6 +37,8 @@ sourceUrl: "https://stackoverflow.com/a/10691055"
 > 
 > Project builds successfully but when I open the page then it gives error
 
+*I posted the following answer:*
+
 Looks like you need to add a reference (in your project) to [`System.DirectoryServices`](http://msdn.microsoft.com/en-us/library/system.directoryservices.aspx). Since you're using it in what looks like an aspx markup page, sometimes the compiler will let those fly during "build" but fail when you actually execute the page.
 
 ---

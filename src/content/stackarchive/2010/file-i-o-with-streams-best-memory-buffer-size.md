@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/3033795"
 > 
 > As an aside, I'm eventually hoping to provide a similar interface to files hosted on FTP / HTTP servers (over a local network / fastish DSL). What would be the best memory buffer size for those (again, a "best-case" tradeoff between perceived responsiveness vs. performance)?
 
+*I posted the following answer, which received 4 upvotes:*
+
 When I deal with files directly through a stream object, I typically use 4096 bytes. It seems to be reasonably effective across multiple I/O areas (local file system, LAN/[SMB](https://en.wikipedia.org/wiki/Server_Message_Block), network stream, etc.), but I haven't profiled it or anything. Way back when, I saw several examples use that size, and it stuck in my memory. That doesn't mean it's the best though.
 
 ---

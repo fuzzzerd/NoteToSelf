@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/808155"
 
 > What are the big limitations with VB.Net that prevent people from wanting to use it as a language to develop games?
 
+*I posted the following answer:*
+
 You can use the Microsoft XNA Framework for graphics and a regualr WinForms application to contain all of your code. Simply install the XNA Framework and add a reference from your VB WinForms application.
 
 If you want to take advantage of all the features XNA has to offer, you'll need to use C# with which XNA integrates nicely.

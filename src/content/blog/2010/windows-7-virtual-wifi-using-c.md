@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/4389083"
 > 
 > _There is also a closed source alternative called Connectify. I did manage to get its source but it didn't help much. It uses an open source library but I don't know how to create hotspots with it._
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Have you thought about looking into this Code-Plex project [Virtual Router](http://virtualrouter.codeplex.com/)?
 
 ---

@@ -34,6 +34,8 @@ sourceUrl: "https://stackoverflow.com/a/29735757"
 > 
 > But, how to filter the data by every month? It is not easy as simply replacing t.DateAdded.Year to t.DateAdded.Month, cause t.DateAdded.Month is 1,2,3,...,12. I need the one is in format of 2014-01,2014-02,...,2014-12.
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 You can group by both Year and Month like this:
 
 ```

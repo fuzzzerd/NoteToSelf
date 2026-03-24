@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/971342"
 
 > What classes should I use in C# in order to get information about a certain computer in my network? (Like who is logged on that computer, what Operating System is running on that computer, what ports are opened etc)
 
+*I posted the following answer, which received 9 upvotes:*
+
 Checkout [System.Management](http://msdn.microsoft.com/en-us/library/system.management\(loband\).aspx) and [System.Management.ManagementClass](http://msdn.microsoft.com/en-us/library/system.management.managementclass.aspx). Both are used for accessing WMI, which is how to get the information in question.
 
 **Edit:** Updated with sample to access WMI from remote computer:

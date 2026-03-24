@@ -43,6 +43,8 @@ sourceUrl: "https://stackoverflow.com/a/24046896"
 > 
 > ```
 
+*I posted the following answer, which received 6 upvotes:*
+
 You will need to use a client side technology to disable the button. This is because when you click the button, the page does a post back to itself, which tells the server to execute `btnSearch_Click`. Based on your code this will
 
 1.  Disable the button

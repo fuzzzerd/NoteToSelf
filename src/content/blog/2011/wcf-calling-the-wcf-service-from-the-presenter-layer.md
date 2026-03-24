@@ -99,6 +99,8 @@ sourceUrl: "https://stackoverflow.com/a/5860430"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 I'm not sure where you're having issues, so I'll start at the beginning.
 
 1.  You need to add a "Service Reference" to your Presentation Tier Project (this generates a proxy class you can use to call your service)

@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/5481432"
 
 > Is the main different just instruction set or something more essential??
 
+*I posted the following answer, which received 2 upvotes:*
+
 The instruction set may differ slightly; however, the key differences are the length of registers, and as a result the amount of addressable memory.
 
 ```

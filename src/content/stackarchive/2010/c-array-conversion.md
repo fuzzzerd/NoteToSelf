@@ -40,6 +40,8 @@ sourceUrl: "https://stackoverflow.com/a/4001151"
 > 
 > ```
 
+*I posted the following answer:*
+
 Assuming you answer yes to this question (although I'd recommend a different approach, see below) this will do what you're asking:
 
 ```

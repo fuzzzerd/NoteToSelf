@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/6851221"
 > 
 > ```
 
+*I posted the following answer, which received 1 upvote:*
+
 Mark `wee.a()` as [virtual](http://msdn.microsoft.com/en-us/library/9fkccyh4%28v=VS.80%29.aspx) -- it allows you to provide a base implementation but gives the option to override that behavior in subclasses if needed.
 
 ```

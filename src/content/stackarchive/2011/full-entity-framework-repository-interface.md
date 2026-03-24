@@ -38,6 +38,8 @@ sourceUrl: "https://stackoverflow.com/a/5776120"
 > And I am looking an interface of all methods include SingleOrDefault and so on.  
 > Where I can find such thing?
 
+*I posted the following answer:*
+
 You can find a list of all methods on IEnumerable [here](http://msdn.microsoft.com/en-us/library/system.linq.enumerable.aspx).
 
 ---

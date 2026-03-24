@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/11089403"
 > 
 > Its possible?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 This is not possible, because that could seriously alter the behavior of the phone. There is a search task you can use, [for more info, see this MSDN article on it.](http://msdn.microsoft.com/en-us/library/hh202889%28v=VS.92%29.aspx#sectionToggle3)
 
 ---

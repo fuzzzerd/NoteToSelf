@@ -42,6 +42,8 @@ sourceUrl: "https://stackoverflow.com/a/4902110"
 > 
 > Basically, I'm looking for some way to reuse the common portions of my control so I don't have to duplicate it for each child.
 
+*I posted the following answer:*
+
 You might want to look into [Nested Master Pages](http://msdn.microsoft.com/en-us/library/x2b3ktt7.aspx).
 
 ---

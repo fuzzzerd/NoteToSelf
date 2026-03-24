@@ -54,6 +54,8 @@ sourceUrl: "https://stackoverflow.com/a/3088053"
 > 
 > **Edit:** Many very good answers. I went with not exposing the id, because the "Person" (as you might have realized, my real domain does not have anything to do with people and clubs...) instances are easily available, but for now it is internally stored in a HashMap hashed on the id - but at least I am exposing it correctly in the interface.
 
+*I posted the following answer:*
+
 I would typically stick with less is more. The less information required to invoke your method the better. If you know the ID, only require the ID.
 
 If you want, provide extra overloads which accept extra parameters, such as the entire class.

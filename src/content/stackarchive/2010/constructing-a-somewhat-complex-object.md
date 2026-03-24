@@ -33,6 +33,8 @@ sourceUrl: "https://stackoverflow.com/a/3558964"
 > 
 > **UPDATE:** thanks for the responses. I was probably overthinking the matter initially, though I've learned a few things that will be useful in more complex situations. My solution now is to have the title as the only required parameter, and the rest as named/optional parameters. This seems the all round ideal way to construct this domain object.
 
+*I posted the following answer, which received 1 upvote:*
+
 This is perfectly acceptable, IMHO. I know static methods are sometimes frowned upon, but I typically drop that code into a static method that returns an instance of the class. I typically only do that for objects that are permitted to have null values.
 
 If the values of the object can't be null, add them as parameters to the constructor so you don't get any invalid objects floating around.

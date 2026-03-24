@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/5711584"
 > 
 > i am getting an error as port closed.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 It looks like you are defining one comport, then opening a different one. Check that, if you still have issues post your complete code.
 
 ```

@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/2821066"
 
 > How do I get the time difference between two `DateTime` objects using C#?
 
+*I posted the following answer, which received 35 upvotes:*
+
 What you need is to use the [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime\(VS.90\).aspx) classs Subtract method, which returns a [TimeSpan](http://msdn.microsoft.com/en-us/library/system.timespan\(VS.90\).aspx).
 
 ```

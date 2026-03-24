@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/9841686"
 
 > Is there anyway for a C# console application to capture keystroke, including those that are pressed outside of the program, similar to a key logger? The one I found and tried is Console.ReadKey() but it can only read the keystroke sent to the console.
 
+*I posted the following answer:*
+
 You will need to use the Windows API, I'd [check GetAsyncKeyState](http://www.pinvoke.net/default.aspx/user32/GetAsyncKeyState.html).
 
 ---

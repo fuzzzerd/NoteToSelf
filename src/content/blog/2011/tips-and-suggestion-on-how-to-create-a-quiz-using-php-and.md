@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/6860117"
 > 
 > answer and made by @Fatih
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 Apparently I don't know my router bits; however, making a quiz can be really easy to build (hard-coded) or really hard to build (database-driven). The first is difficult to change later on while the second is quite easy.
 
 It really depends what you want to do, both are quite doable with php and jQuery.

@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/971259"
 
 > Is there a very simple algorithm to figure out which of 4 numbers is the greatest?
 
+*I posted the following answer, which received 12 upvotes:*
+
 If they are in an array, something like this should work:
 
 VB:

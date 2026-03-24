@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/12647399"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 15 upvotes:*
+
 A friend came with the solution, it is very simple!
 
 ```

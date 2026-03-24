@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/1029222"
 > 
 > thanks a lot.
 
+*I posted the following answer:*
+
 You may want to look into the GAC. I'm not sure if that will fix the issue or not. You could also try a common assembly folder. In other words, removing the duplicates, but trying to have the same end result.
 
 ---

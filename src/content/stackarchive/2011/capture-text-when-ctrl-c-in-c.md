@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/6851089"
 
 > Is it possible to while running an .Net application in the system tray that when a person presses control + c in a text outside, the application capture it from Clipboard?
 
+*I posted the following answer, which received 2 upvotes:*
+
 The easiest way is to monitor the contents of the clipboard, this [MSDN Article](http://msdn.microsoft.com/en-us/library/system.windows.forms.clipboard.getdata.aspx) should get you started.
 
 Something as simple as a [Timer](http://msdn.microsoft.com/en-us/library/system.threading.timer.aspx) object which checks if the contents has changed should be more than sufficient.

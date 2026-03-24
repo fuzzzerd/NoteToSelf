@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/7153862"
 > 
 > I can't find mention of it on MS's sites.
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 It wont be .NET4, but it will be roughly Silverlight 4.
 
 See also: [http://forums.create.msdn.com/forums/p/88443/530374.aspx](http://forums.create.msdn.com/forums/p/88443/530374.aspx)

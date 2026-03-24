@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/2479329"
 > 
 > I know C++, Java, and Perl, but no Javascript. Is JS the easiest way to do this (I am time constrained, have about half a day to implement this)? If so, can you point me to a good resource where I can just pick up the pieces I need?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 If you want to write javascript and html/css UI to run in a browser, you could use jQuery and its [ajax](http://api.jquery.com/category/ajax/) methods.
 
 ```

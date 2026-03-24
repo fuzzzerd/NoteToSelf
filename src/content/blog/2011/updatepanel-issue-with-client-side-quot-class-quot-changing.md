@@ -94,6 +94,8 @@ sourceUrl: "https://stackoverflow.com/a/8215736"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 When you change class property from client-side code, the server side will not know about it.
 
 You'll need to add a hidden `<input>` with marked/unmakred so you can check the contents from the server on a post-back.

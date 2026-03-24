@@ -29,6 +29,8 @@ sourceUrl: "https://stackoverflow.com/a/3553793"
 > 
 > Need Help
 
+*I posted the following answer, which was chosen as the accepted answer and received 5 upvotes:*
+
 There is a large difference between a `license key` and a `license agreement.` A license key is something used to make it harder to copy software, since you are deploying a web-app, this shouldn't be much of an issue for you. A license agreement is a legal document that users of your application must agree to. I'm guessing you are interested in the first.
 
 In a web application, you should implement a login system, and only provide username/passwords for users who have paid you. If as Kobi mentioned, you have a public API that you'd like to license to other users, I recommend you simply give them a uinque GUID (`System.Guid.NewGuid();`) and then require that GUID as a parameter for every API call. Then, you can check to see if the GUID is associated with a paid account, if so, let it fly, if not abort the transaction with an error code. I would recommend using an HTTPS connection for this.

@@ -73,6 +73,8 @@ sourceUrl: "https://stackoverflow.com/a/2275588"
 > 
 > ```
 
+*I posted the following answer:*
+
 If you are not having any exceptions I'd check SPAM folders and email addresses. I'd also try sending an email manually from your outlook to one of the addresses that didn't recieve a message.
 
 On a side note, unless you are using different mail servers, I think you can change this code to

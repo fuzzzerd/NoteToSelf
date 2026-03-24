@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/4494043"
 > 
 > Thanks!
 
+*I posted the following answer:*
+
 I agree with your third paragraph with C# at your back you'll be a stronger ASP.NET MVC developer; but I also think that they (C# and ASP.NET MVC) make great co-learning tools. And if you're going to try to pick up both tools, doing it together makes a lot of sense.
 
 ---

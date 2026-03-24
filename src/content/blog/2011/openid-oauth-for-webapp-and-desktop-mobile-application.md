@@ -29,6 +29,8 @@ sourceUrl: "https://stackoverflow.com/a/6375803"
 > 
 > Would a better solution be to break this up and allow users to authenticate to my site with OpenID and then I provide my own OAuth scheme for my desktop and mobile clients?
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 This is the workflow that I came up with, and so far I think its working well.
 
 The user is required to authenticate to the website via third party OpenID/Facebook/etc (mobile friendly website is available). Then, in their "profile" they can generate an API "key" which they can copy/paste into their client software. It isn't 100% transparent to the user, but its pretty good.

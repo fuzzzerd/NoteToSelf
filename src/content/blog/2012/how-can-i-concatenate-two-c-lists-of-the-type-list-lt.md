@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/11784335"
 
 > Any LINQ solutions (preferably) would be appreciated. I need the duplicate values upon concatenating both.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 If you want to find out which items are in both lists, you need to use the [`Enumerable.Intersect()`](http://msdn.microsoft.com/en-us/library/bb460136.aspx) method.
 
 ```

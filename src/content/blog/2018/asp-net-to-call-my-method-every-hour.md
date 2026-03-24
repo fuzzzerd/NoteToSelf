@@ -54,6 +54,8 @@ sourceUrl: "https://stackoverflow.com/a/48546338"
 > 
 > This is the method. It's working but i have to call it manually. So, any ideas?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 As you've already mentioned, HangFire can help you with this. [They have several examples directly on their home page.](https://www.hangfire.io) The one you want is probably the 'recurring job':
 
 > **Recurring jobs**

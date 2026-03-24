@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/6900313"
 > 
 > Any tutorials, guides, or tools that are recommended for this?
 
+*I posted the following answer:*
+
 Security Essentials has a [command-line interface](http://answers.microsoft.com/en-us/protect/forum/protect_scanning/does-mse-have-the-ability-to-scan-from-the-command/809b0b84-9396-49b2-95c4-68e7ec539fc7). From what I can tell, it's closely related to ForeFront (enterprise use) and it probably has the same thing.
 
 ---

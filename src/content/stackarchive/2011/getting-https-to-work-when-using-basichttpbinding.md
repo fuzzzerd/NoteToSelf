@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/6092509"
 > 
 > What do I need to do to get https to work?
 
+*I posted the following answer, which received 2 upvotes:*
+
 You need to setup IIS Host Header Bindings for SSL. Older versions of IIS require this to be set from the command line interface, later versions provide this tool via the GUI.
 
 *   For IIS6, check [here](http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/596b9108-b1a7-494d-885d-f8941b07554c.mspx?mfr=true).

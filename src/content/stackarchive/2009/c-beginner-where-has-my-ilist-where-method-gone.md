@@ -54,6 +54,8 @@ sourceUrl: "https://stackoverflow.com/a/1760733"
 > 
 > Edit: `Filemanager.GetGroupAll()` returns a `CMSList` which extends `IList`
 
+*I posted the following answer:*
+
 IIRC, that .Where method is part of LINQ, and you need to add those using statements in your class to get the extension methods for the IEumerable interface.
 
 ---

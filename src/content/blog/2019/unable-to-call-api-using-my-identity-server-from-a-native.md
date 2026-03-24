@@ -590,6 +590,8 @@ sourceUrl: "https://stackoverflow.com/a/54294194"
 > 
 > Could you help me? Thank you very much!
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Have you tried using `.AddJwtBearer()` in your API instead of just `.AddAuthentication("Bearer")`?
 
 Something like this:

@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/4337085"
 > 
 > Like GMail, that runs in the browser (with a lot of Javascript) and submit and receive data with Ajax, for example.
 
+*I posted the following answer, which received 1 upvote:*
+
 Yeah, I'd say a WCF service returning JSON. Another option, though less intuitive, would be to use ASP.NET MVC and return JSON.
 
 After your updated question, I would really recommend ASP.NET MVC it will allow you to have a ton of flexibility, and provide exactly what your asking for.

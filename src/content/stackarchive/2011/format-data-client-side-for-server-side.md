@@ -79,6 +79,8 @@ sourceUrl: "https://stackoverflow.com/a/6681187"
 > 
 > ```
 
+*I posted the following answer:*
+
 [JSON](http://json.org/) is a very nice, lean data exchange format.
 
 Something like this, might work:

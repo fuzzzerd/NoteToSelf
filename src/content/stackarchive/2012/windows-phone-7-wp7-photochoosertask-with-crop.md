@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/12253950"
 > 
 > When you invoke the PhotoChooserTask some apps enable you to resize / crop to use only a portion of that image (by showing a white rectangle). How can I use this and set my own dimensions for the target image?
 
+*I posted the following answer, which received 6 upvotes:*
+
 You can set the width and height of the desired image and the [PhotoChooserTask](http://msdn.microsoft.com/en-us/library/windowsphone/develop/microsoft.phone.tasks.photochoosertask%28v=vs.92%29) will automatically create the crop mechanism.
 
 ```

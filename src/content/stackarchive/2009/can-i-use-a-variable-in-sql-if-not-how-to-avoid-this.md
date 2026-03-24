@@ -88,6 +88,8 @@ sourceUrl: "https://stackoverflow.com/a/1976874"
 > 
 > If not, what is the best way? Do I have make same SQL again and again just changing WHERE clause?
 
+*I posted the following answer:*
+
 Try this:
 
 ```
