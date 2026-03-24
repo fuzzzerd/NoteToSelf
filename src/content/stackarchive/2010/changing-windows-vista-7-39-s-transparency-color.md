@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/2804242"
 > 
 > Wouldn't it just make sense for us to change the transparency color (black) BACK to Magenta? Why didn't they do this again? Is it even possible to change this color?
 
+*I posted the following answer:*
+
 I'm not sure about chainging the transparent color, but you could render #010101 text and it should be dark enough for black, no? On a glass surface pure black could be hard to see anyway.
 
 ---

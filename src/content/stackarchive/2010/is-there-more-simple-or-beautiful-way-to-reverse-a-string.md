@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/4556265"
 > 
 > ```
 
+*I posted the following answer, which received 2 upvotes:*
+
 If what you are doing is from MSDN on [Enumerable.Reverse()](http://msdn.microsoft.com/en-us/library/bb358497.aspx) then you've probably got the most simple solution.
 
 If you're not using .NET 3.5 (read LINQ (not sure if F# was around before then anyway)) you could use the [Array.Reverse()](http://msdn.microsoft.com/en-us/library/d3877932.aspx) method, however, the resulting code is very much the same.

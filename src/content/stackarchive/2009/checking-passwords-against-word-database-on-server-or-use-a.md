@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/991862"
 > 
 > (Also, any Rails-specific suggestions?)
 
+*I posted the following answer:*
+
 I would store them in a database/xml file on your web server, then use an Ajax Javascript call to a web service running on that same server. In ASP.NET this is easy to do; I'm not sure how involved this is when using rails...
 
 ---

@@ -38,6 +38,8 @@ sourceUrl: "https://stackoverflow.com/a/4168916"
 > 
 > I want to replace ADDRESS 2 with the longitude and latitude which Bing gets
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 AFAIK, the Bing Maps Ajax Control does not support Geocoding. You will need to use their web services: [SOAP](http://msdn.microsoft.com/en-us/library/dd250965.aspx) or [JSON](http://msdn.microsoft.com/en-us/library/dd250846.aspx) or [XML](http://msdn.microsoft.com/en-us/library/dd250893.aspx).
 
 ---

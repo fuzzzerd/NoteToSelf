@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/5736338"
 > 
 > Is singleton design pattern creates single instance for JVM or single instance for an application?
 
+*I posted the following answer, which received 1 upvote:*
+
 Singleton design pattern is typically implemented at the class level, though it could be implemented at the application level. I believe there is only ever one JVM instance running at a time.
 
 <details>

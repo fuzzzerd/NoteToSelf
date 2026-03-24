@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/1029385"
 > 
 > Any ideas?
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 You may want to look into this:
 
 [http://scorbs.com/2006/06/28/xbaps-ondemand-clickonce/](http://scorbs.com/2006/06/28/xbaps-ondemand-clickonce/)

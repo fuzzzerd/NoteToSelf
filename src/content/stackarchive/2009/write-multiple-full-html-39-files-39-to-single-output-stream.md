@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/1099931"
 > 
 > What I want to do is allow users to request multiple "screens" and get the results in a single web page where you'd scroll down to see the 2nd, 3rd, etc. screens, maybe there is some kind of divider in between. I thought of frames or iframes, but didn't have luck. I have seen where I can write my big html stream to a javascript variable, then use document.write to dump it into the iframe. But that seems pretty awkward, and I'd have to be really careful about escaping quotes and stuff.
 
+*I posted the following answer, which received 1 upvote:*
+
 Just leave out the `<html>/</html>` tags for each page and wrap the whole thing inside a single large ....
 
 Like this maybe:

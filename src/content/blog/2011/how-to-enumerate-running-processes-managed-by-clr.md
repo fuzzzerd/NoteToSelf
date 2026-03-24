@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/5758364"
 > 
 > P.S.: This is what I am trying to do... [ProcessExplorer.NET question](https://stackoverflow.com/questions/5720023/task-manager-processexplorer-or-similar-tool-monitoring-and-managing-clr-threa)
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 [System.Diagnostics.Process.GetProcesses()](http://msdn.microsoft.com/en-us/library/1f3ys1f9.aspx) will list all the running processes as [Process](http://msdn.microsoft.com/en-us/library/system.diagnostics.process.aspx) objects.
 
 ---

@@ -116,6 +116,8 @@ sourceUrl: "https://stackoverflow.com/a/5198789"
 > 
 > Any help or suggestion is very helpful. I would really not to have to rewrite the code.
 
+*I posted the following answer, which received 1 upvote:*
+
 LINQ-To-XML is probably the most simple way to accomplish this task. See Scott Gu's [post](http://weblogs.asp.net/scottgu/archive/2007/08/07/using-linq-to-xml-and-how-to-build-a-custom-rss-feed-reader-with-it.aspx) on it.
 
 pseudo-code:

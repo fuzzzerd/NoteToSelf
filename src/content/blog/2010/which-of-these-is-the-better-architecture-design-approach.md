@@ -93,6 +93,8 @@ sourceUrl: "https://stackoverflow.com/a/4168833"
 >       
 >     Both seem to be good enough to be considered, so I'm a bit confused about it wanting the easiest possible way for the library end-users.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 Have you looked at .NET 3.5/4's System.DirectoryServices.AccountManagement namespace? It provides much of the functionality you require in a more unified and .NET friendly interface. I personally have written a library with similar requirements to yours, using a combination of both.
 
 Overall, I think your design looks good, but I don't know enough about your problem domain to know if you'll be painting yourself into a corner so to speak.

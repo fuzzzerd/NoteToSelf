@@ -31,6 +31,8 @@ sourceUrl: "https://stackoverflow.com/a/3558711"
 > 
 > EDIT: I didn't mean serious autentication like banking one. Just when I have my pics and want only to a few ppl to watch them and 99,9% of ppl on earth can't watch them :) thx for responses
 
+*I posted the following answer, which received 2 upvotes:*
+
 You cannot secure your site with Javascript alone. You will need some way to authenticate requests on the server.
 
 Because all your javascript code is plainly visible to all consumers of your site. All a potential attacker would need to do is view souce of your website and they can bypass the password checking bit of your javascript and view the content behind it.

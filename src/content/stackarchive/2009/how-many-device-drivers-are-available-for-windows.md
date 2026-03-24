@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/977732"
 > 
 > Anybody have any references? Ideas? At this point educated guesses would be much appreciated.
 
+*I posted the following answer:*
+
 I would guess on the order of 100s of thousands; potentially approaching a million.
 
 _Assuming that a given device may have a driver for Windows 2000, XP, Vista, Server 2003, and Server 2008. And that driver is counted five times, since each is different._

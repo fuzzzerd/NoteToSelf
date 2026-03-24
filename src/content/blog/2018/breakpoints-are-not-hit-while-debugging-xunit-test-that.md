@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/52084881"
 > 
 > Run `dotnet new xunit` and drop this test in: [https://gist.github.com/fuzzzerd/8347a8609fd1ccabdfaeea564d42a976](https://gist.github.com/fuzzzerd/8347a8609fd1ccabdfaeea564d42a976) (snip is too large for question body)
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Looks like I'm running into this issue: [https://github.com/dotnet/roslyn/issues/20118](https://github.com/dotnet/roslyn/issues/20118). There's no work around posted, but loading from a file does successfully work around this issue.
 
 ---

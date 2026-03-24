@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/2676040"
 
 > Wondering the pros and cons for MVC architecture in terms of web application development? And What is the difference between MVC and 3-tire architecture?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 As stated by @Sarfraz [Wikipedia](https://stackoverflow.com/questions/2675980/mvc-pros-and-cons-in-terms-of-web-application-development) is a good starting point for this type of question.
 
 To answer your specific question about the difference between MVC and 3-tier architecture, you need to first understand that MVC is (primarily) a GUI/User-Interface framework and design pattern.

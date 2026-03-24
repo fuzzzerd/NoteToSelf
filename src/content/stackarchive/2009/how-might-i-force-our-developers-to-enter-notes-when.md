@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/1930359"
 
 > I often see a slew of commits, but no notes referencing the tickets... And so I end up going back and reviewing the diff manually. Not necessarily bad, but it would be nice to have notes. Any ideas?
 
+*I posted the following answer, which received 3 upvotes:*
+
 You need to use a pre-commit hook which is a server setting, I have written one for VisualSVN which is basically a batch file -- similar scripts are available for non-windows based SVN Servers.
 
 ```

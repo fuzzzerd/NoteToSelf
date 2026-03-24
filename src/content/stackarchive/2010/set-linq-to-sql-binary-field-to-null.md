@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/2508784"
 
 > Trying to set a Binary field to null gives me an ArgumentNull exception. I can set the field to be empty like this `new Binary(new byte[] {});` but that's not null just an empty column. Is there a workaround using LinqToSql ?
 
+*I posted the following answer:*
+
 You could use the [ExecuteQuery()](http://msdn.microsoft.com/en-us/library/bb399403.aspx) method to pass your own SQL.
 
 ---

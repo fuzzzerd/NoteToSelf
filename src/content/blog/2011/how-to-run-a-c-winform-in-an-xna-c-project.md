@@ -31,6 +31,8 @@ sourceUrl: "https://stackoverflow.com/a/7166484"
 > 
 > Is it possible to pass the graphics that are passed to the winform to the XNA graphics engine instead?
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 ## update 2
 
 It appears that the original links to MSDN have been broken, I can't seem to find them on MSDN anymore, if someone does, please update the post. In the mean time you may want to check out this codeproject article -- [http://www.codeproject.com/Articles/21330/Easy-Rendering-with-XNA-Inside-a-Windows-Form](http://www.codeproject.com/Articles/21330/Easy-Rendering-with-XNA-Inside-a-Windows-Form)

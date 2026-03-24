@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/2679084"
 > 
 > Can anyone tell me how to hook up my php script to an svn commit? Or is there another way to do this?
 
+*I posted the following answer, which received 8 upvotes:*
+
 You might want to look into [Commit Monitor](http://tools.tortoisesvn.net/). This is a windows-only solution I believe, but it allows your team members to "opt-in" to alerts, by checking the repository every 30 minutes or so.
 
 ---

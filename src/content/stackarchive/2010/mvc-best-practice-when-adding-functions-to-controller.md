@@ -44,6 +44,8 @@ sourceUrl: "https://stackoverflow.com/a/2608559"
 > 
 > This would probably make the controller much more readable.. what's your view?
 
+*I posted the following answer, which received 2 upvotes:*
+
 MVC is simply a presentation pattern, all of your "business logic" should reside outside of your "MVC" code. Your app should function exactly the same of all of MVC code went away and was replaced with something else.
 
 I'd make a separate class, and have the controller invoke an instance of that class, which will make the necessary DB Inserts, send email alerts, do logging, etc.

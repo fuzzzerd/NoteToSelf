@@ -47,6 +47,8 @@ sourceUrl: "https://stackoverflow.com/a/2692194"
 > [![alt text](https://i.sstatic.net/2Ialk.gif)](https://i.sstatic.net/2Ialk.gif)  
 > (source: [softwarepod.com](http://screenshots.softwarepod.com/9518/screenshot.gif))
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 You may want to check out the [Game Programming Wiki](http://www.gpwiki.org/) -- it used to be "Lucky's VB Game Site" (and we're talking a LONG time ago) but all of the content (VB5/6 centric) moved to the Wiki with the addition of other languages.
 
 It appears that much of the legacy VB6 content is still available on the site.

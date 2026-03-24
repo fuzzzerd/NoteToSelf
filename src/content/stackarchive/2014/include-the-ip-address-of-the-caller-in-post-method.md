@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/24295586"
 > 
 > ```
 
+*I posted the following answer:*
+
 Even if you were able to somehow get the callers IP address via javascript, often times a client, will not know its own IP address. This is because most people are behind [NAT](http://en.wikipedia.org/wiki/Network_address_translation) so their computer thinks they are on IP Address 192.168.25.53 but their public address is most likely different than that.
 
 The way to get the client's IP address, is on the server. The correct way to do this is to use the [`Request`](http://msdn.microsoft.com/en-us/library/System.Web.HttpRequest%28v=vs.110%29.aspx) object, and more specifically the [`UserHostAddress`](http://msdn.microsoft.com/en-us/library/system.web.httprequest.userhostaddress%28v=vs.110%29.aspx) property.

@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/6076003"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 You need to call
 
 ```

@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/2822925"
 
 > If I visit 1 website www.abc.com that has a reference to say [jQuery hosted at Google Code](http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js), and then I visit a 2nd website www.xyz.com that has the same reference - will the file be cached across both websites? i.e. will it re-download it on the 2nd website, or just use it from cache?
 
+*I posted the following answer, which received 1 upvote:*
+
 Yes. That is the point of using the library hosted on their site.
 
 ---

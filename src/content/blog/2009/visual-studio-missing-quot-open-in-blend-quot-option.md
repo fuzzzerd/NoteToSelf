@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/1501588"
 > 
 > Cheers
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 For me, the "Open in Expression Blend" is only available in Silverlight projects, for WPF projects the option does not exist.
 
 ---

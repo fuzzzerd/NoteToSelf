@@ -69,6 +69,8 @@ sourceUrl: "https://stackoverflow.com/a/10607396"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Maybe you need to use the [FileResult](http://msdn.microsoft.com/en-us/library/system.web.mvc.fileresult.aspx) class? See also [How to create file and return it via FileResult in ASP.NET MVC?](https://stackoverflow.com/questions/1375486/how-to-create-file-and-return-it-via-fileresult-in-asp-net-mvc)
 
 ---

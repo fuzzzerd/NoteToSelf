@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/2135621"
 > 
 > Thanks in advance.
 
+*I posted the following answer, which received 1 upvote:*
+
 To answer your direct question, yes there is a size that you will start to notice read/write performance issues if you are using a single large string; however, it depends on many things, including Disk IO, CPU load, and even free memory. On a semi-modern machine, I'd say you wont really have issues as long as your files are under 2-3 MB.
 
 That said, Neil's advice to use a buffer is good advice, since it will yeild much better performance and allow you to display a progressbar, etc.

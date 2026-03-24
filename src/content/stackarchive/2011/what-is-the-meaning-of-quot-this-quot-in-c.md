@@ -33,6 +33,8 @@ sourceUrl: "https://stackoverflow.com/a/6270798"
 > 
 > ```
 
+*I posted the following answer, which received 20 upvotes:*
+
 The `this` keyword is a reference to the current instance of the class.
 
 In your example, `this` is used to reference the current instance of the class `Complex` and it removes the ambiguity between `int real` in the signature of the constructor vs. the `public int real;` in the class definition.

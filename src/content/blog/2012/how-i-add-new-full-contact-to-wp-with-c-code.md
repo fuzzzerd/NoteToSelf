@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/9438546"
 > 
 > I want to add advanced contact to WP contact database. How can I get access to Contact Database of Windows Phone to save my contact data ?
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 The only way this is possible is through the [`SaveContactTask`](http://msdn.microsoft.com/en-us/library/microsoft.phone.tasks.savecontacttask%28v=VS.92%29.aspx). Windows Phone limits applications access to many of the functions of the underlying OS's data.
 
 ---

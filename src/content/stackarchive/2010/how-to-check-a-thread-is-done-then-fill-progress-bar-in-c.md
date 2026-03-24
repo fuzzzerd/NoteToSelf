@@ -45,6 +45,8 @@ sourceUrl: "https://stackoverflow.com/a/2290190"
 > 
 > ```
 
+*I posted the following answer:*
+
 You need a callback method. [This](http://www.java2s.com/Code/CSharp/Thread/MyMainClassAsyncCallback.htm) should get you started. It uses an AsyncCallback, which is the best way to tackle this type of issue.
 
 I just looked up an example I've been using for a project and stripped out the code specific to my app:

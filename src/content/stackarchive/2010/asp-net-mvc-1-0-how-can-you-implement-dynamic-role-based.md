@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/2275683"
 > 
 > What is the recommended way to restrict the display of navigation elements to those appropriate to the current user? Are there any built-in helper for this?
 
+*I posted the following answer, which received 1 upvote:*
+
 I asked a similar question [here](https://stackoverflow.com/questions/2203320/building-an-asp-net-mvc-master-page-menu-dynamically-based-on-the-current-users). There are a few options, depending on your needs something as simple as checking User.Identity.IsInRole("xyz") in the view may suffice (not ideal, but it gets the job done).
 
 If you have a complex navigation structure, the answers provided in my question maybe of use to you.

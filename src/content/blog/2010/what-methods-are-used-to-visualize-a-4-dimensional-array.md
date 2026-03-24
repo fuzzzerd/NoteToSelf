@@ -47,6 +47,8 @@ sourceUrl: "https://stackoverflow.com/a/2835128"
 > 
 > Am I on the right track here?
 
+*I posted the following answer, which was chosen as the accepted answer and received 16 upvotes:*
+
 If you're trying to display output of a program for end users, then you are on the right track.
 
 If you're trying to teach it, I'd briefly use that method, and then I'd go into depth explaining how the computer keeps them all in contiguous memory -- [http://www.plantation-productions.com/Webster/www.artofasm.com/Windows/HTML/Arraysa2.html](http://www.plantation-productions.com/Webster/www.artofasm.com/Windows/HTML/Arraysa2.html). I think this is the best way to understand it.

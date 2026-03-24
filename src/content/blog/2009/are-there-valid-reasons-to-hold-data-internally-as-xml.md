@@ -28,6 +28,8 @@ sourceUrl: "https://stackoverflow.com/a/1008614"
 > 
 > Is this a common failure to apply the right tool for the job that others people run into alos? Or is it just bad luck on my part? Or am I missing some blindingly obvious and _good_ situations where it's Right and OK to store high volumes of data in-memory as XML?
 
+*I posted the following answer, which was chosen as the accepted answer and received 4 upvotes:*
+
 Any data stored in memory should be in classes. The higher volume of data we are talking about, the more important this becomes. Xml is a hugely bloated format that reduces performance. Xml should be used only for transfering data between applications. IMHO.
 
 ---

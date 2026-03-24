@@ -91,6 +91,8 @@ sourceUrl: "https://stackoverflow.com/a/2546366"
 > 
 > \-Scott
 
+*I posted the following answer, which was chosen as the accepted answer and received 14 upvotes:*
+
 What you have should be correct, you need to add this `dataContext.DeferredLoadingEnabled = false;` in addition to the LoadOptions you are already setting.
 
 ---

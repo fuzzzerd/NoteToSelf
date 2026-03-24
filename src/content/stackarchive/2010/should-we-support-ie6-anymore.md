@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/2861689"
 
 > Are we supposed to find workarounds in our web applications so that they will work in every situation? Is it time to do away with IE6 programming?
 
+*I posted the following answer, which received 2 upvotes:*
+
 Sadly, we still need to support IE6 in most cases as it still represents a significant portion of the internet surfing users. If you are in a corporate environment, this is even more true, as corporations have less incentive to upgrade stuff the works simply for some pie-in-the-sky "web standards."
 
 If not, try to gmail approach and just toss up an error for IE6 viewers and/or display a disclaimer that if they upgrade, the site will work/look better.

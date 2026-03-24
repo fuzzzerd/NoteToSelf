@@ -43,6 +43,8 @@ sourceUrl: "https://stackoverflow.com/a/7851122"
 > 
 > If there is a better way to customize the `ServiceBehavior` I'm open to that, this is just the only way I know how to do it.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 After a bit of poking around, I was able to get a new error by using this contract: `System.Data.Services.IRequestHandler`.
 
 After getting past the error that the contract was not implemented by my service, it seems as if WCF Data Services only work with webHttpBinding -- which does not support TransportWithmessageCredential security.

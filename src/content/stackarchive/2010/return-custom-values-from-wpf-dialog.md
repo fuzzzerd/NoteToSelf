@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/3762166"
 > 
 > How can I get my WPF window to return a `Tuple<string,string>` or any other type?
 
+*I posted the following answer, which received 4 upvotes:*
+
 You could add a new method to your Window, something like this:
 
 ```

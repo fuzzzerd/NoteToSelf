@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/8185377"
 > 
 > PS: I guess I dont really need to check for the `?thevalue` but just the `obtain.aspx`
 
+*I posted the following answer, which received 1 upvote:*
+
 I recommend using [Request.Url](http://msdn.microsoft.com/en-us/library/system.web.httprequest.url.aspx). To get the exact file name, you may try also using [System.IO.Path](http://msdn.microsoft.com/en-us/library/system.io.path.aspx)
 
 ```

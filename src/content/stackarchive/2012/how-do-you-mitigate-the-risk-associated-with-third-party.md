@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/9070738"
 > 
 > Is there an accepted best practice here? My first reaction is that, come on, this is Google and Facebook. If something malicious happens to their social sharing buttons, the entire Internet is going to know about it in 0.001 seconds. What say you?
 
+*I posted the following answer, which received 1 upvote:*
+
 Lets be realistic here. While I know anything _can_ happen, it is much more likely that your site will get hacked than Google/Facebook/Twitter injecting malicious code into your site through a disgruntled employee or something similar. It _could_ happen, but chances are pretty slim.
 
 If the client visiting your site's DNS is compromised, then injecting their own facebook.com A-Record so they can inject javascript into your site is the least of your worries. If I were running a malicious DNS server and had people using it; and I had malicious intent, I'd either be targeting your site specifically and I'd just make a site that looks like yours and takes all user data into my database; or I'd be after banks and financial institutions. Injecting facebook javascripts would not be my primary objective.

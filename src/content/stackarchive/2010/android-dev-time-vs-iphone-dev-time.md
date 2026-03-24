@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/2924361"
 > 
 > Thanks
 
+*I posted the following answer:*
+
 Depends, if you already know Java or Objective-C then it shouldn't matter, but most people will have to "get-up-to-speed" on one or the other, or possibly both.
 
 If you are getting up to speed on both, I'd save Android/Java will be quicker to learn and deploy. But there are plenty of people making iPhone/Objective-C apps for the first time too.

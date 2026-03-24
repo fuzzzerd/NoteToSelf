@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/11004480"
 > 
 > How does it do this ? When you download it does it send a identifiing number (ip ?) to the cdn to let it know youve downloaded it before, or when the program itself installed does it check to see traces of previous installation ?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 There are many ways this can be implemented.
 
 The easiest way to implement (and also the easiest way to bypass)

@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/2882710"
 > 
 > My client is specifying that I must use C#.
 
+*I posted the following answer, which received 2 upvotes:*
+
 I highly recommend that you use [TweetSharp](http://tweetsharp.codeplex.com/). It is very robust, supports the scenario you specify above (uses OAuth to authenticate).
 
 I've used it on a few pet projects and I've been extremely happy with it. The download comes with a WPF sample application that shows you how to use twitter's OAuth implementation.

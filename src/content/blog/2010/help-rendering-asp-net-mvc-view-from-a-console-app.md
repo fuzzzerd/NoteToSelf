@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/4088593"
 > 
 > The webapp simply calls a web-service and formats the data nicely so the console application will have access to the same web-service; however, the ActionResult on the controller is protected by \[Authorize\] attributes, so not just anyone can get at it.
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 I ended up using HttpWebRequest and the info provided here: [http://odetocode.com/articles/162.aspx](http://odetocode.com/articles/162.aspx)
 
 From the article:

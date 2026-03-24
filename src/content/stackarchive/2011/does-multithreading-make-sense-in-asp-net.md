@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/6232064"
 > 
 > Is that it? Is threading pretty much useless on ASP.NET?
 
+*I posted the following answer, which received 1 upvote:*
+
 It depends on the workload and the use case. Request/Response systems are best served by executing them asynchrounously on the client side.
 
 If the workload on the server warrents threading, the work can be done in parallel but each thread should be joined at the end to return a single response.

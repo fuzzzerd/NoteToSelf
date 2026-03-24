@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/1570372"
 > 
 > Thanks heaps!
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 This is not possible through a client-side technology. You will need to go server based.
 
 If you have access to a server side technology, such as ASP.NET; you could expose all of your images through an ashx handler. This would let you display a water mark on some images, or not display images at all depending on the source.

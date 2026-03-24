@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/10817045"
 > 
 > P.S: This is my first question in stackoverflow.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Unless you are exposing your domain on the Internet, you'll need some sort of service layer. If you know php, that is probably a good route to go. Then, from the iOS application, you simply call the operations exposed through your php server. For creating the service, you may want to look into an [ldap library for php](http://adldap.sourceforge.net/).
 
 ---

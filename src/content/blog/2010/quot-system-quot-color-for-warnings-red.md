@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/4355986"
 > 
 > How to choose correct color for warnings?
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 Possibly a new approach is worth consideration. Using colored icons such as the windows event log. Keep all text consistent and use colored icons to visually distinguish different types of data.
 
 ---

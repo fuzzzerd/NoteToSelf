@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/28861570"
 > 
 > If I go with option 2, do I need to have my files outside the web folder? If I have in the web folder, could a user make a request directly to the file? any other options or suggestions?
 
+*I posted the following answer, which received 2 upvotes:*
+
 Your proposed solution is the correct way to do this.
 
 You will use a [`FileResult`](https://msdn.microsoft.com/en-us/library/system.web.mvc.fileresult\(v=vs.118\).aspx) action (unless you have good reason not to) and in that action you will probably use `[Authorize]` and perform any business logic necessary to validate the user should be reading it. Then you return the file using the controller's [`File()`](https://msdn.microsoft.com/en-us/library/dd492593\(v=vs.118\).aspx) function.

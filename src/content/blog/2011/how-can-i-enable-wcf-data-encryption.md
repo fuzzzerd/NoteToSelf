@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/5768157"
 > 
 > The client can encrypt messages with the server public key. But how does the server encrypt messages to the client? Or does the client generate an symmetric encryptionkey and send it to the server?
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 It depends what type of end point you are using. If you are using an HTTP/HTTPS endpoint, simply having a server certificate is sufficient.
 
 ---

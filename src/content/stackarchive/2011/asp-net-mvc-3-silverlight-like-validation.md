@@ -31,6 +31,8 @@ sourceUrl: "https://stackoverflow.com/a/7179914"
 > 
 > And i'd like to be able to show the validation messages through any jquery events (mouseover, click, dblclick, ready, etc.). As far as i understand on it's actual implementation, the validation only occurs when the user changes focus from the actual input to another html element.
 
+*I posted the following answer:*
+
 I highly recommend that you checkout the validation rules section in [Professional ASP.NET MVC](http://aspnetmvcbook.s3.amazonaws.com/aspnetmvc-nerdinner_v1.pdf). It shows how to do exactly what you describe with ASP.NET MVC v1 and it works all the way up through v3.
 
 The displayed user interface is slightly different; however, you can check the output and write your own CSS to make it look just like your screenshot.

@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/3195867"
 
 > Where Can I find good tutorial about XMl serialization to the object? Thanks.
 
+*I posted the following answer, which received 7 upvotes:*
+
 Its really pretty simple, there are only three main steps.
 
 1.  You need to mark your classes with the `[Serializable]` attribute.

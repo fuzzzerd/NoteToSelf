@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/3815311"
 > 
 > EDIT: The pictures are photos taken by me using the Android phone itself.
 
+*I posted the following answer, which was chosen as the accepted answer and received 24 upvotes:*
+
 I would recommend that you compress the `.jpg` files as much as possible, this should greatly reduce the size of your `.apk` file. A tool such as [Paint.NET](http://www.getpaint.net/) which is free should help you do this. It has great resizing options.
 
 <details>

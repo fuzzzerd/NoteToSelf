@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/39174787"
 > 
 > I get the request from the context but I'm unable to understand how to find the name of the WCF method that was called.
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Check out the incoming HTTP Headers:
 
 `Console.WriteLine(HttpContext.Current.Request.Headers["SOAPAction"]);`

@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/1941650"
 > *   SELECT ... from ... where .. **IN (SELECT** ...)
 > *   SELECT ... **from (SELECT** ...)
 
+*I posted the following answer:*
+
 Maybe you need
 
 `select * from LogMagazines where id = (select max id from UserRoles)`

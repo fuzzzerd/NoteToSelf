@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/2023901"
 > 
 > ClickOnce won't work because it requires a webserver.
 
+*I posted the following answer:*
+
 ClickOnce doesn't require a webserver, it will let you publish updates while users are running the software. You can code your app to check for new update every few minutes and prompt the user to restart the app if a new version is found which will then take them through the upgrade process.
 
 Another option is a Silverlight OOB application, but this would be more work if your app is already built as WinForms/WPF client app.

@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/48628489"
 > 
 > ```
 
+*I posted the following answer:*
+
 Best practice would be to put the controls in the ASPX markup. That allows you to reference it from code behind everywhere; however, if that is not an option for you and you need to handle everything in code:
 
 ```

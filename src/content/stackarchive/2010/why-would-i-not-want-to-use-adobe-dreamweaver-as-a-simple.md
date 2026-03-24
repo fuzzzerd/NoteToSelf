@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/3677967"
 > 
 > Is there a reason why I should NOT be using it...or is it just a case similar to people who think only black and white tattoos are cool and anything else isn't?
 
+*I posted the following answer, which received 3 upvotes:*
+
 Obviously we could all do 99% of our coding in notepad, but we choose IDEs for their productivity boosting, code-writing abbilities.
 
 It depends what you are developing in. If you're coding C# and .NET using Dreamweaver would be an odd choice, though you could make it work.

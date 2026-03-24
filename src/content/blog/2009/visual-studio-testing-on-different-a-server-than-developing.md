@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/1520481"
 > 
 > Question: Can you set up Visual Studio so that when you "run" or "View in Browser" that it automatically pushes the pages out to the test server and then browses to that location as well?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 You've got two options as far as I can see:
 
 1) Create a local project and set it up to run from your own local IIS, (this is not exactly what you're asking, but it should be more of an apples to apples test, as opposed to the built-in visual studio web server).

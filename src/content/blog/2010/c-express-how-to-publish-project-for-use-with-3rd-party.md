@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/2094818"
 
 > I want to publish my c# project (c# 2008 express edition) and create an (msi) installer with Inno Setup Compiler. How can I do this?
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 Set build mode to "Release" and then take everything inside the `\bin` directory and toss it into you MSI.
 
 The VS Express editions do NOT include a built-in method for creating an MSI like the VS Pro/Ultimate do.

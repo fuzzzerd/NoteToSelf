@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/24066830"
 > 
 > How Can I pass this UserEmail to User control ?
 
+*I posted the following answer:*
+
 Assuming that `UserEmail` is a custom user control and assuming that `UserSession.EmployeeEmail` is a `string` you could do the following:
 
 In the definition for your custom control, you add a public property

@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/3041229"
 > 
 > Thanks for the help!
 
+*I posted the following answer:*
+
 This depends on the user experience you'd like to provide. You can use Windows APIs to show the standard copy dialog; however, I believe that your application will still seem unresponsive.
 
 I'd recommend something like this:

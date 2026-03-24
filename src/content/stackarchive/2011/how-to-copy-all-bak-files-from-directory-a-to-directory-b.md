@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/5198871"
 
 > How to copy all `*.bak` files from `Directory A` to `Directory B`?
 
+*I posted the following answer, which received 2 upvotes:*
+
 There's two ways, the pure C# way:
 
 ```

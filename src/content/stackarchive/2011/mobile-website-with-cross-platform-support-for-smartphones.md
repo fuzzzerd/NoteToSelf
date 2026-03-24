@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/6268598"
 > 
 > I would like to develop my mobile site using ASP.NET MVC3 and Jquery mobile . How can i provide the cross platform support for my mobile site >
 
+*I posted the following answer, which received 2 upvotes:*
+
 You should not develop a new sitejust for mobile. You should add mobile views to your current site, and use a custom view engine.
 
 See [here](http://www.hanselman.com/blog/ABetterASPNETMVCMobileDeviceCapabilitiesViewEngine.aspx) -- scroll down to the "CustomMobileViewEngine" section.

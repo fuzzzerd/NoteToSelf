@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/3814160"
 > 
 > I called it `clear` but I'm not very fond of the name.
 
+*I posted the following answer, which received 2 upvotes:*
+
 I'd do something like this:
 
 ```

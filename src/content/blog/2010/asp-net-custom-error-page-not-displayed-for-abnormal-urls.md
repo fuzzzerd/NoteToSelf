@@ -28,6 +28,8 @@ sourceUrl: "https://stackoverflow.com/a/3187442"
 > 
 > I've tried to debug this, but I can't reproduce this on IIS 6.0.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 There might be a more simple solution, but if you're on IIS7 you can use [URL Rewrite](http://www.iis.net/download/URLRewrite) to match those type of URLs and map them back to your error page.
 
 ---

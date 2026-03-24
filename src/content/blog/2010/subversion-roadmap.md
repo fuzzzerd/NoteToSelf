@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/2693573"
 > 
 > So given all the above, what features in subversion, or missing from subversion, do you think could be improved or added?
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 Rename tracking would be better than having to "delete" and "add". :)
 
 ---

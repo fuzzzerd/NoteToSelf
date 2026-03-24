@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/3259459"
 > 
 > Edit : If possible please provide example in both.
 
+*I posted the following answer, which received 4 upvotes:*
+
 Because you can create a controller object in your unit test, call some actions on it, and see the result right away, then you can `Assert.IsBlahBlahBlah();` on it.
 
 For example,

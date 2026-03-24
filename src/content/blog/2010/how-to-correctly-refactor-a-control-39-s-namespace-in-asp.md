@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/3025430"
 > 
 > How do I get around this without manually editing every .designer.cs file???
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 In the past I have used these steps with some success, but I've also had to monkey around a lot, so I maybe missing some steps. (its been a while since I had to deal with this issue)
 
 1.  Close Visual Studio

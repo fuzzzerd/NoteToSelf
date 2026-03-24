@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/2336461"
 > 
 > Thanks
 
+*I posted the following answer:*
+
 I'm not sure how the image field type works, however, this might be useful:
 
 [Image UriSource and Data Binding](https://stackoverflow.com/questions/20586/wpf-image-urisource-and-data-binding)

@@ -29,6 +29,8 @@ sourceUrl: "https://stackoverflow.com/a/6783348"
 > 
 > What is `public Par Parameters`? This seems neither a class or a function. Confused here.
 
+*I posted the following answer, which was chosen as the accepted answer and received 9 upvotes:*
+
 Think of it like a `public Par getParameters()` and `public void setX(Par p)` method in Java. So, it is closest to a "function" but it is actually called Property. You can use it like this:
 
 ```

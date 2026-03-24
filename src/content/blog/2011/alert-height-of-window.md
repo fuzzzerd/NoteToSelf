@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/7258122"
 > 
 > **Edit:** The problem that I am trying to solve is that my modal window is adding extra pixels to the bottom of the document so I'm trying to find out the original document height and the height after the modal window is activated.
 
+*I posted the following answer, which was chosen as the accepted answer and received 6 upvotes:*
+
 Something like this
 
 ```

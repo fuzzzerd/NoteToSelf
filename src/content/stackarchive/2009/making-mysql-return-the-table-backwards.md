@@ -38,6 +38,8 @@ sourceUrl: "https://stackoverflow.com/a/859667"
 > 
 > So, short: I want to read the database backwards, is it possible?
 
+*I posted the following answer:*
+
 Could you not simply Order By time Descending before LIMIT 10?
 
 ---

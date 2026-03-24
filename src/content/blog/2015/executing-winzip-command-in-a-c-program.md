@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/29036145"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 What you are asking, directly is possible with the [`System.Diagnostics.Process.Start(string, string)`](https://msdn.microsoft.com/en-us/library/h6ak8zt5\(v=vs.110\).aspx) method. It would look something like this:
 
 ```

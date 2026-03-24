@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/4442158"
 
 > My specific case is that I have an XML result from an ASMX service. I need to scan this XML string for a specific node and "ToLower()" the value in the node. I can't access the service to simply change the return at that level.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Maybe something like this would help get you started: [How to change XML Attribute](https://stackoverflow.com/questions/367730/how-to-change-xml-value-file-using-c)
 
 ---

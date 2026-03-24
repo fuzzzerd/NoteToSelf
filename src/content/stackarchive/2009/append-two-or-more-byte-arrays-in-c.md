@@ -49,6 +49,8 @@ sourceUrl: "https://stackoverflow.com/a/895149"
 > 
 > The test shows that in general, unless you are doing a lot of byte copies \[**which I am**\], looking at byte copies is not worth a focus \[e.g. 10 million runs yielding a difference of as much as 1.1 seconds\].
 
+*I posted the following answer, which received 1 upvote:*
+
 Your first option of making the first array large enough to contain the second array and using Array.CopyTo ends up being roughly the same as manually iterating over each item and making the assignment. Array.CopyTo() just makes it more concise.
 
 Converting to string and back to array will be horribly slow in contrast to the above. And would likely use more memory.

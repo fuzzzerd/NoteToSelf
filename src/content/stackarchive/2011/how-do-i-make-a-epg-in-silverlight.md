@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/5332531"
 > 
 > I would love some suggestions on how to build the xaml.
 
+*I posted the following answer:*
+
 I'm not sure exactly what you mean, but the Panorama and ListBox controls should get you started.
 
 ---

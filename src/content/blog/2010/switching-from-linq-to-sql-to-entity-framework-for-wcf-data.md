@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/3162052"
 > 
 > I'm not sure what I should change for my entity framework version, besides the obvious call to `SaveChanges();` instead of `SubmitChanges()` :(
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 I ended up using the solution here: [Entity Framework: Setting a Foreign Key Property](https://stackoverflow.com/questions/480872/entity-framework-setting-a-foreign-key-property/1037910#1037910).
 
 ---

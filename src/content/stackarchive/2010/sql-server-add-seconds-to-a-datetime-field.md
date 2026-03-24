@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/3480800"
 > 
 > I'm using SQLServer 2008
 
+*I posted the following answer, which received 14 upvotes:*
+
 You should look into [DATEADD](http://msdn.microsoft.com/en-us/library/ms186819.aspx).
 
 `DATEADD (datepart , number , date)`

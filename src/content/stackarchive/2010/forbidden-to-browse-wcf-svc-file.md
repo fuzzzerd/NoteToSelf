@@ -43,6 +43,8 @@ sourceUrl: "https://stackoverflow.com/a/3780037"
 > 
 > ```
 
+*I posted the following answer, which received 1 upvote:*
+
 Its likely the mime types not setup correctly on IIS, try using the [aspnet\_regiis](http://msdn.microsoft.com/en-us/library/k6h9cz8h\(VS.80\).aspx) tool. Failing that, I'd recommend adding a mimetype to your virtual directory in iis for .svc files to be handled by the .NET runtime.
 
 ---

@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/3441695"
 > 
 > I don't wish to make a poor suggestion.
 
+*I posted the following answer, which received 1 upvote:*
+
 I believe the reason for offering "Batch Updates" is to reduce transaction load on your Database Server. That said, if this isn't a concern, I wouldn't bother offering one.
 
 ---

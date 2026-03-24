@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/12412541"
 > 
 > How can I implement this?
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 Something like this should do the trick:
 
 # script (using jQuery)

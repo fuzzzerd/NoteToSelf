@@ -54,6 +54,8 @@ sourceUrl: "https://stackoverflow.com/a/4000850"
 > 
 > Will streaming allow me to send send the data over the wire in pieces? Or do I still have to buffer it all on the client side and the streaming just helps with the receiving of large data?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 As far as I know, if your method accepts a `MainContract` you will need to have that completely in memory on the client side in order to stream the serialized result to the WCF host.
 
 If loading up a full `MainContract` will take too much memory on the client side, I would adjust the service to allow for something like this:

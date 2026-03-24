@@ -37,6 +37,8 @@ sourceUrl: "https://stackoverflow.com/a/13162742"
 > 
 > but this doesn't work, as de.Children is of type [`DirectoryEntries`](http://msdn.microsoft.com/en-us/library/system.directoryservices.directoryentries.aspx). It implements `IEnumerable` but not `IEnumerable<DirectoryEntry>`.
 
+*I posted the following answer, which was chosen as the accepted answer and received 6 upvotes:*
+
 The way to achieve this is to use the [`.Cast<T>()` extension method](http://msdn.microsoft.com/en-us/library/bb341406.aspx).
 
 ```

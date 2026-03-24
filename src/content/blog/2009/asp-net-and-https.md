@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/945272"
 > 
 > Any help appreciated.
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 This codeproject article - [http://www.codeproject.com/KB/aspnet/WebPageSecurity.aspx](http://www.codeproject.com/KB/aspnet/WebPageSecurity.aspx) - is likely worth a read.
 
 ---

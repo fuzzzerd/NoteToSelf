@@ -114,6 +114,8 @@ sourceUrl: "https://stackoverflow.com/a/6034330"
 > 
 > ```
 
+*I posted the following answer, which received 3 upvotes:*
+
 Post the code for your WCF Service, also how are you generating the proxy? Typically they are named the same in the proxy as they are in the service.
 
 You can use `[OperationContract(Name= "Foo")]` on your method (in the service) to specify a specific name.

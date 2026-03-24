@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/67065294"
 > 
 > When i tried to apply the changes i'll get the error. What i'm doing wrong?
 
+*I posted the following answer, which received 8 upvotes:*
+
 For those running this form within Powershell, [here is another post](https://stackoverflow.com/a/40098904/86860) with information about the encoding error, and why it is happening.
 
 If you're just looking for an answer, you can edit your powershell profile:

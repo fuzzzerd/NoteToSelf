@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/10800821"
 > 
 > How do I use reflection to solve this problem?
 
+*I posted the following answer:*
+
 You'll need to use the [InternalsVisibleToAttribute](http://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.internalsvisibletoattribute.aspx).
 
 ---

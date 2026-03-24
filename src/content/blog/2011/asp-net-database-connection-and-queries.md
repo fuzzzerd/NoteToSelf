@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/6469481"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 It is not quite that simple, but you have a lot more flexibility. Check this link out: [http://www.dotnetperls.com/sqlconnection](http://www.dotnetperls.com/sqlconnection) -- It has some getting started for doing exactly what you've outlined (though I HIGHLY recommend you use sprocs or at a minimum, paramaterized sql, not direct sql).
 
 With that said, I suggest you look into [Linq-To-SQL](https://stackoverflow.com/q/3657533/86860) or [Entity Framework](https://stackoverflow.com/q/62110/86860). Any on-line sampels you find will probably use one of these technologies, and they do make things very nice and simple.

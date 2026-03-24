@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/8190073"
 > 
 > www.domain.com\\project now what I am trying to achieve is to have a \\project directory be only accessible if user is login. scenario would be the user opens the url www.domain.com and he see the login screen if he logins path \\project will be accessible if he does not and try's to go to any file in the direcoty or directory it should give him an error and redirect him back to login screen. I am using MVC3 in my project but I can write the login screen in asp.net web forms. I am also want to authorization be based in db a table with user logins so when the user logins it validates based on the information in the table. I am not looking for roles or privileges just a straight access to url based on login. If someone can show an example or a code sample on how to achieve this I will be greatly appreciated it.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 In your web.config try this:
 
 ```

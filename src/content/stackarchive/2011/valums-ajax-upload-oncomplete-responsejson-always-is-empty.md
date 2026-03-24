@@ -37,6 +37,8 @@ sourceUrl: "https://stackoverflow.com/a/6655204"
 > 
 > ```
 
+*I posted the following answer:*
+
 These are the headers I set when returning JSON data:
 
 ```

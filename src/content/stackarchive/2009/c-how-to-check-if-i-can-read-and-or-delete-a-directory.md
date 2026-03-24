@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/1604187"
 > 
 > So, when I have a `DirectoryInfo` object. How can I see if I am allowed to `GetDirectories()` and possibly `Delete()` it?
 
+*I posted the following answer:*
+
 I believe you will need to write your own `GetDirectories()` method; that recursivly gets the ones inside of it.
 
 [This Microsoft Article](http://support.microsoft.com/kb/303974) has a good article on how to do it, with a bit of work you can clean it up to use Generic Lists and make it fit your solution.

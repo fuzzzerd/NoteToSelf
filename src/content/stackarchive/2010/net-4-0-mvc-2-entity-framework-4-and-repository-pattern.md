@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/3719261"
 > 
 > Are there any good tutorials using MVC 2 and EF 4?
 
+*I posted the following answer, which received 1 upvote:*
+
 Yes, switching from Linq-To-SQL to Entity-Framework is mostly painless. I have built two very successfull web applications of sufficently higher complexity than NerdDinner using the NerdDinner tutorial as a guideline and have not found any issues with the design.
 
 ---

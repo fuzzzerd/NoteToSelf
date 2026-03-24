@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/983820"
 > 
 > Thanks!
 
+*I posted the following answer:*
+
 An API is an Application Programming Interface -- its something your program can talk to. An SDK usually includes an API along with documentation for the API. An API is not required to contain documentation. An SDK may include the API Components, but will always include the documentation.
 
 ---

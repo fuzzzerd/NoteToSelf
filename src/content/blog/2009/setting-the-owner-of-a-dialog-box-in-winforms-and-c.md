@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/983479"
 > 
 > Is this a problem that can be solved with Winforms? I prefer a Winforms solution, but will be satisfied with a XAML solution if necessary.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 I assume your C# Dll is just creating an instance of a form and calling the .Show() method. If that is the case, in your COM exposed method should take an hWnd parameter and set the forms owner to that hWnd.
 
 ---

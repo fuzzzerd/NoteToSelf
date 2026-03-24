@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/2806175"
 > 
 > Is there anything wrong with this or is there a better way to do this? Should I even have two classes (The database class could also take the user input)?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 You should have a "data" class, that represents all of your parameters.
 
 Your GetParameters class should create an instance of this class.

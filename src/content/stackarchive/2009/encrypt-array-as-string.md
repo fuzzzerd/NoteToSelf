@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/837428"
 > 
 > Oh... yeah, the encryption algorithm should let me use a key/salt. mcrypt\_encrypt seems to be giving back messy long results, but perhaps I'm not using the right cipher. Which is the simplest cipher (produces short clean strings)?
 
+*I posted the following answer:*
+
 Try XOR-ing all of the elements in the array store the resulting char in the string -- the the same in reverse to decrypt.
 
 ---

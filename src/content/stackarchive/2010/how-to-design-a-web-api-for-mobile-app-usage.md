@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/3732759"
 > 2.  How to keep the session after login?
 > 3.  If I need to let user could login without input his username/password next time when he open the app, What should I do? I just think to store his password in the mobile client is not a good idea.
 
+*I posted the following answer, which received 1 upvote:*
+
 Quick brain dump:
 
 1.  Generate yourself a quick API Key (like a GUID) and communciate with your service via HTTPS.

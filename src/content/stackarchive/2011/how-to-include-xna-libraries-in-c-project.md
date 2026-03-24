@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/6204291"
 > 
 > Can anyone please help ?
 
+*I posted the following answer, which received 1 upvote:*
+
 First, you need to add a reference to the XNA binary files. Second, I recommend you start off with the Built-In Visual Studio XNA Game Template, and work from there.
 
 To add the references manually, you'll (probably need [XNA Game Studio](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9ac86eca-206f-4274-97f2-ef6c8b1f478f) installed) and then add references to `Microsoft.Xna.Framework.dll` and whatever else you need.

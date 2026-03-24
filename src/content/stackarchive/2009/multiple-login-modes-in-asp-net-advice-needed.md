@@ -42,6 +42,8 @@ sourceUrl: "https://stackoverflow.com/a/869935"
 > 
 > Should I just write a custom login for the system and be done with it?
 
+*I posted the following answer:*
+
 If you use Forms authentication, you could check the user against active directory and against the database and if either returns a positive set the forms authentication to true.
 
 ---

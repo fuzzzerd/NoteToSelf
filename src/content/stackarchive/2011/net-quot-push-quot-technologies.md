@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/5711608"
 > 
 > Are there other solutions for the server to talk to the client? If so what are they?
 
+*I posted the following answer:*
+
 You can also use any web transfer, simply increase the timeout from the caller. Then at the server, simply block until you have data to send.
 
 ---

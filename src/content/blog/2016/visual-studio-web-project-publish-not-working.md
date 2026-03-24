@@ -50,6 +50,8 @@ sourceUrl: "https://stackoverflow.com/a/34908210"
 > 
 > Clearly I am not using the publish web project correctly, but I don't see any different way to do it. What am I doing wrong?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Chances are that your images are in the file system, but they are not in your actual project.
 
 You'll want to tell Visual Studio to 'show all files' its one of the icons in the top of the solution explorer. From there you can see the grayed out items show up under the images folder, and right click and "include in project".

@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/2238458"
 > 
 > Dave
 
+*I posted the following answer, which received 1 upvote:*
+
 When making references to files from a View in MVC, I always use this
 
 ```

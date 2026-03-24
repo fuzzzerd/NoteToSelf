@@ -29,6 +29,8 @@ sourceUrl: "https://stackoverflow.com/a/21709663"
 > Basically it uses `SQLCMD.exe` with the already existing datasource called `PDATA_SQLExpress`.  
 > I've searched and gotten close but I'm still at a loss on where to start.
 
+*I posted the following answer, which was chosen as the accepted answer and received 184 upvotes:*
+
 To execute your command directly from within C#, you would use the [SqlCommand](http://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlcommand%28v=vs.110%29.aspx) class.
 
 Quick sample code using paramaterized SQL (to avoid injection attacks) might look like this:

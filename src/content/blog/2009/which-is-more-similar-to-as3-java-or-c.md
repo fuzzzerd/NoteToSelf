@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/976504"
 > I want to learn either Java or C++.  
 > Would one of these be easier to learn based on my current knowledge?
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 It really depends what you want to do. C++ is more powerful and fast. But Java has a smaller learning curve.
 
 I'd say learn C++, only because it will require you to gain a better understanding of how computers work under the hood. It will also help position you to learn Java, C#, or any other language down the road.

@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/3461181"
 > 
 > Thanks.
 
+*I posted the following answer:*
+
 I'm going to assume you're on WinForms (same applies for WPF, slightly different code though).
 
 In your project you have

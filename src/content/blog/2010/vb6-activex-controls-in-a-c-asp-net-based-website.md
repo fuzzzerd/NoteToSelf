@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/3817751"
 > 
 > Thanks!
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 I believe it should be possible; but you will probably need to implement it with JavaScript and ActiveX objects. This will require that the user's browser is setup to allow your web site to interact with ActiveX objects. A simple example of this, is using a link to start a program (like remote desktop client):
 
 ```

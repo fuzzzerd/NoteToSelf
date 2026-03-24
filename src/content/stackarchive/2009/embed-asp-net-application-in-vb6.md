@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/808293"
 > 
 > thanks in advance
 
+*I posted the following answer, which received 2 upvotes:*
+
 Realistically, your best option is probably to use the Web Browser control on a new tab, and point that at your ASP.NET application.
 
 For auto-login, you SHOULD be able to have users login once. You'll probably need to enable a "remember me" feature in your ASP.NET application.

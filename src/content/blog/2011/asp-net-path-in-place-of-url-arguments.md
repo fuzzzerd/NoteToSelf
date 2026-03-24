@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/7071357"
 > 
 > How can I do this (get the arguments) in ASP.NET? What's the usual procedure for setting up a system like this?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 What that is called, is Url Rewriting. If you are using the ASP.NET-MVC Framework, you get this behavior by default, along with a design pattern that helps make developing it easier.
 
 If you're trying to shoehorn this onto an existing application, I recommend that you look into some url rewriting modules.

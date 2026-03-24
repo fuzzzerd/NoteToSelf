@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/2748604"
 > 
 > **CLARIFICATION**: When i say cross-platform I mean that there are ways I can compile my source code using different compilers for each target system. I don't need a compile-once solution... I just want a simple experience for users of the software even if I need to compile it and work out code issues for each target platform.
 
+*I posted the following answer:*
+
 As stated by others, your best bet for exacty what you are asking is C, it will compile on almost any platform, as its effectivly a "high-level assembler."
 
 That said, to achieve the goal you want, a managed language is going to be your best bet. Something like Silverlight for Windows/OSX (and Moonlight for Mono on Linux) is going to be your best bet, additionally it will provide code-once deploy everywhere solution.

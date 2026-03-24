@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/5758311"
 > 
 > Also for Installing on Clients Machines, Will this require Digital Cert or Strongly Name Assembly? (This WPF app and ServiceController.exe will be installed on XP, Vista and Win 7 machines)
 
+*I posted the following answer:*
+
 Personally, I'd give the whole WPF App full trust, because to an end user, they wont know the difference between giving one of your executables UAC permission over the other. It should make things more simple for your deployment process too.
 
 For the digital certificate, I believe that it will work with a self-signed one, but the user may receive a dialog stating that its not from a trusted certificate authority. Getting a signed cerficiate will make your application look that much more professional, and one can usually be had from GoDaddy or similar for a few hundred dollars.

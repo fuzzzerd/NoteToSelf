@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/4339873"
 > 
 > ```
 
+*I posted the following answer, which received 55 upvotes:*
+
 I might rewrite your bit of code like this:
 
 ```

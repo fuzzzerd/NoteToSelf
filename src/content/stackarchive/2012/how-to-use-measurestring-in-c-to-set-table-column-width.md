@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/11909351"
 > 
 > From my research, it seems like I can use MeasureString (since I know the font and string) to see if the string is longer/wider than my set table column, and change the height of the row if this is so. However, I'm very new to C# programming (and haven't done much programming overall in years, besides web stuff), so I'm not sure how to get all of this implemented. I have the logic in place, and I know how to change the height, I just need to know how to get an actual number I can use logic against using the MeasureString method (and how to instantiate any variables and functions I might need to use that method).
 
+*I posted the following answer, which received 2 upvotes:*
+
 I believe you need to use this overload for [`MeasureString(string,font,int)`](http://msdn.microsoft.com/en-us/library/9bt8ty58.aspx):
 
 > The width parameter specifies the maximum value of the width component of the returned SizeF structure (Width). If the width parameter is less than the actual width of the string, the returned Width component is truncated to a value representing the maximum number of characters that will fit within the specified width. **To accommodate the entire string, the returned Height component is adjusted to a value that allows displaying the string with character wrap.**

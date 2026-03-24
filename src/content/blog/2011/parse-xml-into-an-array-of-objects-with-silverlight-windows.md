@@ -80,6 +80,8 @@ sourceUrl: "https://stackoverflow.com/a/7181834"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 What is wrong with
 
 ```

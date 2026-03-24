@@ -54,6 +54,8 @@ sourceUrl: "https://stackoverflow.com/a/29852069"
 > 
 > This one still only operates on one table, but at least it's not an infinite loop :)
 
+*I posted the following answer, which was chosen as the accepted answer and received 7 upvotes:*
+
 While this link is for Amazon RDS, it does provide specific code to disable constraints without `sp_MSForEachTable`
 
 [Importing and Exporting SQL Server Data](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/SQLServer.Procedural.Importing.html%22Importing%20and%20Exporting%20SQL%20Server%20Data%22)

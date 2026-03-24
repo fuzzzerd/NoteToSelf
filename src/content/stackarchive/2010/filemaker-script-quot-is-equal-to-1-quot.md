@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/2906348"
 
 > I want to write a script in filemaker which returns true if `table::field = 1` for a certain entry, and false otherwise. How do I do this?
 
+*I posted the following answer, which received 2 upvotes:*
+
 You can use the `Set Variable` script step to set a `$$variable` using the calculation engine to return true or false.
 
 ---

@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/3558895"
 > 
 > Assume for the purposes of this question that the desired behavior is not to depress the default button of the form, but rather some other custom processing that should occur.
 
+*I posted the following answer, which received 9 upvotes:*
+
 You can drop this into the FormLoad event:
 
 ```

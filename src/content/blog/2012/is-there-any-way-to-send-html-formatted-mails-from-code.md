@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/9118411"
 
 > I have an app where the user can send some data via email, sort of like a report. This works fine but I would like some more formatting. The best thing would be if it was possible to create some HTML code and add it to the mail. Is this possible?
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 With Windows Phone 7 you can only start the [EmailComposeTask](http://msdn.microsoft.com/en-us/library/hh394003%28v=VS.92%29.aspx) which does not have any way to include HTML based email. You will need to send this from a web service, which in all honesty is probably the better option anyway, as you'll be able to log who sent what when, etc.
 
 <details>

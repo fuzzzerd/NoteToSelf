@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/46008309"
 > 
 > help me thanks in advance
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 I recommend you throw the page number into the query string, then in the `Page_Load` event, you check for it. If its there, you go to that page directly, otherwise you load the first page.
 
 This should support browser back button functionality taking you to the correct page.

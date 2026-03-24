@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/870758"
 > 
 > So, any idea how many hits/month would a shared hosting website handle?
 
+*I posted the following answer:*
+
 They are all different. It depends on how much bandwidth they are giving you. (GB/Month is a typical metric).
 
 I would say that hits per month could range in the low hundred thousands without causing major issues on many managed hosting. It all depends how intenst your WCF services are. The advantage is that many managed hosting facilities will allow you to dynamically add more hosting power to your site. (For more $ obviously).

@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/978385"
 > 
 > Any thoughts on these questions, or any insight to a better approach would be greatly appreciated.
 
+*I posted the following answer, which was chosen as the accepted answer and received 23 upvotes:*
+
 Yes, you could use a cookie and set the expiration very far into the future; however, there is nothing stopping anyone from clearing their cache and voting again.
 
 Your best bet, is to use the cookie and don't allow votes from the same IP within 15 minutes of each other... without registration thats the best you can do.

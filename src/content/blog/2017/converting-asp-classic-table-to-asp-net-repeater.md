@@ -39,6 +39,8 @@ sourceUrl: "https://stackoverflow.com/a/45174165"
 > 
 > Not in a position to refactor out the Session dependencies, unfortunately. Any thoughts? I'm fairly new to ASP.NET. My CodeFile for this page is in VB.NET.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 You need to look into [On Item Data Bound event](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.repeater.onitemdatabound\(v=vs.110\).aspx), so you can do some code-behind work during binding.
 
 You'll want to check the item object, determine if [its a header row,](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.repeateritemeventargs.item\(v=vs.110\).aspx) then access your session object.

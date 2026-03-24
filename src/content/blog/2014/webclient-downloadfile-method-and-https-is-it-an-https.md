@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/23553819"
 > 
 > Possibly relevant: The link itself is sent to me in an e-mail. No actual authentication is required, I simply navigate to the link and the file downloads.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 WebClient will use the protocol specified in the Uri you pass the download method. You don't have to do anything special to make this happen.
 
 You can use a tool like [Fiddler](http://www.telerik.com/download/fiddler) to verify this, by checking the connections going out from your machine.

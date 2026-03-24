@@ -47,6 +47,8 @@ sourceUrl: "https://stackoverflow.com/a/6997752"
 > 
 > How could I do that?
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 You need to define a model with two SelectLists:
 
 ```

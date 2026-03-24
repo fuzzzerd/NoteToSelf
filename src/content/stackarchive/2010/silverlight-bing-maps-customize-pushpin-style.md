@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/3016460"
 
 > How do I customize the style of a pushpin on the Bing Maps Silverlight control? I have reviewed the documentation shown here ([http://www.microsoft.com/maps/isdk/silverlightbeta/#MapControlInteractiveSdk.Tutorials.TutorialCustomPushpin](http://www.microsoft.com/maps/isdk/silverlightbeta/#MapControlInteractiveSdk.Tutorials.TutorialCustomPushpin)). However, I am programmatically adding a variable number of Pushpins. Ideally, I would like to be able to set the style of each pushin, but I do not know how.
 
+*I posted the following answer, which received 1 upvote:*
+
 I would do this by creating a layer and then adding my push pins to that layer.
 
 ```

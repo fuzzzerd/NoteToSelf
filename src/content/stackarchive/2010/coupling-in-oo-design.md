@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/4540083"
 > 
 > For good OO design, which approach should be used? Or is there a third way....
 
+*I posted the following answer:*
+
 I would go with option #1 -- coupling is not a bad thing, in your case, since there is a clear relation between objects. I would go with option #1. This gives you the option for a meeting to have a property of `MeetingActions[]` or something similar.
 
 ---

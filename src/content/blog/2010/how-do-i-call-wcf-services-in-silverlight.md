@@ -101,6 +101,8 @@ sourceUrl: "https://stackoverflow.com/a/3553828"
 > 
 > **Update :-** I read in google you need to set serialization mode to unidirectional. But where do i set this? What do i write where?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 1.  You are correct, All network calls in Silverlight are done asynchronously.
 2.  The `=>` syntax you mention is shorthand for defining a delegate method, its called a lambda. (see below)
 3.  You should be able to set a break-point in the Completed event handler, if not try restarting Visual Studio (I've seen it act strangly before).

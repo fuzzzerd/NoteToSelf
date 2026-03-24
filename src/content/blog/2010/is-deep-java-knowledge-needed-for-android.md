@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/2915439"
 > 
 > Thank you.
 
+*I posted the following answer, which was chosen as the accepted answer and received 7 upvotes:*
+
 If you're an adept C++ programmer, you should not have much trouble picking up java, period.
 
 Developing for Android is a little bit different than desktop java, but I refer to my earlier point: if you're an adept programmer already, you should be able to pick it up easily. As you go along and get stuck, post questions here when you get stuck.

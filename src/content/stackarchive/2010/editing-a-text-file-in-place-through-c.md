@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/3104369"
 > 
 > The text which has to be replaced is exactly the same size as the source text (if this helps).
 
+*I posted the following answer:*
+
 I'm guessing you'll want to use the FileStream class and seek to your positon, and place your updated data.
 
 ---

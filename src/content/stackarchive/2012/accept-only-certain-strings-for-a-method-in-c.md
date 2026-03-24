@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/10521432"
 > *   "Year"
 > *   "SecondName"
 
+*I posted the following answer, which received 1 upvote:*
+
 The answer depends what the behavior is when `filter` is **not** one of those three strings.
 
 If one of those is required you should either throw an ArgumentException:

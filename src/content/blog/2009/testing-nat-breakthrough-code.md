@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/1631119"
 > 
 > Thanks for any advice!
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 In terms of code/theory on NAT breaking, I cannot offer advice, but I can make some suggestions on setting up a test environment.
 
 You can download a copy of [m0n0wall](http://m0n0.ch/wall/) and run it inside of a Virtual PC image (both free). This will give you a second router w/out purchasing any additional hardware. With this extra router, you can create a seperate subnet for your two clients.

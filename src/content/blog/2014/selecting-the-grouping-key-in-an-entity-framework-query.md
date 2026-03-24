@@ -98,6 +98,8 @@ sourceUrl: "https://stackoverflow.com/a/23957110"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 @Gusman lead me to the solution. To the EntityKey issue got me thinking that it must be an Entity Framework thing having something to do with the comparison of the ID going wrong since there are duplicates.
 
 I re-wrote the query as follows, using Linq-To-Objects and I do get the expected results. The key here is to perform the `.GroupBy(...)` after the `.ToList()` so the values are compared in memory, where C# rules are used instead of database or entity framework comparison rules.

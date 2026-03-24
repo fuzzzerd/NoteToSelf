@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/8419532"
 > 
 > As always greatly appreciate the feedback.
 
+*I posted the following answer, which was chosen as the accepted answer and received 5 upvotes:*
+
 You may want to check out the [StopWatch](http://msdn.microsoft.com/en-us/library/system.diagnostics.stopwatch.aspx) class. You can sprinkle it into your code like this:
 
 ```

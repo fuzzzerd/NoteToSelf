@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/3629070"
 > 
 > Thanks.
 
+*I posted the following answer, which received 1 upvote:*
+
 First, if this code is inside a .ASPX file, you need to move it out to a .ASHX file. Second, after you've moved to .ASHX you can simply write to the output stream and be done, you shouldn't need a `Response.End();`
 
 This is the link I started with: [http://dotnetperls.com/ashx-handler](http://dotnetperls.com/ashx-handler) -- there isn't much to it. It simply removes a bunch of the asp.net "page" overhead.

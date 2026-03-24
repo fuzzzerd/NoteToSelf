@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/2365252"
 > 
 > TIA
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Yes, setting disabled on the serverside only adds the disabled attribute.
 
 ---

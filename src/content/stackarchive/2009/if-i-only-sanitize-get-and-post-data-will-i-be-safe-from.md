@@ -31,6 +31,8 @@ sourceUrl: "https://stackoverflow.com/a/1570467"
 > 
 > After reading the answers below I realize this question was a bit foolish. It depends on if you're inserting to the database, or outputting HTML. In that case, perhaps it _is_ better to do just before usage. That's okay though, it's easy enough to wrap output methods too...
 
+*I posted the following answer, which received 1 upvote:*
+
 Personally, I'd always sanitize right before you insert into your database; that said, if you have a SQL based database parameterized SQL and sprocs are the way to go to ensure you aren't injecting anything that will cause harm.
 
 ---

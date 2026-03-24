@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/972688"
 > 
 > I am new to this field. Any suggestion will be welcomed.
 
+*I posted the following answer, which received 1 upvote:*
+
 How are the images to be served? Are the images generated on the fly? or are they static and stored as .jpg or other format on the file system?
 
 Either way, I'd use ASP.NET .ashx (generic handlers) and use the System.Drawing classes.

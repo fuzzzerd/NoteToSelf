@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/1500276"
 > 
 > I suppose since the server is a web service that this is called Comet, but I haven't seen a good iPhone example yet.
 
+*I posted the following answer:*
+
 For Web Service _Push_, aka Comet you may want to checkout this other StackOverflow question [here.](https://stackoverflow.com/questions/337985/comet-server-push-to-client-on-iphone)
 
 ---

@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/2837193"
 > 
 > If my file has 5000 rows, could I update a particular row somehow using C#?
 
+*I posted the following answer, which received 1 upvote:*
+
 You have two options.
 
 1.  Use a Stream and find the index of your row and insert some characters

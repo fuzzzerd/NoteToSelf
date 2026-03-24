@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/1033226"
 > 
 > Thanks!
 
+*I posted the following answer, which received 3 upvotes:*
+
 Performance issues are usually IO related. (Unless you can see your CPU maxing out at 100%). I'd recommend trying to put the repository on a faster drive array (RAID 10 and/or higher RPM drives) to see if that increases your performance. If you are accessing the repository over the internet, then its likely a bandwidth issue, although depending on how much data you are talking about, even a simple DSL connection should be able to handle it.
 
 <details>

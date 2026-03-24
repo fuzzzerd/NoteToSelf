@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/10338572"
 
 > If I create two versions of my site, one normal and one in a folder on the server called "mobile" how can I then listen out for mobile devices and direct the user to the mobile folder?
 
+*I posted the following answer:*
+
 Your landing page will need to [detect](http://www.quirksmode.org/js/detect.html) and redirect. With javascript this can be done as easily as:
 
 ```

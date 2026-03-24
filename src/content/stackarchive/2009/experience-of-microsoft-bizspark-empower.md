@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/1027680"
 > 
 > Also consider [WebsiteSpark](http://weblogs.asp.net/scottgu/archive/2009/09/24/announcing-the-websitespark-program.aspx) that has just come out (24th Sep 2009)
 
+*I posted the following answer:*
+
 I believe as long as your **primary** business/product is a SaaS type application you are OK. But I am not a lawyer so take what I say with a grain of salt.
 
 ---

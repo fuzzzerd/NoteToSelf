@@ -37,6 +37,8 @@ sourceUrl: "https://stackoverflow.com/a/6552614"
 > 
 > thanks vince
 
+*I posted the following answer:*
+
 What datatype are `count` `start` and `end` declared as? That isn't shown in your code.
 
 Also, the code you've provided, if working, would only give you the first and last element, NOT the minimum in the set and the maximum in the set. If you are looking for min/max, you'd need to write a loop, such as this:

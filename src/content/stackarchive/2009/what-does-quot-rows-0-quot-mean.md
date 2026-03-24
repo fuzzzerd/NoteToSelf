@@ -15,6 +15,8 @@ sourceUrl: "https://stackoverflow.com/a/830323"
 
 > HI! I am looking for a document that will define what the word "rows\[0\]" means. this is for BIRT in the Eclipse framework. Perhaps this is a Javascript word? I dunno... been searching like mad and have found nothing yet. Any ideas?
 
+*I posted the following answer, which received 1 upvote:*
+
 Typically code like rows\[x\] is accessing an element inside an array. Any intro to programming book should be able to define that for you.
 
 rows\[0\] would be accessing the _first_ element in the array.

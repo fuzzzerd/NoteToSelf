@@ -106,6 +106,8 @@ sourceUrl: "https://stackoverflow.com/a/48651011"
 > 
 > When user go to my\_public/about.aspx always is redirect to app/login.aspx. User should redirect to my\_public/about.aspx when is annonymus.
 
+*I posted the following answer:*
+
 Change the authorization section on the public web.config to
 
 ```

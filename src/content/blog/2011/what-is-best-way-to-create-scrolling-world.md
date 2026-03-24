@@ -28,6 +28,8 @@ sourceUrl: "https://stackoverflow.com/a/6820010"
 > 
 > Are there better ways?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 There are two ways you can achieve this result.
 
 1.  Keep player and camera stationary, move everything else.

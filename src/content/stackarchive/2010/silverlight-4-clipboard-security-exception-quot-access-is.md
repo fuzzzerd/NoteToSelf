@@ -57,6 +57,8 @@ sourceUrl: "https://stackoverflow.com/a/2525836"
 > 
 > PS : I would bet on a thread problem :p
 
+*I posted the following answer, which received 1 upvote:*
+
 Have you tried this:
 
 ```

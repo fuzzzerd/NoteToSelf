@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/4329348"
 > 
 > Also I noticed stuff called "long int" or even "long long"! Is it a data type or a modifier?
 
+*I posted the following answer, which received 6 upvotes:*
+
 From one of the answers in the question you linked:
 
 > The long must be at least the same size as an int, and possibly, but not necessarily, longer.

@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/4959880"
 > 
 > Thanks on Regards..
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 There is no way for the Android emulator to access your hard drive in the sense that you're talking about. You may be able to mount a folder on your hard drive as an SD Card, but you would NOT want your app to use this, since it will go away once you deploy your app to the market. I recommend you build a web-service to run on your desktop (which will later be deployed to the Internet) and write your Android application to call this web-service.
 
 <details>

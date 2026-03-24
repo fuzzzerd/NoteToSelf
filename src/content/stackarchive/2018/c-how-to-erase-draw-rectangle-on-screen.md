@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/52525034"
 > 
 > EDIT: I need to erase the rectangles that are both inside and OUTSIDE the form. Ideas?
 
+*I posted the following answer:*
+
 You need to cause the window you are drawing to, to repaint itself between your iterations. An alternative solution would have you capture the window to an in-memory image; draw your rectangle on a copy of that image, then draw the image to the window. Repeating this process each time, so that the target window doesn't have artifacts from previous iterations.
 
 <details>

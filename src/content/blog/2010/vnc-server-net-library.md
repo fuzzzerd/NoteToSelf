@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/4540404"
 > 
 > If it is possible, I'd like to have a closed license compatible components (i.e. LGPL).
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 [VNCSharp](http://cdot.senecac.on.ca/projects/vncsharp/) is a client library. I'm unsure of its full abilities, as VNC allows both "client" and "server" to act as each other; but it should be a good starting point. That said, as far as I know, it may be the only .NET starting point as its the only .NET VNC component I've ever been able to locate.
 
 ---

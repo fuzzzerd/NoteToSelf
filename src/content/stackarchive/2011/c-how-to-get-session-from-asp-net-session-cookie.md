@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/6254007"
 > 
 > And where I am using my existing session code e.g. `Session.Add("Something", something)` do I now need to change this?
 
+*I posted the following answer:*
+
 Typically the way that I use session variables in ASP.NET is like this
 
 ```

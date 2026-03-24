@@ -47,6 +47,8 @@ sourceUrl: "https://stackoverflow.com/a/5196523"
 > 
 > }
 
+*I posted the following answer, which received 1 upvote:*
+
 You may want to look into writing something more like this:
 
 ```

@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/4642597"
 > 
 > To do this which tools and metrics can we use?
 
+*I posted the following answer, which received 1 upvote:*
+
 In an ideal world, you will have multiple Unit Tests for each method (or function) in your solution. In reality, this usually doesn't happen, especially when working on existing systems.
 
 There are no automated ways to prioritize which methods you should unit test since every software solution is different. I would focus on methods and classes that are the core of your solution, and try to get as much unit test coverage on those methods. Then focus on the other parts of your code.

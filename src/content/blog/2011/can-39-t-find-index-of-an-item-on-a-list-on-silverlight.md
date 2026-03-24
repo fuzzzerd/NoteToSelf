@@ -76,6 +76,8 @@ sourceUrl: "https://stackoverflow.com/a/4784493"
 > 
 > And here comes another question: It's ok to do all this just to compare two objects?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 I suspect this is due to a reference issue. You'll need to override the `Equals();` method in your `Country` class to check.
 
 I'd use code like this:

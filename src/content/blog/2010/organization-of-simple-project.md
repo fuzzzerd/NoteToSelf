@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/2932686"
 > 
 > I'm very new in asp.net and mvc, can anyone suggest a right project organization or give links to simular applications?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 A few guide lines I like to stick with:
 
 1.  Entities should map to database tables

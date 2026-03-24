@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/1349068"
 > 
 > I want to make an enjoyable user experience for all of my sites and would hate to do something that annoys my users. What is your experience/advice on the matter?
 
+*I posted the following answer, which received 1 upvote:*
+
 It depends, typically for links to additional content on your site, I would not use the \_blank. Anytime I link to off-site content I use the \_blank to keep a page open for my site. That way when the user is done on the external site they see my site again.
 
 With modern browsers this usually opens a new tab. I expect this behavior, but usually I control click to get a new tab/window when I want to keep my place.

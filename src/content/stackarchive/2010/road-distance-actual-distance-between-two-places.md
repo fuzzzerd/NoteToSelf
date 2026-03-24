@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/4146115"
 > 
 > Thanks in advance....
 
+*I posted the following answer:*
+
 If you have two LatLongs you can calculate the direct distance between them; however, since you want driving directions (not as the crow flies) you'll need access to street-center-lines, so you can calculate the distance for each "leg" of the trip.
 
 Google Maps may provide driving directions along with route distance, you'll need to check the documentation for that specific functionality.

@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/12467049"
 > 
 > How to update correctly login name in AD from C# code? What property should I set in DirectoryEntry, or there is another method to change login name.
 
+*I posted the following answer, which was chosen as the accepted answer and received 7 upvotes:*
+
 There are two logon names in AD:
 
 ```

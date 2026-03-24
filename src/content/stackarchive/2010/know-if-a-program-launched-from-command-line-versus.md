@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/2031099"
 > 
 > Thanks for your help.
 
+*I posted the following answer:*
+
 Unless I don't understand what you want, you should iterate over the CommandLine Args collection and only prompt for the ones not provided. This will solve the problem of the user starting your app from the commandline w/out any arguments. This way, you only ever prompt for the arguments that aren't explicitly passed on the commandline.
 
 Like this:

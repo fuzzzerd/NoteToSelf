@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/5876574"
 
 > Is it possible to return plain old xml using an asmx file? Without the SOAP stuff?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 I would recommend you look into a generic handler if your goal is to avoid SOAP. Start [here](http://www.brainbell.com/tutorials/ASP/Generic_Handlers_%28ASHX_Files%29.html) to for some info on using generic handlers, also called ASHX handlers.
 
 From a generic handler, you can return whatever data you like. Using an asmx file for such purposes would be confusing for future developers and it adds complexity that you likely don't need.

@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/2819984"
 > 
 > Given that MVC can route the request to the correct view based on the URL, is it as simple as loading the wildcard SSL cert on an IP, then use DNS to map the various names to the IP?
 
+*I posted the following answer, which received 1 upvote:*
+
 Presuming you have each of the above setup as a separate site in IIS, you simply need to apply the certificate to each site through the IIS6 wizard or the IIS7 Bindings Menu.
 
 In terms of SSL, the IP address does not matter, because the SSL Certificate is based on a DNS name, not an IP.

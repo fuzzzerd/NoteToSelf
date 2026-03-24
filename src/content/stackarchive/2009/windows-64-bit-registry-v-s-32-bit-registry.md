@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/869822"
 > 
 > So, my question is whether my understanding of the above sample is correct? I also want to get some more documents to learn this topic, about the two different sets of registry on x64 architecture. (I did some search, but not found any valuable information.)
 
+*I posted the following answer, which received 1 upvote:*
+
 I run an x64 bit machine as my desktop; and I have never run into any issues with the different registry configurations.
 
 Per MSDN, there is apparently a difference: [http://msdn.microsoft.com/en-us/library/ms724072(VS.85).aspx](http://msdn.microsoft.com/en-us/library/ms724072\(VS.85\).aspx)

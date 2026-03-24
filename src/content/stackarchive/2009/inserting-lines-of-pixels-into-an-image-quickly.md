@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/1929148"
 > 
 > Thanks in advance.
 
+*I posted the following answer:*
+
 Unless this is a performance issue for uses, I'd stick with GDI+ simply because it is baked into the framework and keeps dependencies down. If you really need the performance use the FreeImage library.
 
 ---

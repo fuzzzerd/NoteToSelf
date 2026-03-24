@@ -122,6 +122,8 @@ sourceUrl: "https://stackoverflow.com/a/5491036"
 > 
 > its ignoring both of those lists ?
 
+*I posted the following answer, which was chosen as the accepted answer and received 4 upvotes:*
+
 **1)** Your `list` is a field, not a property, and the XmlSerializer will only work with properties, try this:
 
 ```

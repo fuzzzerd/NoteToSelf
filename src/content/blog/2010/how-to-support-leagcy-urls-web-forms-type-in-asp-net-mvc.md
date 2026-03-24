@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/3040231"
 
 > We have recently shifted to asp.net mvc, but we still need to support some legacy urls. What is the best way to handle this situation. Is it Application\_PreRequestHandlerExecute() event in global.asax, that I need to use or is there any better way?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 You can use the URL [Rewrite module for IIS7](http://www.iis.net/download/URLRewrite). Scott Hanselman has a good post on using URL rewrite to to handle legacy URLs [here](http://www.hanselman.com/blog/ASPNETMVCAndTheNewIIS7RewriteModule.aspx).
 
 Another option, I believe you can simply add a route that matches your old url syntax.

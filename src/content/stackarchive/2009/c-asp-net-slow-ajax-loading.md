@@ -26,6 +26,8 @@ sourceUrl: "https://stackoverflow.com/a/1560545"
 > 
 > So, all the loading goes fast, except when I call the test page. From there on every page loads slow. How come?
 
+*I posted the following answer:*
+
 If that for...next loop is in the pageload of your page, ALL ajax queries will have to run that same loop; you should put any long-running processes inside a `this.IsPostPack == false` if statement, and then persist that data in viewstate if you need it during subsequent postbacks.
 
 ---

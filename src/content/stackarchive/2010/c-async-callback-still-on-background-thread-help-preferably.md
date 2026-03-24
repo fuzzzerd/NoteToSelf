@@ -61,6 +61,8 @@ sourceUrl: "https://stackoverflow.com/a/3643100"
 > 
 > Please advise any thoughts.
 
+*I posted the following answer:*
+
 You need to invoke your event on the UI thread,
 
 WinForms

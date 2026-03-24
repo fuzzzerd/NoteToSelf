@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/3247960"
 > 
 > When would you use WebServices and when would you use WCF? Is one more scalable than the other?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 I would use WCF because it can do everything webservices (asmx) does; while giving you the flexibility to extend much further.
 
 You can setup a simple WCF Service just as easily as an ASMX service through Visual Studio. So if you're "Fresh" on both technologies, I'd spend time learning WCF.

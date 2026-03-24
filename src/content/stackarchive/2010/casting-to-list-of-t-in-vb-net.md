@@ -42,6 +42,8 @@ sourceUrl: "https://stackoverflow.com/a/4001189"
 > 
 > Crispin
 
+*I posted the following answer:*
+
 I always use `DirectCast(object, type)`
 
 ---

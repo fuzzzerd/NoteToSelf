@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/8069434"
 
 > I had to add a new column to my table so I did that in the database and then I removed the table from the dbml file and readded the one with the new column. So the column I added was (\_isActive bit null allowed) and this messed up my designer file. It has added a duplicate definition of some of the attributes like: private bool _isActive and other one as private System.Nullable @_\_isActive; Also added additional stuff. I had to delete the designer file and reload it with old one. How should I go to make this change in the dbml file?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 With Linq-To-SQL I believe you need to use the designer to remove and add a table after you have made a schema change.
 
 If you edited the code-behind file, those changes can cause problems. There is a reason all the classes there are defiend as `partial class`

@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/3718567"
 > 
 > Should I implement a Windows Service, or a scheduled task that invokes an application to perform the desired task.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 If you have so much data it cannot be processed in real-time, I would probably setup the service to do the following:
 
 ProcessRecordViaPost

@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/9233325"
 > 
 > What would be the best choice for a service i would like to access from all three platforms and that only returns information specific to the authenticate user.
 
+*I posted the following answer:*
+
 I don't know what the support is like for MonoTouch / MonoDroid, but WCF supports secure services without adding username/password to every request manually (it actually does, but it includes it in the headers).
 
 See this blog post for a great starting point for using WPF Custom Username/Password Validator: [http://blogs.msdn.com/b/pedram/archive/2007/10/05/wcf-authentication-custom-username-and-password-validator.aspx](http://blogs.msdn.com/b/pedram/archive/2007/10/05/wcf-authentication-custom-username-and-password-validator.aspx)

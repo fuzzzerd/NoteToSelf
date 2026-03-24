@@ -45,6 +45,8 @@ sourceUrl: "https://stackoverflow.com/a/23786537"
 > 
 > ```
 
+*I posted the following answer, which received 6 upvotes:*
+
 You should be able to use [`Enumerable.Range`](http://msdn.microsoft.com/en-us/library/vstudio/system.linq.enumerable.range%28v=vs.100%29.aspx) and [`DateTime.Now.Year`](http://msdn.microsoft.com/en-us/library/system.datetime.now%28v=vs.110%29.aspx). Something like this should get you started.
 
 ```

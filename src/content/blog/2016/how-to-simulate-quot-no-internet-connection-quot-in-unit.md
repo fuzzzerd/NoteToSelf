@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/38752574"
 > 
 > So, my goal is to somehow temporary disable internet, or the whole internet connection, and reactivate after test.
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 There are many ways in which the system could have "No Internet" and the answer really depends on what you mean.
 
 As the [accepted other answer](https://stackoverflow.com/a/38752035/86860) suggests, you could simply disable the network interface. That guarantees you have no internet, but the computer also will know it has no network either.

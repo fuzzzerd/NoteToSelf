@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/2877566"
 > 
 > Any suggestions, Where and in which format i should store fields. (Field example is: Accepting database User credentials, Task Schedule info etc.)
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 I would use an XML file (encrypt if you feel its necessary) and use
 
 `Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData)`

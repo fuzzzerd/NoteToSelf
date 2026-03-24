@@ -16,6 +16,8 @@ sourceUrl: "https://stackoverflow.com/a/3980019"
 > 
 > So far I have used it to check if a number was even and alternate colors on a table.
 
+*I posted the following answer:*
+
 A programming 101 exapmle would be to modulate row colors for data:
 
 ```

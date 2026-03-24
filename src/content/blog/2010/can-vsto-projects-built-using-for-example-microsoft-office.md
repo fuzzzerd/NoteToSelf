@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/2052595"
 > 
 > Is there no redistributable package or something I can use? Management doesn't want Office installed on the server.
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 As far as I know, the only way to use the Office Interop assemblies, is to have full office client installed on the server.
 
 ---

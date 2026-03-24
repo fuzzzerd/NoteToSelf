@@ -23,6 +23,8 @@ sourceUrl: "https://stackoverflow.com/a/884248"
 > 
 > Any help? How to increase message size quota?
 
+*I posted the following answer, which was chosen as the accepted answer and received 650 upvotes:*
+
 You'll want something like this to increase the message size quotas, in the _App.config_ or _Web.config_ file:
 
 ```

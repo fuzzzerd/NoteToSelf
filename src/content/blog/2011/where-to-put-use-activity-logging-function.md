@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/4876742"
 > 
 > I forgot to mention that we need to view logs and activity online using our system. We will track user, their actions, activity and possible problems.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 Both options you mention should work, if you're doing new dev, I might go for the inherited page route -- if you're tacking this on to an existing system, I might just drop it in the master page and be done with it.
 
 ---

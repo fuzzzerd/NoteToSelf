@@ -43,6 +43,8 @@ sourceUrl: "https://stackoverflow.com/a/6499342"
 > 
 > How would I best include that data?
 
+*I posted the following answer, which received 2 upvotes:*
+
 Given that screen-scraping is bad at best and disasterous at worst, I must recommend that you only include sites (or serviecs) that provide a public documented API and then use that reference to define the data types that you are storing.
 
 That said, if you're on C#/.NET 4 you might want to use the [Tuple](http://msdn.microsoft.com/en-us/library/system.tuple.aspx) data type.

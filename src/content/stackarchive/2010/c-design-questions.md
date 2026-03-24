@@ -103,6 +103,8 @@ sourceUrl: "https://stackoverflow.com/a/2733849"
 > 
 > G- "emps.Name = employee.EmployeeDetails.PersonalDetails.Active.Names.FirstName;" this breaks the Law of Demeter but how do I adjust my objects to abide by the law?
 
+*I posted the following answer, which received 1 upvote:*
+
 > A - I am calling this class "EmployeeFacade" because I am (attempting?) to use the facade pattern. Is it good practace to name the pattern on the class name?
 
 I don't think testing private methods a good idea; however, you can test "internal" classes, which are similar to private in the sense that external assemblies will not have access to them, by marking them as Internal Visible to your unit test project.

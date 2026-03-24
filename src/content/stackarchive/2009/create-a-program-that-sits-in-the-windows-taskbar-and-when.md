@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/895436"
 > 
 > Is there a way to stop the screensaver from starting, short of changing the cursor position? If not, will changing the cursor position even work?
 
+*I posted the following answer:*
+
 .NET will easily allow you to put an application in the system tray (checkout the NotifyIcon object in System.Windows.Forms.Controls).
 
 I believe you can use the SetCursorPos ([http://msdn.microsoft.com/en-us/library/ms648394(VS.85).aspx](http://msdn.microsoft.com/en-us/library/ms648394\(VS.85\).aspx)) API call to prevent the screen saver, just make sure you set them to the current location so you don't actually move the mouse.

@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/5199487"
 > 
 > How can I go about formatting my `DateTime` in a View?
 
+*I posted the following answer, which received 5 upvotes:*
+
 You could do
 
 ```

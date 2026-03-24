@@ -85,6 +85,8 @@ sourceUrl: "https://stackoverflow.com/a/51829300"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 You have a bug/typo in your url in the javascript.
 
 You have: `url: 'api/courses',`

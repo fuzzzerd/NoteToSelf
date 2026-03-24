@@ -50,6 +50,8 @@ sourceUrl: "https://stackoverflow.com/a/11622268"
 > *   Creating a member variable Guid to store the appId and then overriding OnActionExecuting to populate this variable. Is this a good idea?
 > *   Implementing some kind of paging to cut down on the number of actions. Any suggestions on how to do that?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 I would say yes to your first point and "it depends" to your second. Don't change your design just because you have a lot of methods, if all 77 `ActionResult` methods make sense to have, then keep them around.
 
 Using a member variable and overriding `OnActionExecuting` seems like a great way to refactor that appID Guid code into a single place, so you can **quickly** and **easily** modify it in the future.

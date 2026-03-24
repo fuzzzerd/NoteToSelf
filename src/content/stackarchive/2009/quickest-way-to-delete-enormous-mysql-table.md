@@ -17,6 +17,8 @@ sourceUrl: "https://stackoverflow.com/a/879338"
 > 
 > If I try to `truncate table sessions;` it seems to take an inordinately long time (upwards of 30 minutes). I don't care about the data; I just want to have the table wiped out as quickly as possible. Is there a quicker way, or will I have to just stick it out overnight?
 
+*I posted the following answer, which received 10 upvotes:*
+
 Couldn't you grab the schema drop the table and recreate it?
 
 <details>

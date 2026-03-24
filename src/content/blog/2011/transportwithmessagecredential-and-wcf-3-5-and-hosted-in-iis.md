@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/6033172"
 > 
 > I am using it with .net 4.0 and everythign seems to work fine.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Yes. I have used it, are you having issues back-porting to 3.5?
 
 <details>

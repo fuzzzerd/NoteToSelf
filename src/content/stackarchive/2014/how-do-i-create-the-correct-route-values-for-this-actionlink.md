@@ -36,6 +36,8 @@ sourceUrl: "https://stackoverflow.com/a/22821229"
 > 
 > If I use `routeValues = ViewData.Model` I can see the object properties passed the address, but I can't add the "page" parameter.
 
+*I posted the following answer, which received 2 upvotes:*
+
 If you are using Razor (I realize OP asked four years ago before Razor was invented, but people finding this maybe using it).
 
 I was able to get something working by using an inline @helper method.

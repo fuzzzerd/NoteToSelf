@@ -68,6 +68,8 @@ sourceUrl: "https://stackoverflow.com/a/1954615"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 4 upvotes:*
+
 ASP.NET is stateless -- you need to persist any data you want between pages loads into a Session variable.
 
 You'll need to store the DataTable/DataSet in a session variable, and assign the Datasource property of Table1 to that DataSet in your "PageLoad" event. Then, in your "Click" event, add the row to the DataSet in your Session variable.

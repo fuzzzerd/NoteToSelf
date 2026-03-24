@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/35216034"
 > 
 > [https://webmasters.stackexchange.com/questions/89597/what-is-the-best-size-for-massive-header-images-on-front-page/89600?noredirect=1#comment110039\_89600](https://webmasters.stackexchange.com/questions/89597/what-is-the-best-size-for-massive-header-images-on-front-page/89600?noredirect=1#comment110039_89600)
 
+*I posted the following answer, which received 2 upvotes:*
+
 No. Bootstrap consists of client side technologies: CSS and javascript. There's no way it can optimize your images for the device. There maybe some techniques that allow multiple images on the server to exist, and the client side javascript to know what type of device its on and request the appropriate one. I'm saying that is possible, but I don't know if bootstrap does this or not.
 
 If you need to optimize your images for their target size, you will need a server side component to resize the images on the fly. I'm more of a .NET guy myself, so I couldn't make a drupal compatible recommendation there.

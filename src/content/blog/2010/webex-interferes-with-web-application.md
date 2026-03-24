@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/3017562"
 > 
 > Examples of the mangling are: non appearing buttons; completely overridden css; and javascript errors (when the app has no javascript errors).
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Did you check Internet Explorer "add-ons"? I'll bet they've installed an add-on during the installation of their client, which is possibly embedding its own HTML into every page.
 
 ---

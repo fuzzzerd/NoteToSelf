@@ -20,6 +20,8 @@ sourceUrl: "https://stackoverflow.com/a/12467829"
 > 
 > Is there a good way to do this in WP7?
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 You will need to use the [GeoCoordinateWatcher](http://msdn.microsoft.com/en-us/library/system.device.location.geocoordinatewatcher%28v=vs.92%29.aspx) and the [Background Tasks API](http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh202942%28v=vs.92%29.aspx). Using it in a background task causes it to use cached location data. This cache is updated every 15 minutes.
 
 > This API, used for obtaining the geographic coordinates of the device, is supported for use in background agents, but it uses a cached location value instead of real-time data. The cached location value is updated by the device every 15 minutes.

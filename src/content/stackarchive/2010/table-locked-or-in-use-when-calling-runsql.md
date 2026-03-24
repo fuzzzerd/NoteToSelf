@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/4034925"
 > 
 > Any ideas what I can do to stop the table being locked?
 
+*I posted the following answer:*
+
 I have seen this when you re-open a database after Access has crashed. Typically for me a reboot has fixed this.
 
 ---

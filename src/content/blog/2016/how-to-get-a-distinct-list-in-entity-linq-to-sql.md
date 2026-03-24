@@ -40,6 +40,8 @@ sourceUrl: "https://stackoverflow.com/a/40244379"
 > 
 > But this returns all versions of each matching object, not just the highest version
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 You will want to use a [.GroupBy](https://msdn.microsoft.com/en-us/library/system.linq.enumerable.groupby\(v=vs.110\).aspx) with a Select:
 
 ```

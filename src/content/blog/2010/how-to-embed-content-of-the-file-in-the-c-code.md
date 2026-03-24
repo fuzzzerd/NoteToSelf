@@ -65,6 +65,8 @@ sourceUrl: "https://stackoverflow.com/a/4137601"
 > 
 > _Thank you in advance for your help._
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 To solve the issue of checking for updates you could: use a `WebClient` to load a page from your site, and check the version information.
 
 To solve the issue of displaying version information, you could simply leave a text file called versioninfo.txt in your installer, and load/display that at run time, or as stated by @Daniel you can use a resouce to compile the text file into the binary.

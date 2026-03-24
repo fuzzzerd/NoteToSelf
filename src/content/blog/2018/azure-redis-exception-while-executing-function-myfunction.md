@@ -43,6 +43,8 @@ sourceUrl: "https://stackoverflow.com/a/48194746"
 > 
 > > "Microsoft.Azure.WebJobs.Host.FunctionInvocationException : Exception while executing function: MyFunction ---> System.Runtime.Serialization.SerializationException : Unable to find assembly 'MySolution.MyProject.MyService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.\\r\\n at async Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.FunctionInvocationFilterInvoker.InvokeAsync(Object instance,Object\[\] arguments)\\r\\n at async Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.InvokeAsync(IFunctionInvoker invoker,ParameterHelper parameterHelper,CancellationTokenSource timeoutTokenSource,CancellationTokenSource functionCancellationTokenSource,Boolean throwOnTimeout,TimeSpan timerInterval,IFunctionInstance instance)\\r\\n ....
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Are you setting and retrieving the value in different assemblies? It looks like that might be the case.
 
 In that event, you need your `Map` to be defined in a shared assembly that is referenced by both the project that sets the value as well as the project that gets the value.

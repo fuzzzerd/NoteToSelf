@@ -49,6 +49,8 @@ sourceUrl: "https://stackoverflow.com/a/1120208"
 > 
 > Thanks, Mark
 
+*I posted the following answer:*
+
 I believe the Datepicker is not included in the silverlight runtime, (I could be worng).
 
 There is an [opensource project at codeplex](http://silverlight.codeplex.com/.) that has a control that provides this functionallity.

@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/6158018"
 > 
 > Thanks and I apologize if this is a bit vague, I'd really just like to start a conversation or connect with someone that's done this before.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 First, you need to make the subfolder in the classic app a Virtual Directory or Wep Application for MVC to work, it wont work simply dropped in a subfolder of an IIS website.
 
 Second, if the app is authenticated, you need to figure out a way to share the authuthentication so users don't have to login every time they switch sections of the app. (Unless thats an acceptable situation, which I doubt). Sharing this authentication may involve making some changes to the existing application, or possibly not.

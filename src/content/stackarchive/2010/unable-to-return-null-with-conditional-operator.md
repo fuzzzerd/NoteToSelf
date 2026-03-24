@@ -34,6 +34,8 @@ sourceUrl: "https://stackoverflow.com/a/4348986"
 > 
 > Is there anything wrong with trying to use a conditional this way, in this combination? What am I missing?
 
+*I posted the following answer, which received 12 upvotes:*
+
 Try `return id != 0 ? Id : (int?)null;` ?
 
 <details>

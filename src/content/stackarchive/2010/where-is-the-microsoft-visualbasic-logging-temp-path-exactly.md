@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/3619447"
 > 
 > I have seen a bunch of other posts asking similar questions but I need to be sure that whatever computer / operating system this app runs on it is able to pick up the logs. I take it there is no way to look inside the FileLogTraceListener class to see what it does when working with temp?
 
+*I posted the following answer, which received 2 upvotes:*
+
 Failing documentation, you could:
 
 *   Use [Reflector](http://www.red-gate.com/products/reflector/) to look at the source

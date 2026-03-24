@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/6862343"
 > 
 > Both this ways are not elegant and not obvious for us and its not an easy question which way to choose. Also we do believe that it can be other solution (of cause architecture can be affected). So, we would be glad to see any suggestion connected to this problem.
 
+*I posted the following answer, which received 3 upvotes:*
+
 > 1.  To write custom Membership and Role providers based on our DAL. Nobody from our team have done this before so we are not sure if this way worth the trouble. Membership provider cant offer as much flexibility as application needs so some crunches would be needed.
 
 It is very much worth the trouble, if the default ones do not provide the functionality you need. If you already have a complex user system in your database, a custom membership provider is probably a good idea.

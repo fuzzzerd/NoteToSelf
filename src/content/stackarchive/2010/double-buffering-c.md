@@ -95,6 +95,8 @@ sourceUrl: "https://stackoverflow.com/a/3071081"
 > 
 > Is that what you meant? because it is still flickering?
 
+*I posted the following answer:*
+
 Another option, that I'll toss out for you, is to do all your drawing to a Bitmap, and then in the OnPaint method, you simply draw that Bitmap to the form.
 
 Its manual, but it gives you full control. I've used it with some success on some pet projects of mine.

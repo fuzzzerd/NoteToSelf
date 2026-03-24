@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/1954394"
 > 
 > uk.co.mycompany.Class OR co.uk.mycompany.Class? Or something else altogether?
 
+*I posted the following answer:*
+
 If that is how your supposed to write your namespaces, I'd say that `uk.co.mycompany.Class` fits best with your first example.
 
 It also seems to me that this is pretty subjective, and you should define a standard, and stick with it.

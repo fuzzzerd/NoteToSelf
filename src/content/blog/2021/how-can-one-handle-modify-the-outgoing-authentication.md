@@ -30,6 +30,8 @@ sourceUrl: "https://stackoverflow.com/a/68041625"
 > 
 > In order for my application to work, I don't need a huge authentication cookie, chances are I can disregard most of those claims as part of the cookie and load if/when needed later. **My question is there a way to modify or intercept the /signin-oidc handler to trim that cookie down before it issues the redirect?**
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 After hunting around a bit more, I found [this post on the IdentityServer issue tracker](https://github.com/IdentityServer/IdentityServer4/issues/4654) that lead me to the ultimate solution.
 
 There is a `.OnTicketReceived` handler you can listen for, and in there you can modify the response ahead of going out as part of the authentication cookie.

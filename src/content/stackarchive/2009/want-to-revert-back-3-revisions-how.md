@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/1573802"
 > 
 > How can I go back, then somehow get any updates that may have occurred by other devleopers also?
 
+*I posted the following answer:*
+
 You'll need to know which files you want, and update all to "HEAD" and then those specific files to "HEAD - 3" revision number. Then you'll need to commit those specific files back.
 
 There maybe a better option that I'm not aware of.

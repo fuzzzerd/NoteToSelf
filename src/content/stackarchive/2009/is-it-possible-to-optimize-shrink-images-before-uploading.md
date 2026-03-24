@@ -27,6 +27,8 @@ sourceUrl: "https://stackoverflow.com/a/984011"
 > 
 > Also, it may not be feasible for users to shrink the image themselves as in many instances they will uploading directly from an internet cafe or other public internet spot.
 
+*I posted the following answer, which received 1 upvote:*
+
 Only if you use Flash or Silverlight (only way to be cross-platform)
 
 [http://www.jeff.wilcox.name/2008/07/fjcore-source/](http://www.jeff.wilcox.name/2008/07/fjcore-source/) may be worth a read.

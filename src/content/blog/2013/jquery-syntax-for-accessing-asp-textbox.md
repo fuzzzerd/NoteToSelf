@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/17726444"
 > 
 > jQuery is linked via the master page and the .js file with the function containing the line in question is individually linked on the specific page.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Your syntax is correct:
 
 ```

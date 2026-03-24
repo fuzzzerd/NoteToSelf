@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/3738653"
 
 > My ASP.NET 4.0 Web App is unable to access Network Printers, while debugging on VS 2010. It can access local printers. Seems like it may be a permissions issue. Since VS2010 Debugging runs on ASP.NET Development Server, it must be running under the account I used to log into Windows, right? Does that user need to be added as an Admin in that printers users? Is there any account that I can impersonate to get this working?
 
+*I posted the following answer, which received 1 upvote:*
+
 You are correct, debugging through Visual Studio means all of your code runs with the same rights as the user logged in to windows. On the server, you will need to setup impersonation and/or setup your Application Pool to run as a user who has access to print on these printers.
 
 I recommend you setup a dedicated domain account (like domain\\yourapp-impers-user) and either set the Application Pool to use that, or setup impersonation in your web.config. Then on the print server, you simply grant that user account the necessary permissions.

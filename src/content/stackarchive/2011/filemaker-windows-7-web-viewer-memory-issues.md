@@ -37,6 +37,8 @@ sourceUrl: "https://stackoverflow.com/a/7422124"
 > 
 > I know that in Windows, FileMaker's Web Viewer runs on the IE rendering engine... I was wondering if there were any way to set it to clear the memory after each page load or something. Our company pretty much depends on this app to function, and when this app isn't working smoothly, nothing works smoothly - so I'd really appreciate any suggestions.
 
+*I posted the following answer, which received 1 upvote:*
+
 Have you used the
 
 ```

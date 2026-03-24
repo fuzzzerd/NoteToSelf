@@ -21,6 +21,8 @@ sourceUrl: "https://stackoverflow.com/a/942168"
 > 
 > Any ideas? Thanks.
 
+*I posted the following answer, which was chosen as the accepted answer and received 4 upvotes:*
+
 Something like this (as part of the ListBox's DataTemplate):
 
 ```

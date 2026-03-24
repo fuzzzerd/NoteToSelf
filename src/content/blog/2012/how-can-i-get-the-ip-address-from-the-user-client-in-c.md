@@ -35,6 +35,8 @@ sourceUrl: "https://stackoverflow.com/a/10852369"
 > 
 > ```
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 If you are running a web app, and you want your "client's" IP, [you need to use the UserHostAddress](http://msdn.microsoft.com/en-us/library/system.web.httprequest.userhostaddress.aspx).
 
 ```

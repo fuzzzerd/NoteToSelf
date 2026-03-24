@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/996989"
 > 
 > Any ideas?
 
+*I posted the following answer:*
+
 You'll likely need to go with Microsoft Map Point Web Services. I don't know if Google offers something comparable w/out Javascript.
 
 ---

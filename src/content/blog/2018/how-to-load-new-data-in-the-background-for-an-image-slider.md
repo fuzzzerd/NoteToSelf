@@ -293,6 +293,8 @@ sourceUrl: "https://stackoverflow.com/a/48626700"
 > 
 > Thank you all for your assistance.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 It looks like you're doing a couple things that are not typically done.
 
 First, it looks like you're using ASP.NET to generate the javascript for your angular app; and embedding via `<%=var%>` syntax hard coded JSON.

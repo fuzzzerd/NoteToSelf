@@ -24,6 +24,8 @@ sourceUrl: "https://stackoverflow.com/a/4431448"
 > 
 > **Edit:** I should point out that I can't run servers (or services) that access the outside on that domain. The FTPing is a temporary workaround.
 
+*I posted the following answer:*
+
 I think that an FTP solution is better than using a Windows Share; however, I would think a web service of some type would be the best option for an inter-domain file exchange. That said, if you've got it working with `WindowsIdentity.Impersonate` -- why not use it? What context did you read that it was a bad idea?
 
 ---

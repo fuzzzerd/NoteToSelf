@@ -14,6 +14,8 @@ sourceUrl: "https://stackoverflow.com/a/4744041"
 
 > My object starts from zero. When the time goes..It covers some distance, so how can I measure this?
 
+*I posted the following answer:*
+
 Other than just being alerted that the device _did_ move, the accelerometer will not be much use. You will not get a reading of "device moved 10cm" or something similar, as far as I know you'll just get a value for how much acceleration occurred.
 
 If you need to track your device's movement in the physical world you'll need to use the Location APIs.

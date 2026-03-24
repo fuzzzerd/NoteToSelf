@@ -38,6 +38,8 @@ sourceUrl: "https://stackoverflow.com/a/923459"
 > 
 > Thanks, Hari Krishnan.
 
+*I posted the following answer, which received 1 upvote:*
+
 I think the GAC is your best bet for common class libraries. You can still have custom libraries deployed to the local \\bin directory.
 
 ---

@@ -28,6 +28,8 @@ sourceUrl: "https://stackoverflow.com/a/2519621"
 > 
 > Addition: Eventually i wish to expose it through a web api/webservice. The platform is linux.
 
+*I posted the following answer, which received 2 upvotes:*
+
 [This](https://stackoverflow.com/questions/202859/using-telnet-in-a-c-program) might be useful reading for you.
 
 ---

@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/2450036"
 > 
 > Is it possible to implement such app? If so, how would you communicate?
 
+*I posted the following answer:*
+
 You need to use the [Facebook Developers Program](http://developers.facebook.com/) -- that is how these sites gather such data. The fact that it appears to be "a website within a website" is because thats how Facebook makes money -- ads, sending people to another site wouldn't generate any ad views for them.
 
 ---

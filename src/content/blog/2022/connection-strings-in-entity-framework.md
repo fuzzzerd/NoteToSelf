@@ -32,6 +32,8 @@ sourceUrl: "https://stackoverflow.com/a/72060227"
 > 
 > Can I somehow implement alternate connection strings where the datasource refers to the prod server for the release?
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 This is typically handled with [web.config transforms](https://learn.microsoft.com/en-us/previous-versions/aspnet/dd465326\(v=vs.110\)).
 
 In your project you would have:

@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/18925803"
 > 
 > I have checked some questions here that talk about supporting both `7.5` and `8` but none is about downgrading an existing project.
 
+*I posted the following answer, which was chosen as the accepted answer and received 3 upvotes:*
+
 You will need to install the Windows Phone 7.1 SDK (Which is to consumers v7.5). You'll also need to create a new Project and target Windows Phone 7.1.
 
 If you are not using Windows Phone 8 exclusive APIs, you can probably just "Add As Link" all the files in your Windows Phone 8 project to the Windows Phone 7.1 project and just re-compile. Even if you are, you can still use this approach, you will just need to use compiler directives to fix whatever API issues you find at compile time.

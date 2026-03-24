@@ -18,6 +18,8 @@ sourceUrl: "https://stackoverflow.com/a/3259538"
 > 
 > I'm writing a .net application that will periodically read data from `customerData`. The file is very big and I want to abort the operation _without_ extracting `customerData` if the date stamp has not been updated, indicating that there is new data to read.
 
+*I posted the following answer, which was chosen as the accepted answer and received 1 upvote:*
+
 Via [http://dotnetzip.codeplex.com/](http://dotnetzip.codeplex.com/). There is no native way (that I know) to do that.
 
 Example Code:

@@ -28,6 +28,8 @@ sourceUrl: "https://stackoverflow.com/a/4670922"
 > 
 > I'm using asp.net mvc 2
 
+*I posted the following answer:*
+
 The best way is to create a View, then use the `Html` helper class/methods. See [here](http://weblogs.asp.net/scottgu/archive/2010/01/10/asp-net-mvc-2-strongly-typed-html-helpers.aspx), for more info.
 
 Something like this should get you started:

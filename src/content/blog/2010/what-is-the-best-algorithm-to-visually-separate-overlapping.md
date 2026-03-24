@@ -31,6 +31,8 @@ sourceUrl: "https://stackoverflow.com/a/3928454"
 > 
 > ![alt text](https://i.sstatic.net/MH8nQ.jpg)
 
+*I posted the following answer, which was chosen as the accepted answer:*
+
 A square seems like a good candidate since you are not worried about instances with more than four vehicles.
 
 I would take the average location of all vehicles in "overlapping" proximity, and set this as the "center" of the square, with length and width sufficently large that putting a vehicle on each corner will not result in any overlap.

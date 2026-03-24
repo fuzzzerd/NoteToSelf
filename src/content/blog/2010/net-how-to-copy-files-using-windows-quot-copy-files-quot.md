@@ -19,6 +19,8 @@ sourceUrl: "https://stackoverflow.com/a/2561596"
 > 
 > Thanks in advance.
 
+*I posted the following answer, which was chosen as the accepted answer and received 2 upvotes:*
+
 In order to use the "Windows 'Copy Files' Dialog" you will be required to invoke "Windows platform specific libraries."
 
 ---

@@ -25,6 +25,8 @@ sourceUrl: "https://stackoverflow.com/a/3703783"
 > 
 > Thanks for any help!
 
+*I posted the following answer, which received 2 upvotes:*
+
 I have to say, that the method described in [Professional ASP.NET MVC](http://aspnetmvcbook.s3.amazonaws.com/aspnetmvc-nerdinner_v1.pdf) has never let me down, I've used it twice on to very successful systems. If you wish to use WebForms a similar approach could be used for the data access type code.
 
 Basically, they use MVC for the front-end, and the use a simple repository pattern for the back end, it has worked very well for me.

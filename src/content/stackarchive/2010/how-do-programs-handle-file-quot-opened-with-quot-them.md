@@ -22,6 +22,8 @@ sourceUrl: "https://stackoverflow.com/a/2633432"
 >     
 > 2.  How would the application open the file in the same process when another file is run with it (not having to instances of the program)?
 
+*I posted the following answer, which received 1 upvote:*
+
 Your program would have to be able to talk to other instances of itself, and say "hey, I'm already open, what are you trying to do, let me do it for you."
 
 <details>
