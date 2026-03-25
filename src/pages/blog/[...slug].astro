@@ -1,19 +1,49 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import BlogDetails from '@/components/BlogDetails.astro';
+import Pagination from '@/components/Pagination.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
-  return posts.map((post) => ({
-    params: { slug: post.id },
-    props: { post },
-  }));
+  const POSTS_PER_PAGE = 10;
+  const posts = (await getCollection('blog')).sort(
+    (a, b) => b.data.date.getTime() - a.data.date.getTime()
+  );
+
+  const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
+  const paths = [];
+
+  // Pagination routes: /blog (page 1), /blog/2, /blog/3, ...
+  for (let page = 1; page <= totalPages; page++) {
+    const start = (page - 1) * POSTS_PER_PAGE;
+    const pagePosts = posts.slice(start, start + POSTS_PER_PAGE);
+    paths.push({
+      params: { slug: page === 1 ? undefined : String(page) },
+      props: { type: 'listing' as const, posts: pagePosts, currentPage: page, totalPages },
+    });
+  }
+
+  // Individual post routes: /blog/2024/some-post
+  for (const post of posts) {
+    paths.push({
+      params: { slug: post.id },
+      props: { type: 'post' as const, post },
+    });
+  }
+
+  return paths;
 }
 
-const { post } = Astro.props;
+const props = Astro.props;
 ---
 
-<BaseLayout title={post.data.title}>
-  <BlogDetails article={post} headingLink={false} />
-</BaseLayout>
+{props.type === 'listing' ? (
+  <BaseLayout title="Blog">
+    {props.posts.map((post) => <BlogDetails article={post} />)}
+    <Pagination currentPage={props.currentPage} totalPages={props.totalPages} />
+  </BaseLayout>
+) : (
+  <BaseLayout title={props.post.data.title}>
+    <BlogDetails article={props.post} headingLink={false} />
+  </BaseLayout>
+)}

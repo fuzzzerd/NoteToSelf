@@ -6,7 +6,7 @@ author:
   name: Nate Bross
 tags:
   - c#
-  - null
+  - "null"
 source: "Stack Overflow"
 sourceUrl: "https://stackoverflow.com/a/4055281"
 ---
