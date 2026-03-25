@@ -172,7 +172,7 @@ async function processAnswer(answer: SOPost, userId: number, site: SiteConfig) {
   const slug = toSlug(question.title || 'untitled');
   const questionBq = turndown.turndown(question.body).split('\n').map((l) => `> ${l}`).join('\n');
   const answerMd = turndown.turndown(answer.body);
-  const tags = (question.tags || []).map((t) => `  - ${t}`).join('\n');
+  const tags = (question.tags || []).map((t) => `  - ${escapeYaml(t)}`).join('\n');
   const isAccepted = answer.is_accepted ?? false;
   const acceptedNote = isAccepted ? ' *(accepted answer)*' : '';
 
@@ -220,7 +220,7 @@ async function processQuestion(question: SOPost, userId: number, site: SiteConfi
   const { year, dateStr } = formatDate(question.creation_date);
   const slug = toSlug(question.title || 'untitled');
   const questionMd = turndown.turndown(question.body);
-  const tags = (question.tags || []).map((t) => `  - ${t}`).join('\n');
+  const tags = (question.tags || []).map((t) => `  - ${escapeYaml(t)}`).join('\n');
   let acceptedSection = '';
 
   if (question.accepted_answer_id) {

@@ -7,7 +7,7 @@ author:
 tags:
   - c#
   - casting
-  - null
+  - "null"
 source: "Stack Overflow"
 sourceUrl: "https://stackoverflow.com/a/1929086"
 ---
