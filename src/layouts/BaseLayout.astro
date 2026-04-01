@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from 'astro:transitions';
 import Sidebar from '@/components/Sidebar.astro';
 import signedB from '@/images/signed-b.png';
 import '@/styles/global.scss';
@@ -44,7 +44,7 @@ const pageTitle = `${title} - Bross Tribe`;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={signedB.src} />
 
-    <ViewTransitions />
+    <ClientRouter />
 
     <script is:inline>
       // Apply theme before render to prevent flash
