@@ -1,6 +1,6 @@
 ---
 title: "SharpFM Version Two"
-date: 2026-08-20
+date: 2026-08-19
 author:
   name: Nate Bross
 tags:
